@@ -1,0 +1,40 @@
+@ant-prefix: ant;
+
+.ms-dual-column-modal {
+  top: 52px;
+  width: 90% !important;
+  width: calc(100vw - 104px) !important;
+  padding: 0;
+
+  // 重置关闭按钮
+  .@{ant-prefix}-modal-close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #464f5c;
+    border-radius: 50%;
+
+    .@{ant-prefix}-modal-close-x {
+      width: 20px;
+      height: 20px;
+      color: #fff;
+      line-height: 20px;
+    }
+  }
+
+  // 设置容器圆角
+  .@{ant-prefix}-modal-content {
+    height: 100%;
+    border-radius: 8px;
+
+    .@{ant-prefix}-modal-body {
+      height: calc(100vh - 104px);
+      padding: 0;
+      line-height: 1;
+    }
+    .@{ant-prefix}-spin-nested-loading,
+    .@{ant-prefix}-spin-container {
+      height: 100%;
+    }
+  }
+}

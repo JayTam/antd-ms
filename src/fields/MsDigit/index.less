@@ -1,0 +1,38 @@
+@ant-prefix: ant;
+
+.ms-digit {
+  padding: 0;
+}
+
+.ms-digit-btn {
+  padding: 0 8px;
+  user-select: none;
+  &:hover {
+    color: #388eff;
+    border-color: #388eff;
+    cursor: pointer;
+  }
+}
+
+.ms-digit-btn-disabled {
+  color: rgba(0, 0, 0, 0.25);
+  border-color: #d9d9d9;
+  cursor: not-allowed;
+  &:hover {
+    color: rgba(0, 0, 0, 0.25);
+    border-color: #d9d9d9;
+    cursor: not-allowed;
+  }
+}
+
+.ms-digit-input {
+  width: 100%;
+}
+
+.ms-digit-input .@{ant-prefix}-input-number-handler-wrap {
+  display: none;
+}
+
+.ms-digit-input .@{ant-prefix}-input-number-input {
+  text-align: center;
+}

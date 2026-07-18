@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1308D7AB-D303-44EA-BE86-593163BF58AE</title>
+    <g id="图表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="仪表盘页面示例" transform="translate(-1248, -151)">
+            <g id="编组-16备份-6" transform="translate(1232, 135)">
+                <g id="pod" transform="translate(16, 16)">
+                    <rect id="矩形" fill="#F5F7FA" x="0" y="0" width="40" height="40" rx="4"></rect>
+                    <g id="编组" transform="translate(10, 10)" fill="#006EFF" fill-rule="nonzero">
+                        <path d="M9.90669093,10.4297143 L14.4025944,7.82285714 L14.4025944,2.60799999 L9.90669093,0 L5.40964954,2.60799999 L5.40964954,7.82285714 L9.90669093,10.4297143 L9.90669093,10.4297143 Z M15.5040965,20 L20,17.392 L20,12.1771429 L15.5040965,9.5702857 L11.0070551,12.1771429 L11.0070551,17.392 L15.5040965,20 Z M4.4959035,20 L8.99294493,17.392 L8.99294493,12.1771429 L4.4959035,9.5702857 L0,12.1771429 L0,17.392 L4.4959035,20 Z" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

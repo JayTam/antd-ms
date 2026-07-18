@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsCopy 组件 demo 测试 正确渲染 MsCopy basic.tsx 1`] = `
+<div>
+  <div
+    class="ms-copy"
+  >
+    <button
+      class="ant-btn ant-btn-default"
+      type="button"
+    >
+      <span>
+        点击复制
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MsCopy 组件 demo 测试 正确渲染 MsCopy copyable.tsx 1`] = `
+<div>
+  <div
+    class="ant-space ant-space-vertical"
+  >
+    <div
+      class="ant-space-item"
+      style="margin-bottom: 8px;"
+    >
+      <span
+        class="ms-copy-copyable"
+      >
+        我是需要复制的文本
+        <button
+          class="ant-btn ant-btn-link ant-btn-sm ant-btn-icon-only ms-copy-action "
+          type="button"
+        >
+          <span
+            aria-label="copy"
+            class="anticon anticon-copy"
+            role="img"
+            style="color: rgba(0, 0, 0, 0.45); margin-left: 8px;"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="copy"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M832 64H296c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496v688c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V96c0-17.7-14.3-32-32-32zM704 192H192c-17.7 0-32 14.3-32 32v530.7c0 8.5 3.4 16.6 9.4 22.6l173.3 173.3c2.2 2.2 4.7 4 7.4 5.5v1.9h4.2c3.5 1.3 7.2 2 11 2H704c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32zM350 856.2L263.9 770H350v86.2zM664 888H414V746c0-22.1-17.9-40-40-40H232V264h432v624z"
+              />
+            </svg>
+          </span>
+        </button>
+      </span>
+    </div>
+    <div
+      class="ant-space-item"
+      style="margin-bottom: 8px;"
+    >
+      <span
+        class="ms-copy-copyable"
+      >
+        我是展示的元素，需要复制的文本在text配置
+        <button
+          class="ant-btn ant-btn-link ant-btn-sm ant-btn-icon-only ms-copy-action "
+          type="button"
+        >
+          <span
+            aria-label="copy"
+            class="anticon anticon-copy"
+            role="img"
+            style="color: rgba(0, 0, 0, 0.45); margin-left: 8px;"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="copy"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M832 64H296c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496v688c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V96c0-17.7-14.3-32-32-32zM704 192H192c-17.7 0-32 14.3-32 32v530.7c0 8.5 3.4 16.6 9.4 22.6l173.3 173.3c2.2 2.2 4.7 4 7.4 5.5v1.9h4.2c3.5 1.3 7.2 2 11 2H704c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32zM350 856.2L263.9 770H350v86.2zM664 888H414V746c0-22.1-17.9-40-40-40H232V264h432v624z"
+              />
+            </svg>
+          </span>
+        </button>
+      </span>
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <span
+        class="ms-copy-copyable"
+      >
+        改变复制按钮颜色
+        <button
+          class="ant-btn ant-btn-link ant-btn-sm ant-btn-icon-only ms-copy-action "
+          type="button"
+        >
+          <span
+            aria-label="copy"
+            class="anticon anticon-copy"
+            role="img"
+            style="color: rgb(16, 111, 251); margin-left: 8px;"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="copy"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M832 64H296c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496v688c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V96c0-17.7-14.3-32-32-32zM704 192H192c-17.7 0-32 14.3-32 32v530.7c0 8.5 3.4 16.6 9.4 22.6l173.3 173.3c2.2 2.2 4.7 4 7.4 5.5v1.9h4.2c3.5 1.3 7.2 2 11 2H704c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32zM350 856.2L263.9 770H350v86.2zM664 888H414V746c0-22.1-17.9-40-40-40H232V264h432v624z"
+              />
+            </svg>
+          </span>
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsCopy 组件 demo 测试 正确渲染 MsCopy dom.tsx 1`] = `
+<div>
+  <div
+    class="ms-copy"
+  >
+    如果 children 是字符串，不用传 text 参数，children 会被当成复制内容
+  </div>
+</div>
+`;
+
+exports[`MsCopy 组件 demo 测试 正确渲染 MsCopy ellipsis.tsx 1`] = `
+<div>
+  <div
+    style="width: 150px;"
+  >
+    <span
+      class="ms-copy-copyable ms-copy-ellipsis"
+    >
+      <div
+        class="ellipsis-content"
+        title="我是超长的文字描述，我是超长的文字描述，我是超长的文字描述，我是超长的文字描述"
+      >
+        我是超长的文字描述，我是超长的文字描述，我是超长的文字描述，我是超长的文字描述
+      </div>
+      <button
+        class="ant-btn ant-btn-link ant-btn-sm ant-btn-icon-only ms-copy-action "
+        type="button"
+      >
+        <span
+          aria-label="copy"
+          class="anticon anticon-copy"
+          role="img"
+          style="color: rgba(0, 0, 0, 0.45); margin-left: 8px;"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="copy"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M832 64H296c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496v688c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V96c0-17.7-14.3-32-32-32zM704 192H192c-17.7 0-32 14.3-32 32v530.7c0 8.5 3.4 16.6 9.4 22.6l173.3 173.3c2.2 2.2 4.7 4 7.4 5.5v1.9h4.2c3.5 1.3 7.2 2 11 2H704c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32zM350 856.2L263.9 770H350v86.2zM664 888H414V746c0-22.1-17.9-40-40-40H232V264h432v624z"
+            />
+          </svg>
+        </span>
+      </button>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MsCopy 组件 demo 测试 正确渲染 MsCopy hover.tsx 1`] = `
+<div>
+  <span
+    class="ms-copy-copyable"
+  >
+    hover 显示复制按钮
+    <button
+      class="ant-btn ant-btn-link ant-btn-sm ant-btn-icon-only ms-copy-action ms-copy-hover-action"
+      type="button"
+    >
+      <span
+        aria-label="copy"
+        class="anticon anticon-copy"
+        role="img"
+        style="color: rgba(0, 0, 0, 0.45); margin-left: 8px;"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="copy"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M832 64H296c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496v688c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V96c0-17.7-14.3-32-32-32zM704 192H192c-17.7 0-32 14.3-32 32v530.7c0 8.5 3.4 16.6 9.4 22.6l173.3 173.3c2.2 2.2 4.7 4 7.4 5.5v1.9h4.2c3.5 1.3 7.2 2 11 2H704c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32zM350 856.2L263.9 770H350v86.2zM664 888H414V746c0-22.1-17.9-40-40-40H232V264h432v624z"
+          />
+        </svg>
+      </span>
+    </button>
+  </span>
+</div>
+`;

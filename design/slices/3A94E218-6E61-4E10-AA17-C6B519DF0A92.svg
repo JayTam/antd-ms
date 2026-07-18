@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3A94E218-6E61-4E10-AA17-C6B519DF0A92</title>
+    <defs>
+        <path d="M8.92212249,0 L9.06513867,0.0601916644 L9.17861506,0.176271728 L9.23559887,0.316135751 L9.234,5.673 L12.219,5.673 L12.2192585,4.57197482 L12.3174953,4.39983151 L12.4876243,4.29927751 L12.6909364,4.29915097 L16.3015489,6.42712717 L16.4,6.59942872 L16.4,6.80057128 L16.3015489,6.97287283 L12.6909364,9.10084903 L12.4876243,9.10072248 L12.3174952,9.00016847 L12.2192585,8.82802511 L12.219,7.724 L9.234,7.724 L9.23559887,13.0838643 L9.17861506,13.2237283 L9.06513867,13.3398083 L8.92212249,13.4 L7.47787751,13.4 L7.33487562,13.339823 L7.22139923,13.2237666 L7.16440112,13.0839697 L7.163,7.724 L4.178,7.724 L4.18074119,8.82758201 L4.08257592,9.00003141 L3.91244691,9.10068038 L3.70906356,9.10084903 L0.0984511295,6.97287283 L0,6.80057128 L0,6.59942872 L0.0984511295,6.42712717 L3.70906356,4.29915097 L3.91244695,4.29931965 L4.08257597,4.39996868 L4.18074119,4.57241861 L4.178,5.673 L7.163,5.673 L7.16440112,0.31603033 L7.22139924,0.176233357 L7.33487563,0.0601770395 L7.47787751,0 L8.92212249,0 Z" id="path-1"></path>
+        <filter x="-18.3%" y="-14.9%" width="136.6%" height="144.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.319055944 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="表格" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="列表表头" transform="translate(-275, -379)">
+            <g id="编组-17" transform="translate(276, 379)">
+                <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                <g id="编组" transform="translate(1.8, 2.8)" fill-rule="nonzero" stroke-linejoin="round">
+                    <g id="形状结合">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <path stroke="#FFFFFF" stroke-width="1" d="M9.390321,-0.592197295 L9.70726713,5.173 L11.7191174,5.173 L11.7194408,3.79563075 L17.2818139,6.32339055 L12.4394663,9.90923387 L11.8618262,8.224 L9.73414917,8.224 L9.73572361,13.5019368 L7.00996007,13.9921801 L6.68996884,8.224 L4.67924349,8.224 L4.68267329,9.60481002 L-0.881884126,7.07666147 L3.96127435,3.49021763 L4.53565914,5.173 L6.66313076,5.173 L6.66451047,-0.102108922 L9.390321,-0.592197295 Z" fill="#20242E" fill-rule="evenodd"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

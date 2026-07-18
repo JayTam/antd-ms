@@ -1,0 +1,16 @@
+.ms-advance-form-container {
+  position: relative;
+  display: none;
+  margin-bottom: 16px;
+  border: 1px solid #d8dee6;
+  border-radius: 2px;
+  transition: box-shadow 0.3s, border-color 0.3s, height 0.3s ease;
+  &:hover {
+    border-color: #e6e6e6;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.ms-advance-form-container.open {
+  display: block;
+}

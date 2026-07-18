@@ -1,0 +1,1086 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsTabs 组件 demo 测试 正确渲染 MsTabs card.tsx 1`] = `
+<div>
+  <div
+    style="height: 200px;"
+  >
+    <div
+      class="ant-tabs ant-tabs-top ant-tabs-card ms-tabs"
+      style="margin-bottom: 20px;"
+    >
+      <div
+        class="ant-tabs-nav"
+        role="tablist"
+      >
+        <div
+          class="ant-tabs-nav-wrap"
+        >
+          <div
+            class="ant-tabs-nav-list"
+            style="transform: translate(0px, 0px);"
+          >
+            <div
+              class="ant-tabs-tab ant-tabs-tab-active"
+              data-node-key="灵风"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-灵风"
+                aria-selected="true"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-灵风"
+                role="tab"
+                tabindex="0"
+              >
+                灵风
+              </div>
+            </div>
+            <div
+              class="ant-tabs-tab"
+              data-node-key="云渡"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-云渡"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-云渡"
+                role="tab"
+                tabindex="0"
+              >
+                云渡
+              </div>
+            </div>
+            <div
+              class="ant-tabs-tab"
+              data-node-key="事件中心"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-事件中心"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-事件中心"
+                role="tab"
+                tabindex="0"
+              >
+                事件中心
+              </div>
+            </div>
+            <div
+              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        >
+          <button
+            aria-controls="rc-tabs-test-more-popup"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-hidden="true"
+            class="ant-tabs-nav-more"
+            id="rc-tabs-test-more"
+            style="visibility: hidden; order: 1;"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              aria-label="ellipsis"
+              class="anticon anticon-ellipsis"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="ellipsis"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="ant-tabs-content-holder"
+      >
+        <div
+          class="ant-tabs-content ant-tabs-content-top"
+        >
+          <div
+            aria-hidden="false"
+            aria-labelledby="rc-tabs-test-tab-灵风"
+            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            id="rc-tabs-test-panel-灵风"
+            role="tabpanel"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-tabs ant-tabs-top ant-tabs-editable ant-tabs-card ant-tabs-editable-card ms-tabs"
+    >
+      <div
+        class="ant-tabs-nav"
+        role="tablist"
+      >
+        <div
+          class="ant-tabs-nav-wrap"
+        >
+          <div
+            class="ant-tabs-nav-list"
+            style="transform: translate(0px, 0px);"
+          >
+            <div
+              class="ant-tabs-tab ant-tabs-tab-with-remove ant-tabs-tab-active"
+              data-node-key="灵风"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-灵风"
+                aria-selected="true"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-灵风"
+                role="tab"
+                tabindex="0"
+              >
+                灵风
+              </div>
+              <button
+                aria-label="remove"
+                class="ant-tabs-tab-remove"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  aria-label="close"
+                  class="anticon anticon-close"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="close"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="ant-tabs-tab ant-tabs-tab-with-remove"
+              data-node-key="云渡"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-云渡"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-云渡"
+                role="tab"
+                tabindex="0"
+              >
+                云渡
+              </div>
+              <button
+                aria-label="remove"
+                class="ant-tabs-tab-remove"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  aria-label="close"
+                  class="anticon anticon-close"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="close"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="ant-tabs-tab ant-tabs-tab-with-remove"
+              data-node-key="事件中心"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-事件中心"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-事件中心"
+                role="tab"
+                tabindex="0"
+              >
+                事件中心
+              </div>
+              <button
+                aria-label="remove"
+                class="ant-tabs-tab-remove"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  aria-label="close"
+                  class="anticon anticon-close"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="close"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M799.86 166.31c.02 0 .04.02.08.06l57.69 57.7c.04.03.05.05.06.08a.12.12 0 010 .06c0 .03-.02.05-.06.09L569.93 512l287.7 287.7c.04.04.05.06.06.09a.12.12 0 010 .07c0 .02-.02.04-.06.08l-57.7 57.69c-.03.04-.05.05-.07.06a.12.12 0 01-.07 0c-.03 0-.05-.02-.09-.06L512 569.93l-287.7 287.7c-.04.04-.06.05-.09.06a.12.12 0 01-.07 0c-.02 0-.04-.02-.08-.06l-57.69-57.7c-.04-.03-.05-.05-.06-.07a.12.12 0 010-.07c0-.03.02-.05.06-.09L454.07 512l-287.7-287.7c-.04-.04-.05-.06-.06-.09a.12.12 0 010-.07c0-.02.02-.04.06-.08l57.7-57.69c.03-.04.05-.05.07-.06a.12.12 0 01.07 0c.03 0 .05.02.09.06L512 454.07l287.7-287.7c.04-.04.06-.05.09-.06a.12.12 0 01.07 0z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <button
+              aria-label="Add tab"
+              class="ant-tabs-nav-add"
+              type="button"
+            >
+              <span
+                aria-label="plus"
+                class="anticon anticon-plus"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="plus"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                  />
+                  <path
+                    d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <div
+              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        >
+          <button
+            aria-controls="rc-tabs-test-more-popup"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-hidden="true"
+            class="ant-tabs-nav-more"
+            id="rc-tabs-test-more"
+            style="visibility: hidden; order: 1;"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              aria-label="ellipsis"
+              class="anticon anticon-ellipsis"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="ellipsis"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                />
+              </svg>
+            </span>
+          </button>
+          <button
+            aria-label="Add tab"
+            class="ant-tabs-nav-add"
+            type="button"
+          >
+            <span
+              aria-label="plus"
+              class="anticon anticon-plus"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="plus"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                />
+                <path
+                  d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="ant-tabs-content-holder"
+      >
+        <div
+          class="ant-tabs-content ant-tabs-content-top"
+        >
+          <div
+            aria-hidden="false"
+            aria-labelledby="rc-tabs-test-tab-灵风"
+            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            id="rc-tabs-test-panel-灵风"
+            role="tabpanel"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsTabs 组件 demo 测试 正确渲染 MsTabs layout.tsx 1`] = `
+<div>
+  <div
+    style="height: 200px;"
+  >
+    <div
+      class="ant-space ant-space-horizontal ant-space-align-center"
+      style="margin-bottom: 30px;"
+    >
+      <div
+        class="ant-space-item"
+        style="margin-right: 8px;"
+      >
+        布局：
+      </div>
+      <div
+        class="ant-space-item"
+      >
+        <div
+          class="ant-radio-group ant-radio-group-outline"
+        >
+          <label
+            class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+          >
+            <span
+              class="ant-radio-button ant-radio-button-checked"
+            >
+              <input
+                checked=""
+                class="ant-radio-button-input"
+                type="radio"
+                value="top"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              top
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
+          >
+            <span
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="left"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              left
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-tabs ant-tabs-top ms-tabs"
+    >
+      <div
+        class="ant-tabs-nav"
+        role="tablist"
+      >
+        <div
+          class="ant-tabs-nav-wrap"
+        >
+          <div
+            class="ant-tabs-nav-list"
+            style="transform: translate(0px, 0px);"
+          >
+            <div
+              class="ant-tabs-tab ant-tabs-tab-active"
+              data-node-key="灵风"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-灵风"
+                aria-selected="true"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-灵风"
+                role="tab"
+                tabindex="0"
+              >
+                灵风
+              </div>
+            </div>
+            <div
+              class="ant-tabs-tab"
+              data-node-key="云渡"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-云渡"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-云渡"
+                role="tab"
+                tabindex="0"
+              >
+                云渡
+              </div>
+            </div>
+            <div
+              class="ant-tabs-tab"
+              data-node-key="事件中心"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-事件中心"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-事件中心"
+                role="tab"
+                tabindex="0"
+              >
+                事件中心
+              </div>
+            </div>
+            <div
+              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        >
+          <button
+            aria-controls="rc-tabs-test-more-popup"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-hidden="true"
+            class="ant-tabs-nav-more"
+            id="rc-tabs-test-more"
+            style="visibility: hidden; order: 1;"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              aria-label="ellipsis"
+              class="anticon anticon-ellipsis"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="ellipsis"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="ant-tabs-content-holder"
+      >
+        <div
+          class="ant-tabs-content ant-tabs-content-top"
+        >
+          <div
+            aria-hidden="false"
+            aria-labelledby="rc-tabs-test-tab-灵风"
+            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            id="rc-tabs-test-panel-灵风"
+            role="tabpanel"
+            tabindex="0"
+          >
+            灵风 内容区域
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsTabs 组件 demo 测试 正确渲染 MsTabs normal.tsx 1`] = `
+<div>
+  <div
+    style="height: 200px;"
+  >
+    <div
+      class="ant-tabs ant-tabs-top ms-tabs"
+    >
+      <div
+        class="ant-tabs-nav"
+        role="tablist"
+      >
+        <div
+          class="ant-tabs-nav-wrap"
+        >
+          <div
+            class="ant-tabs-nav-list"
+            style="transform: translate(0px, 0px);"
+          >
+            <div
+              class="ant-tabs-tab ant-tabs-tab-active"
+              data-node-key="灵风"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-灵风"
+                aria-selected="true"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-灵风"
+                role="tab"
+                tabindex="0"
+              >
+                灵风
+              </div>
+            </div>
+            <div
+              class="ant-tabs-tab"
+              data-node-key="云渡"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-云渡"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-云渡"
+                role="tab"
+                tabindex="0"
+              >
+                云渡
+              </div>
+            </div>
+            <div
+              class="ant-tabs-tab"
+              data-node-key="事件中心"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-事件中心"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-事件中心"
+                role="tab"
+                tabindex="0"
+              >
+                事件中心
+              </div>
+            </div>
+            <div
+              class="ant-tabs-tab"
+              data-node-key="项目管理"
+            >
+              <div
+                aria-controls="rc-tabs-test-panel-项目管理"
+                aria-selected="false"
+                class="ant-tabs-tab-btn"
+                id="rc-tabs-test-tab-项目管理"
+                role="tab"
+                tabindex="0"
+              >
+                项目管理
+              </div>
+            </div>
+            <div
+              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+        >
+          <button
+            aria-controls="rc-tabs-test-more-popup"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-hidden="true"
+            class="ant-tabs-nav-more"
+            id="rc-tabs-test-more"
+            style="visibility: hidden; order: 1;"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              aria-label="ellipsis"
+              class="anticon anticon-ellipsis"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="ellipsis"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="ant-tabs-content-holder"
+      >
+        <div
+          class="ant-tabs-content ant-tabs-content-top"
+        >
+          <div
+            aria-hidden="false"
+            aria-labelledby="rc-tabs-test-tab-灵风"
+            class="ant-tabs-tabpane ant-tabs-tabpane-active"
+            id="rc-tabs-test-panel-灵风"
+            role="tabpanel"
+            tabindex="0"
+          >
+            灵风 内容区域
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsTabs 组件 demo 测试 正确渲染 MsTabs radio.tsx 1`] = `
+<div>
+  <div
+    style="height: 160px;"
+  >
+    <div
+      class="ms-customize-tabs"
+      style="margin-bottom: 20px;"
+    >
+      <div
+        class="ms-tabs-radio-wrap ms-customize-tabs-content"
+      >
+        <div
+          class="ant-radio-group ant-radio-group-outline ms-tabs-radio"
+        >
+          <label
+            class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+          >
+            <span
+              class="ant-radio-button ant-radio-button-checked"
+            >
+              <input
+                checked=""
+                class="ant-radio-button-input"
+                type="radio"
+                value="开发部署"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              开发部署
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
+          >
+            <span
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="测试部署"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              测试部署
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
+          >
+            <span
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="预发布部署"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              预发布部署
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
+          >
+            <span
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="生产部署"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              生产部署
+            </span>
+          </label>
+          <label
+            class="ant-radio-button-wrapper"
+          >
+            <span
+              class="ant-radio-button"
+            >
+              <input
+                class="ant-radio-button-input"
+                type="radio"
+                value="其它部署"
+              />
+              <span
+                class="ant-radio-button-inner"
+              />
+            </span>
+            <span>
+              其它部署
+            </span>
+          </label>
+        </div>
+      </div>
+      <div>
+        开发部署
+      </div>
+    </div>
+    <div
+      class="ms-customize-tabs"
+      style="margin-bottom: 20px;"
+    >
+      <div
+        class="ms-tabs-radio-wrap ms-tabs-radio-max ms-customize-tabs-content"
+      >
+        <div
+          class="radio-arrow radio-left radio-disable"
+        >
+          <span
+            aria-label="left"
+            class="anticon anticon-left"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="left"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          style="overflow-x: auto;"
+        >
+          <div
+            style="overflow: hidden;"
+          >
+            <div
+              style="width: 0px; transition: all 0.2s;"
+            >
+              <div
+                class="ant-radio-group ant-radio-group-outline ms-tabs-radio"
+              >
+                <label
+                  class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+                >
+                  <span
+                    class="ant-radio-button ant-radio-button-checked"
+                  >
+                    <input
+                      checked=""
+                      class="ant-radio-button-input"
+                      type="radio"
+                      value="开发部署"
+                    />
+                    <span
+                      class="ant-radio-button-inner"
+                    />
+                  </span>
+                  <span>
+                    开发部署
+                  </span>
+                </label>
+                <label
+                  class="ant-radio-button-wrapper"
+                >
+                  <span
+                    class="ant-radio-button"
+                  >
+                    <input
+                      class="ant-radio-button-input"
+                      type="radio"
+                      value="测试部署"
+                    />
+                    <span
+                      class="ant-radio-button-inner"
+                    />
+                  </span>
+                  <span>
+                    测试部署
+                  </span>
+                </label>
+                <label
+                  class="ant-radio-button-wrapper"
+                >
+                  <span
+                    class="ant-radio-button"
+                  >
+                    <input
+                      class="ant-radio-button-input"
+                      type="radio"
+                      value="预发布部署"
+                    />
+                    <span
+                      class="ant-radio-button-inner"
+                    />
+                  </span>
+                  <span>
+                    预发布部署
+                  </span>
+                </label>
+                <label
+                  class="ant-radio-button-wrapper"
+                >
+                  <span
+                    class="ant-radio-button"
+                  >
+                    <input
+                      class="ant-radio-button-input"
+                      type="radio"
+                      value="生产部署"
+                    />
+                    <span
+                      class="ant-radio-button-inner"
+                    />
+                  </span>
+                  <span>
+                    生产部署
+                  </span>
+                </label>
+                <label
+                  class="ant-radio-button-wrapper"
+                >
+                  <span
+                    class="ant-radio-button"
+                  >
+                    <input
+                      class="ant-radio-button-input"
+                      type="radio"
+                      value="其它部署"
+                    />
+                    <span
+                      class="ant-radio-button-inner"
+                    />
+                  </span>
+                  <span>
+                    其它部署
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="radio-arrow radio-right"
+        >
+          <span
+            aria-label="right"
+            class="anticon anticon-right"
+            role="img"
+          >
+            <svg
+              aria-hidden="true"
+              data-icon="right"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="64 64 896 896"
+              width="1em"
+            >
+              <path
+                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div>
+        开发部署
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsTabs 组件 demo 测试 正确渲染 MsTabs text.tsx 1`] = `
+<div>
+  <div
+    style="height: 200px;"
+  >
+    <div
+      class="ms-customize-tabs"
+    >
+      <div
+        class="ms-text-tabs ms-customize-tabs-content"
+      >
+        <div
+          class="ms-text-tabs-item ms-tabs-selected"
+        >
+          灵风
+        </div>
+        <div
+          class="ms-text-tabs-item"
+        >
+          云渡
+        </div>
+        <div
+          class="ms-text-tabs-item"
+        >
+          事件中心
+        </div>
+        <div
+          class="ms-text-tabs-item"
+        >
+          项目管理
+        </div>
+      </div>
+      <div>
+        灵风 内容区域
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsTabs 组件 demo 测试 正确渲染 MsTabs text-block.tsx 1`] = `
+<div>
+  <div
+    style="height: 200px;"
+  >
+    <div
+      class="ms-customize-tabs"
+    >
+      <div
+        class="ms-customize-tabs-content"
+      >
+        <div
+          class="ms-text-block-tabs"
+        >
+          <div
+            class="ms-text-block-tabs-item ms-tabs-selected"
+          >
+            灵风
+          </div>
+          <div
+            class="ms-text-block-tabs-item"
+          >
+            云渡
+          </div>
+          <div
+            class="ms-text-block-tabs-item"
+          >
+            事件中心
+          </div>
+          <div
+            class="ms-text-block-tabs-item"
+          >
+            项目管理
+          </div>
+        </div>
+      </div>
+      <div>
+        灵风 内容区域
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+@ant-prefix: ant;
+
+.ms-form-table-top-tr {
+  position: relative;
+}
+
+.@{ant-prefix}-table .@{ant-prefix}-table-thead > tr > td {
+  position: relative;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s ease;
+}
+
+.@{ant-prefix}-table.@{ant-prefix}-table-bordered .@{ant-prefix}-table-thead > tr > td {
+  border-right: 1px solid #f0f0f0;
+}
+
+.@{ant-prefix}-table-wrapper .@{ant-prefix}-table-thead > tr > td.ms-form-table-top-tr {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+}

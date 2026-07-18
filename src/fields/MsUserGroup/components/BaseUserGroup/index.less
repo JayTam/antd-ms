@@ -1,0 +1,132 @@
+@ant-prefix: ant;
+
+.ms-user-group {
+  height: 100%;
+
+  .ms-user-group-selected {
+    display: flex;
+    justify-content: space-between;
+    .ms-user-group-clear-all {
+      color: #006eff;
+      cursor: pointer;
+    }
+  }
+
+  .icon-x {
+    position: relative;
+    top: 4px;
+    color: #999;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .@{ant-prefix}-card-head {
+    padding: 0 20px;
+  }
+
+  .@{ant-prefix}-card-body {
+    padding: 0 0 0 20px;
+  }
+
+  .@{ant-prefix}-card-head-title {
+    padding: 12px 0;
+    color: #333333;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0;
+    opacity: 0.99;
+  }
+
+  .@{ant-prefix}-card-extra {
+    padding: 12px 0;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .list {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: #333333;
+    font-size: 12px;
+    overflow: hidden;
+
+    .list-checkbox {
+      margin-right: 8px;
+    }
+
+    .list-content {
+      display: flex;
+      flex: 1;
+      align-items: center;
+      // margin-top: 5px;
+      width: 100%;
+      padding-right: 4px;
+    }
+
+    .@{ant-prefix}-checkbox-wrapper-disabled .sub-title {
+      color: rgba(0, 0, 0, 0.25);
+    }
+
+    .@{ant-prefix}-checkbox {
+      top: 5px;
+    }
+
+    .checkbox {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      color: #fff;
+      line-height: 36px;
+      text-align: center;
+      background-color: #1890ff;
+      border-radius: 18px;
+    }
+
+    .title {
+      overflow: hidden;
+      font-weight: 500;
+      font-size: 12px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      .position {
+        font-weight: 400;
+        color: #464f5c;
+      }
+    }
+
+    .sub-title {
+      overflow: hidden;
+      color: #78858f;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .content {
+      margin-left: 8px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .check-list {
+    .list-checkbox {
+      width: 100%;
+      position: relative;
+    }
+    .@{ant-prefix}-checkbox + span {
+      width: calc(100% - 16px);
+    }
+  }
+
+  .@{ant-prefix}-list-item {
+    padding: 8px 0 4px 0;
+  }
+
+  .userWikiLoadMore {
+    cursor: pointer;
+    color: #006eff;
+  }
+}

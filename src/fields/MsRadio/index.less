@@ -1,0 +1,22 @@
+@ant-prefix: ant;
+
+.ms-radio .@{ant-prefix}-radio-button-wrapper:not(:first-child) {
+  margin-left: 8px;
+}
+
+.ms-radio .@{ant-prefix}-radio-button-wrapper {
+  min-width: 100px;
+  text-align: center;
+  background: #f9f9f9;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none !important;
+}
+
+.ms-radio .@{ant-prefix}-radio-button-wrapper-checked {
+  background: #e5f3ff;
+}
+
+.ms-radio .@{ant-prefix}-radio-button-wrapper:not(:first-child)::before {
+  display: none;
+}

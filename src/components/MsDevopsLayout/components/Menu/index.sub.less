@@ -1,0 +1,85 @@
+@ant-prefix: ant;
+@devops-menu-hover-bg-color: #f7f8fa;
+@devops-menu-hover-selected-color: #ebf4ff;
+
+.ms-devops-layout-sub-menu-wrap {
+  background: #fff;
+  border-right: 1px solid #e6e8eb;
+
+  .ms-devops-layout-menu {
+    .@{ant-prefix}-menu {
+      font-size: 14px;
+      background: #fff;
+    }
+    .@{ant-prefix}-item {
+      background: #fff;
+    }
+    .ms-menu-collapsed {
+      .@{ant-prefix}-menu {
+        font-size: 14px;
+        background: #fff;
+      }
+      .@{ant-prefix}-item {
+        background: #fff;
+      }
+    }
+    //展开时的样式覆盖
+    .@{ant-prefix}-menu-inline {
+      //展开时hover样式
+      .@{ant-prefix}-menu-item-selected {
+        background: @devops-menu-hover-selected-color !important;
+      }
+      .@{ant-prefix}-menu-item:not(.@{ant-prefix}-menu-item-selected) {
+        &:hover {
+          background: @devops-menu-hover-bg-color;
+        }
+      }
+    }
+    .@{ant-prefix}-menu-inline-collapsed {
+      width: 36px !important;
+
+      .@{ant-prefix}-menu-item,
+      .@{ant-prefix}-menu-submenu {
+        height: 36px;
+        margin-bottom: 4px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        border-radius: 4px;
+
+        .@{ant-prefix}-menu-submenu-title {
+          height: 36px;
+          margin-top: 0;
+          line-height: 36px;
+          border-radius: 2px;
+          &:hover {
+            background-color: @devops-menu-hover-bg-color;
+          }
+        }
+      }
+      .@{ant-prefix}-menu-item,
+      .@{ant-prefix}-menu-submenu-title {
+        &:hover {
+          color: #78858f;
+          background-color: @devops-menu-hover-bg-color;
+        }
+      }
+
+      .@{ant-prefix}-menu-item-selected,
+      .@{ant-prefix}-menu-submenu-selected {
+        color: unset;
+        background-color: #ecf4ff !important;
+      }
+    }
+  }
+  .ms-menu-collapsed {
+    height: 36px;
+    overflow: hidden;
+  }
+  .collapsed-short-title {
+    display: none;
+  }
+  // 折叠宽度
+  .ms-devops-layout-menu-collapse {
+    padding: 0 12px;
+  }
+}

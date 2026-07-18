@@ -1,0 +1,111 @@
+@import '~antd/dist/antd.less';
+
+.dumi-default-logo img {
+  margin-top: 6px;
+  width: 200px;
+}
+
+.dumi-default-doc-layout-toc-wrapper > h4 {
+  display: none;
+}
+
+.dumi-default-doc-layout-toc-wrapper > .dumi-default-toc {
+  margin: 0;
+}
+
+// 标题文字不换行
+.dumi-default-navbar > li > .dumi-default-navbar-dropdown > li > a,
+.dumi-default-navbar > li > a {
+  white-space: nowrap;
+}
+
+.dumi-default-search-bar:not(:last-child) {
+  margin-inline-start: 28px;
+}
+
+.dumi-default-navbar > li > a.active {
+  color: #106ffb !important;
+}
+
+.dumi-default-features {
+  width: 1392px;
+  text-align: center;
+}
+
+.dumi-default-sidebar {
+  margin-right: 20px;
+  padding-inline-end: 12px !important;
+
+  > dl > dd {
+    padding: 6px 0 !important;
+
+    > a {
+      line-height: 22px !important;
+    }
+  }
+}
+
+.dumi-default-doc-layout-toc-wrapper {
+  width: 140px !important;
+}
+
+#root {
+  .__dumi-default-menu {
+    top: 30px;
+    width: 200px;
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    &:hover {
+      ::-webkit-scrollbar {
+        display: inline-block;
+      }
+    }
+  }
+
+  .__dumi-default-layout[data-site-mode='true'][data-show-sidemenu='true'] {
+    padding-left: 230px;
+  }
+
+  .__dumi-default-layout[data-site-mode='true'][data-show-slugs='true'] {
+    padding-right: 150px;
+  }
+
+  .__dumi-default-layout-toc {
+    width: 100px;
+  }
+
+  .__dumi-default-navbar {
+    padding: 0 20px;
+  }
+
+  .__dumi-default-navbar-logo:not([data-plaintext]) {
+    padding-left: 80px;
+  }
+}
+
+.markdown mark {
+  background-color: hsla(58deg, 100%, 50%, 0.88) !important;
+}
+
+.dumi-default-table {
+  margin: 12px 0;
+}
+
+.markdown blockquote p {
+  margin: 0;
+}
+
+.dumi-default-code-group {
+  margin: 20px 0;
+}
+
+.dumi-default-content-tabs {
+  margin-top: -10px !important;
+}
+
+.dumi-default-content .markdown p {
+  margin-block-end: 12px;
+}

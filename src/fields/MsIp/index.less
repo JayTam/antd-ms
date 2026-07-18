@@ -1,0 +1,48 @@
+@ant-prefix: ant;
+
+.ms-ip {
+  padding: 0;
+  .ip-cell {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+  }
+
+  .ip-cell-with-mask {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+  }
+
+  .ip-input {
+    width: 100%;
+    text-align: center;
+    .@{ant-prefix}-select-selector {
+      border-width: 0 !important;
+    }
+  }
+
+  .dot {
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+    width: 2px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 100%;
+  }
+  .mask {
+    position: absolute;
+    bottom: 6px;
+    left: -4px;
+  }
+
+  .subnet-mask-select {
+    width: 100%;
+    text-align: center;
+    .@{ant-prefix}-select-selector {
+      height: 30px;
+      border: none;
+    }
+  }
+}

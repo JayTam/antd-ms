@@ -1,0 +1,1451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsFieldMsUserPopover 组件 demo 测试 正确渲染 MsFieldMsUserPopover basic.tsx 1`] = `
+<div>
+  <div
+    class="user-popover"
+  >
+    <div
+      style="width: 100%;"
+    >
+      <div
+        class="user-popover "
+      >
+        <div
+          style="margin-right: 16px;"
+        >
+          <span
+            class="user-avatar"
+          >
+            <div
+              style="display: flex; align-items: center;"
+            >
+              <span
+                class="ant-badge"
+              >
+                <span
+                  class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                  style="background-color: rgb(164, 205, 134);"
+                >
+                  <span
+                    class="ant-avatar-string"
+                    style="transform: scale(1) translateX(-50%);"
+                  >
+                    郑
+                  </span>
+                </span>
+                <div
+                  class="ant-scroll-number-custom-component delete-button"
+                  style="margin-top: 3px; right: 3px;"
+                >
+                  <span
+                    aria-label="close-circle"
+                    class="anticon anticon-close-circle"
+                    role="img"
+                    style="color: rgb(245, 69, 69);"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close-circle"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </span>
+              <div
+                class="user-avatar-name"
+                style="margin-left: 8px; color: rgb(70, 79, 92);"
+              >
+                郑义
+              </div>
+            </div>
+          </span>
+        </div>
+        <div
+          style="margin-right: 16px;"
+        >
+          <span
+            class="user-avatar"
+          >
+            <div
+              style="display: flex; align-items: center;"
+            >
+              <span
+                class="ant-badge"
+              >
+                <span
+                  class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                  style="background-color: rgb(232, 167, 141);"
+                >
+                  <span
+                    class="ant-avatar-string"
+                    style="transform: scale(1) translateX(-50%);"
+                  >
+                    刘
+                  </span>
+                </span>
+                <div
+                  class="ant-scroll-number-custom-component delete-button"
+                  style="margin-top: 3px; right: 3px;"
+                >
+                  <span
+                    aria-label="close-circle"
+                    class="anticon anticon-close-circle"
+                    role="img"
+                    style="color: rgb(245, 69, 69);"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close-circle"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </span>
+              <div
+                class="user-avatar-name"
+                style="margin-left: 8px; color: rgb(70, 79, 92);"
+              >
+                刘小莉
+              </div>
+            </div>
+          </span>
+        </div>
+        <div
+          class="extra-warp"
+        >
+          <a
+            style="white-space: nowrap;"
+          >
+            <span
+              aria-label="plus"
+              class="anticon anticon-plus"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="plus"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                />
+                <path
+                  d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                />
+              </svg>
+            </span>
+            <span
+              style="margin: 0px 4px; white-space: nowrap;"
+            >
+              添加
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsUserPopover 组件 demo 测试 正确渲染 MsFieldMsUserPopover form.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <form
+        class="ant-form ant-form-horizontal"
+      >
+        <div
+          class="ant-row"
+          style="margin-left: -16px; margin-right: -16px;"
+        >
+          <div
+            class="ant-col ant-col-24"
+            style="padding-left: 16px; padding-right: 16px;"
+          >
+            <div
+              class="ant-form-item"
+            >
+              <div
+                class="ant-row ant-form-item-row"
+              >
+                <div
+                  class="ant-col ant-form-item-label ant-form-item-label-left"
+                  style="flex: 0 0 80px;"
+                >
+                  <label
+                    class="ant-form-item-no-colon"
+                    for="userPopover"
+                    title="人员"
+                  >
+                    人员
+                  </label>
+                </div>
+                <div
+                  class="ant-col ant-form-item-control"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <div
+                        class="user-popover"
+                        style="width: 100%;"
+                      >
+                        <div
+                          style="width: 100%;"
+                        >
+                          <div
+                            class="user-popover "
+                            style="width: 100%;"
+                          >
+                            <div
+                              style="margin-right: 16px;"
+                            >
+                              <span
+                                class="user-avatar"
+                              >
+                                <div
+                                  style="display: flex; align-items: center;"
+                                >
+                                  <span
+                                    class="ant-badge"
+                                  >
+                                    <span
+                                      class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                      style="background-color: rgb(164, 205, 134);"
+                                    >
+                                      <span
+                                        class="ant-avatar-string"
+                                        style="transform: scale(1) translateX(-50%);"
+                                      >
+                                        郑
+                                      </span>
+                                    </span>
+                                    <div
+                                      class="ant-scroll-number-custom-component delete-button"
+                                      style="margin-top: 3px; right: 3px;"
+                                    >
+                                      <span
+                                        aria-label="close-circle"
+                                        class="anticon anticon-close-circle"
+                                        role="img"
+                                        style="color: rgb(245, 69, 69);"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          data-icon="close-circle"
+                                          fill="currentColor"
+                                          fill-rule="evenodd"
+                                          focusable="false"
+                                          height="1em"
+                                          viewBox="64 64 896 896"
+                                          width="1em"
+                                        >
+                                          <path
+                                            d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                          />
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </span>
+                                  <div
+                                    class="user-avatar-name"
+                                    style="margin-left: 8px; color: rgb(70, 79, 92);"
+                                  >
+                                    郑义
+                                  </div>
+                                </div>
+                              </span>
+                            </div>
+                            <div
+                              style="margin-right: 16px;"
+                            >
+                              <span
+                                class="user-avatar"
+                              >
+                                <div
+                                  style="display: flex; align-items: center;"
+                                >
+                                  <span
+                                    class="ant-badge"
+                                  >
+                                    <span
+                                      class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                      style="background-color: rgb(232, 167, 141);"
+                                    >
+                                      <span
+                                        class="ant-avatar-string"
+                                        style="transform: scale(1) translateX(-50%);"
+                                      >
+                                        刘
+                                      </span>
+                                    </span>
+                                    <div
+                                      class="ant-scroll-number-custom-component delete-button"
+                                      style="margin-top: 3px; right: 3px;"
+                                    >
+                                      <span
+                                        aria-label="close-circle"
+                                        class="anticon anticon-close-circle"
+                                        role="img"
+                                        style="color: rgb(245, 69, 69);"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          data-icon="close-circle"
+                                          fill="currentColor"
+                                          fill-rule="evenodd"
+                                          focusable="false"
+                                          height="1em"
+                                          viewBox="64 64 896 896"
+                                          width="1em"
+                                        >
+                                          <path
+                                            d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                          />
+                                        </svg>
+                                      </span>
+                                    </div>
+                                  </span>
+                                  <div
+                                    class="user-avatar-name"
+                                    style="margin-left: 8px; color: rgb(70, 79, 92);"
+                                  >
+                                    刘小莉
+                                  </div>
+                                </div>
+                              </span>
+                            </div>
+                            <div
+                              class="extra-warp"
+                            >
+                              <a
+                                style="white-space: nowrap;"
+                              >
+                                <span
+                                  aria-label="plus"
+                                  class="anticon anticon-plus"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="plus"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                                    />
+                                    <path
+                                      d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  style="margin: 0px 4px; white-space: nowrap;"
+                                >
+                                  添加
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row ant-row-space-between"
+        >
+          <div />
+          <div
+            class="ant-space ant-space-horizontal ant-space-align-center"
+          >
+            <div
+              class="ant-space-item"
+              style="margin-right: 8px;"
+            >
+              <button
+                class="ant-btn ant-btn-default"
+                type="button"
+              >
+                <span>
+                  重 置
+                </span>
+              </button>
+            </div>
+            <div
+              class="ant-space-item"
+            >
+              <button
+                class="ant-btn ant-btn-primary"
+                type="button"
+              >
+                <span>
+                  提 交
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <input
+          style="display: none;"
+        />
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsUserPopover 组件 demo 测试 正确渲染 MsFieldMsUserPopover read-mode.tsx 1`] = `
+<div>
+  <span
+    class="ant-typography"
+  >
+    <div
+      class="user-popover"
+    >
+      <div
+        style="width: 100%;"
+      >
+        <div
+          class="user-popover "
+        >
+          <div
+            style="margin-right: 16px;"
+          >
+            <span
+              class="user-avatar"
+            >
+              <div
+                style="display: flex; align-items: center;"
+              >
+                <span
+                  class="ant-badge"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                    style="background-color: rgb(164, 205, 134);"
+                  >
+                    <span
+                      class="ant-avatar-string"
+                      style="transform: scale(1) translateX(-50%);"
+                    >
+                      郑
+                    </span>
+                  </span>
+                </span>
+                <div
+                  class="user-avatar-name"
+                  style="margin-left: 8px; color: rgb(70, 79, 92);"
+                >
+                  郑义
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            style="margin-right: 16px;"
+          >
+            <span
+              class="user-avatar"
+            >
+              <div
+                style="display: flex; align-items: center;"
+              >
+                <span
+                  class="ant-badge"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                    style="background-color: rgb(232, 167, 141);"
+                  >
+                    <span
+                      class="ant-avatar-string"
+                      style="transform: scale(1) translateX(-50%);"
+                    >
+                      刘
+                    </span>
+                  </span>
+                </span>
+                <div
+                  class="user-avatar-name"
+                  style="margin-left: 8px; color: rgb(70, 79, 92);"
+                >
+                  刘小莉
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            class="extra-warp"
+          />
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`MsFieldMsUserPopover 组件 demo 测试 正确渲染 MsFieldMsUserPopover show.tsx 1`] = `
+<div>
+  <p
+    style="color: red;"
+  >
+    控制第一个人员不可删除
+  </p>
+  <p
+    style="color: blue;"
+  >
+    控制最后一个人员可以调整
+  </p>
+  <div
+    class="user-popover"
+  >
+    <div
+      style="width: 100%;"
+    >
+      <div
+        class="user-popover "
+      >
+        <div
+          style="margin-right: 16px;"
+        >
+          <span
+            class="user-avatar"
+          >
+            <div
+              style="display: flex; align-items: center;"
+            >
+              <span
+                class="ant-badge"
+              >
+                <span
+                  class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                  style="background-color: rgb(164, 205, 134);"
+                >
+                  <span
+                    class="ant-avatar-string"
+                    style="transform: scale(1) translateX(-50%);"
+                  >
+                    郑
+                  </span>
+                </span>
+              </span>
+              <div
+                class="user-avatar-name"
+                style="margin-left: 8px; color: rgb(70, 79, 92);"
+              >
+                郑义
+              </div>
+            </div>
+          </span>
+        </div>
+        <div
+          style="margin-right: 16px;"
+        >
+          <span
+            class="user-avatar"
+          >
+            <div
+              style="display: flex; align-items: center;"
+            >
+              <span
+                class="ant-badge"
+              >
+                <span
+                  class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                  style="background-color: rgb(232, 167, 141);"
+                >
+                  <span
+                    class="ant-avatar-string"
+                    style="transform: scale(1) translateX(-50%);"
+                  >
+                    刘
+                  </span>
+                </span>
+                <div
+                  class="ant-scroll-number-custom-component delete-button"
+                  style="margin-top: 3px; right: 3px;"
+                >
+                  <span
+                    aria-label="close-circle"
+                    class="anticon anticon-close-circle"
+                    role="img"
+                    style="color: rgb(245, 69, 69);"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close-circle"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </span>
+              <div
+                class="user-avatar-name"
+                style="margin-left: 8px; color: rgb(70, 79, 92);"
+              >
+                刘小莉
+              </div>
+            </div>
+          </span>
+        </div>
+        <div
+          style="margin-right: 16px;"
+        >
+          <span
+            class="user-avatar"
+          >
+            <div
+              style="display: flex; align-items: center;"
+            >
+              <span
+                class="ant-badge"
+              >
+                <span
+                  class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                  style="background-color: rgb(232, 167, 141);"
+                >
+                  <span
+                    class="ant-avatar-string"
+                    style="transform: scale(1) translateX(-50%);"
+                  >
+                    马
+                  </span>
+                </span>
+                <div
+                  class="ant-scroll-number-custom-component delete-button"
+                  style="margin-top: 3px; right: 3px;"
+                >
+                  <span
+                    aria-label="close-circle"
+                    class="anticon anticon-close-circle"
+                    role="img"
+                    style="color: rgb(245, 69, 69);"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="close-circle"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </span>
+              <div
+                class="user-avatar-name"
+                style="margin-left: 8px; color: rgb(70, 79, 92);"
+              >
+                马万琴
+              </div>
+              <div
+                class="user-avatar-name"
+                style="margin-left: 8px; cursor: pointer;"
+              >
+                <span
+                  aria-label="edit"
+                  class="anticon anticon-edit"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="edit"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div
+          class="extra-warp"
+        >
+          <a
+            style="white-space: nowrap;"
+          >
+            <span
+              aria-label="plus"
+              class="anticon anticon-plus"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="plus"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                />
+                <path
+                  d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                />
+              </svg>
+            </span>
+            <span
+              style="margin: 0px 4px; white-space: nowrap;"
+            >
+              添加
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsUserPopover 组件 demo 测试 正确渲染 MsFieldMsUserPopover table.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-table"
+      >
+        <div
+          class="ms-table-filter"
+        >
+          <div
+            class="ant-row ant-row-no-wrap ant-row-space-between ant-row-top"
+            style="margin: -4px -4px -4px -4px; padding-bottom: 16px;"
+          >
+            <div
+              class="ant-col"
+              style="padding: 4px 4px 4px 4px;"
+            >
+              <div
+                class="ant-row ant-row-no-wrap ant-row-top"
+                style="margin: -4px -4px -4px -4px;"
+              >
+                <div
+                  class="ant-col"
+                  style="padding: 4px 4px 4px 4px;"
+                >
+                  <form
+                    class="ant-form ant-form-horizontal ms-query-form"
+                    id="MsTableForm"
+                  >
+                    <div
+                      class="ant-row"
+                      style="margin: -4px -4px -4px -4px;"
+                    />
+                    <input
+                      style="display: none;"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-col"
+              style="padding: 4px 4px 4px 4px;"
+            >
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center"
+              >
+                <div
+                  class="ant-space-item"
+                  style="margin-right: 8px;"
+                >
+                  <button
+                    class="ant-btn ant-btn-default ant-btn-icon-only ant-dropdown-trigger"
+                    type="button"
+                  >
+                    <span
+                      aria-label="column-height"
+                      class="anticon anticon-column-height"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="column-height"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M840 836H184c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h656c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm0-724H184c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h656c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zM610.8 378c6 0 9.4-7 5.7-11.7L515.7 238.7a7.14 7.14 0 00-11.3 0L403.6 366.3a7.23 7.23 0 005.7 11.7H476v268h-62.8c-6 0-9.4 7-5.7 11.7l100.8 127.5c2.9 3.7 8.5 3.7 11.3 0l100.8-127.5c3.7-4.7.4-11.7-5.7-11.7H548V378h62.8z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+                <div
+                  class="ant-space-item"
+                >
+                  <button
+                    class="ant-btn ant-btn-default ant-btn-icon-only"
+                    type="button"
+                  >
+                    <span
+                      aria-label="setting"
+                      class="anticon anticon-setting"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="setting"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M924.8 625.7l-65.5-56c3.1-19 4.7-38.4 4.7-57.8s-1.6-38.8-4.7-57.8l65.5-56a32.03 32.03 0 009.3-35.2l-.9-2.6a443.74 443.74 0 00-79.7-137.9l-1.8-2.1a32.12 32.12 0 00-35.1-9.5l-81.3 28.9c-30-24.6-63.5-44-99.7-57.6l-15.7-85a32.05 32.05 0 00-25.8-25.7l-2.7-.5c-52.1-9.4-106.9-9.4-159 0l-2.7.5a32.05 32.05 0 00-25.8 25.7l-15.8 85.4a351.86 351.86 0 00-99 57.4l-81.9-29.1a32 32 0 00-35.1 9.5l-1.8 2.1a446.02 446.02 0 00-79.7 137.9l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.3 56.6c-3.1 18.8-4.6 38-4.6 57.1 0 19.2 1.5 38.4 4.6 57.1L99 625.5a32.03 32.03 0 00-9.3 35.2l.9 2.6c18.1 50.4 44.9 96.9 79.7 137.9l1.8 2.1a32.12 32.12 0 0035.1 9.5l81.9-29.1c29.8 24.5 63.1 43.9 99 57.4l15.8 85.4a32.05 32.05 0 0025.8 25.7l2.7.5a449.4 449.4 0 00159 0l2.7-.5a32.05 32.05 0 0025.8-25.7l15.7-85a350 350 0 0099.7-57.6l81.3 28.9a32 32 0 0035.1-9.5l1.8-2.1c34.8-41.1 61.6-87.5 79.7-137.9l.9-2.6c4.5-12.3.8-26.3-9.3-35zM788.3 465.9c2.5 15.1 3.8 30.6 3.8 46.1s-1.3 31-3.8 46.1l-6.6 40.1 74.7 63.9a370.03 370.03 0 01-42.6 73.6L721 702.8l-31.4 25.8c-23.9 19.6-50.5 35-79.3 45.8l-38.1 14.3-17.9 97a377.5 377.5 0 01-85 0l-17.9-97.2-37.8-14.5c-28.5-10.8-55-26.2-78.7-45.7l-31.4-25.9-93.4 33.2c-17-22.9-31.2-47.6-42.6-73.6l75.5-64.5-6.5-40c-2.4-14.9-3.7-30.3-3.7-45.5 0-15.3 1.2-30.6 3.7-45.5l6.5-40-75.5-64.5c11.3-26.1 25.6-50.7 42.6-73.6l93.4 33.2 31.4-25.9c23.7-19.5 50.2-34.9 78.7-45.7l37.9-14.3 17.9-97.2c28.1-3.2 56.8-3.2 85 0l17.9 97 38.1 14.3c28.7 10.8 55.4 26.2 79.3 45.8l31.4 25.8 92.8-32.9c17 22.9 31.2 47.6 42.6 73.6L781.8 426l6.5 39.9zM512 326c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm79.2 255.2A111.6 111.6 0 01512 614c-29.9 0-58-11.7-79.2-32.8A111.6 111.6 0 01400 502c0-29.9 11.7-58 32.8-79.2C454 401.6 482.1 390 512 390c29.9 0 58 11.6 79.2 32.8A111.6 111.6 0 01624 502c0 29.9-11.7 58-32.8 79.2z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-spin-nested-loading"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ms-table-content"
+            >
+              <div
+                class="ant-table-wrapper"
+              >
+                <div
+                  class="ant-spin-nested-loading"
+                >
+                  <div
+                    class="ant-spin-container"
+                  >
+                    <div
+                      class="ant-table ant-table-small ant-table-scroll-horizontal"
+                    >
+                      <div
+                        class="ant-table-container"
+                      >
+                        <div
+                          class="ant-table-content"
+                          style="overflow-x: auto; overflow-y: hidden;"
+                        >
+                          <table
+                            style="width: 100%; min-width: 100%; table-layout: fixed;"
+                          >
+                            <colgroup>
+                              <col
+                                style="width: 90px;"
+                              />
+                              <col
+                                style="width: 90px;"
+                              />
+                              <col
+                                style="width: 90px;"
+                              />
+                              <col
+                                style="width: 500px;"
+                              />
+                              <col
+                                style="width: 90px;"
+                              />
+                              <col
+                                style="width: 90px;"
+                              />
+                            </colgroup>
+                            <thead
+                              class="ant-table-thead"
+                            >
+                              <tr>
+                                <th
+                                  class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                  title="单个人员"
+                                >
+                                  单个人员
+                                  <span
+                                    class="ms-table-column-resizable-handle"
+                                  />
+                                </th>
+                                <th
+                                  class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                  title="多个人员"
+                                >
+                                  多个人员
+                                  <span
+                                    class="ms-table-column-resizable-handle"
+                                  />
+                                </th>
+                                <th
+                                  class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                  title="折叠人员"
+                                >
+                                  折叠人员
+                                  <span
+                                    class="ms-table-column-resizable-handle"
+                                  />
+                                </th>
+                                <th
+                                  class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                  title="实例名称"
+                                >
+                                  实例名称
+                                  <span
+                                    class="ms-table-column-resizable-handle"
+                                  />
+                                </th>
+                                <th
+                                  class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                  title="IP地址"
+                                >
+                                  IP地址
+                                  <span
+                                    class="ms-table-column-resizable-handle"
+                                  />
+                                </th>
+                                <th
+                                  class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                  title="网络类型"
+                                >
+                                  网络类型
+                                  <span
+                                    class="ms-table-column-resizable-handle"
+                                  />
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody
+                              class="ant-table-tbody"
+                            >
+                              <tr
+                                aria-hidden="true"
+                                class="ant-table-measure-row"
+                                style="height: 0px; font-size: 0px;"
+                              >
+                                <td
+                                  style="padding: 0px; border: 0px; height: 0px;"
+                                >
+                                  <div
+                                    style="height: 0px; overflow: hidden;"
+                                  >
+                                     
+                                  </div>
+                                </td>
+                                <td
+                                  style="padding: 0px; border: 0px; height: 0px;"
+                                >
+                                  <div
+                                    style="height: 0px; overflow: hidden;"
+                                  >
+                                     
+                                  </div>
+                                </td>
+                                <td
+                                  style="padding: 0px; border: 0px; height: 0px;"
+                                >
+                                  <div
+                                    style="height: 0px; overflow: hidden;"
+                                  >
+                                     
+                                  </div>
+                                </td>
+                                <td
+                                  style="padding: 0px; border: 0px; height: 0px;"
+                                >
+                                  <div
+                                    style="height: 0px; overflow: hidden;"
+                                  >
+                                     
+                                  </div>
+                                </td>
+                                <td
+                                  style="padding: 0px; border: 0px; height: 0px;"
+                                >
+                                  <div
+                                    style="height: 0px; overflow: hidden;"
+                                  >
+                                     
+                                  </div>
+                                </td>
+                                <td
+                                  style="padding: 0px; border: 0px; height: 0px;"
+                                >
+                                  <div
+                                    style="height: 0px; overflow: hidden;"
+                                  >
+                                     
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr
+                                class="ant-table-row ant-table-row-level-0"
+                                data-row-key="1"
+                              >
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <span
+                                        class="user-avatar"
+                                      >
+                                        <div
+                                          style="display: flex; align-items: center;"
+                                        >
+                                          <span
+                                            class="ant-badge"
+                                          >
+                                            <span
+                                              class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                              style="background-color: rgb(164, 205, 134);"
+                                            >
+                                              <span
+                                                class="ant-avatar-string"
+                                                style="transform: scale(1) translateX(-50%);"
+                                              >
+                                                郑
+                                              </span>
+                                            </span>
+                                          </span>
+                                          <div
+                                            class="user-avatar-name"
+                                            style="margin-left: 8px; color: rgb(70, 79, 92);"
+                                          >
+                                            郑义
+                                          </div>
+                                        </div>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-avatar-group"
+                                      >
+                                        <span
+                                          class="user-avatar"
+                                        >
+                                          <span
+                                            class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                            style="background: rgb(171, 180, 199);"
+                                          >
+                                            <span
+                                              class="ant-avatar-string"
+                                              style="transform: scale(1) translateX(-50%);"
+                                            >
+                                              +
+                                              4
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-avatar-group"
+                                      >
+                                        <span
+                                          class="user-avatar"
+                                        >
+                                          <span
+                                            class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                            style="background: rgb(171, 180, 199);"
+                                          >
+                                            <span
+                                              class="ant-avatar-string"
+                                              style="transform: scale(1) translateX(-50%);"
+                                            >
+                                              +
+                                              14
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="DAM-autoname-1667722950291"
+                                >
+                                  DAM-autoname-1667722950291
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="192.186.1.1"
+                                >
+                                  192.186.1.1
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="专有网络"
+                                >
+                                  专有网络
+                                </td>
+                              </tr>
+                              <tr
+                                class="ant-table-row ant-table-row-level-0"
+                                data-row-key="2"
+                              >
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <span
+                                        class="user-avatar"
+                                      >
+                                        <div
+                                          style="display: flex; align-items: center;"
+                                        >
+                                          <span
+                                            class="ant-badge"
+                                          >
+                                            <span
+                                              class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                              style="background-color: rgb(164, 205, 134);"
+                                            >
+                                              <span
+                                                class="ant-avatar-string"
+                                                style="transform: scale(1) translateX(-50%);"
+                                              >
+                                                郑
+                                              </span>
+                                            </span>
+                                          </span>
+                                          <div
+                                            class="user-avatar-name"
+                                            style="margin-left: 8px; color: rgb(70, 79, 92);"
+                                          >
+                                            郑义
+                                          </div>
+                                        </div>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-avatar-group"
+                                      >
+                                        <span
+                                          class="user-avatar"
+                                        >
+                                          <span
+                                            class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                            style="background: rgb(171, 180, 199);"
+                                          >
+                                            <span
+                                              class="ant-avatar-string"
+                                              style="transform: scale(1) translateX(-50%);"
+                                            >
+                                              +
+                                              4
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-avatar-group"
+                                      >
+                                        <span
+                                          class="user-avatar"
+                                        >
+                                          <span
+                                            class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                            style="background: rgb(171, 180, 199);"
+                                          >
+                                            <span
+                                              class="ant-avatar-string"
+                                              style="transform: scale(1) translateX(-50%);"
+                                            >
+                                              +
+                                              14
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="DAM-autoname-1667722068292"
+                                >
+                                  DAM-autoname-1667722068292
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="192.186.1.2"
+                                >
+                                  192.186.1.2
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="专有网络"
+                                >
+                                  专有网络
+                                </td>
+                              </tr>
+                              <tr
+                                class="ant-table-row ant-table-row-level-0"
+                                data-row-key="3"
+                              >
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <span
+                                        class="user-avatar"
+                                      >
+                                        <div
+                                          style="display: flex; align-items: center;"
+                                        >
+                                          <span
+                                            class="ant-badge"
+                                          >
+                                            <span
+                                              class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                              style="background-color: rgb(164, 205, 134);"
+                                            >
+                                              <span
+                                                class="ant-avatar-string"
+                                                style="transform: scale(1) translateX(-50%);"
+                                              >
+                                                郑
+                                              </span>
+                                            </span>
+                                          </span>
+                                          <div
+                                            class="user-avatar-name"
+                                            style="margin-left: 8px; color: rgb(70, 79, 92);"
+                                          >
+                                            郑义
+                                          </div>
+                                        </div>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-avatar-group"
+                                      >
+                                        <span
+                                          class="user-avatar"
+                                        >
+                                          <span
+                                            class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                            style="background: rgb(171, 180, 199);"
+                                          >
+                                            <span
+                                              class="ant-avatar-string"
+                                              style="transform: scale(1) translateX(-50%);"
+                                            >
+                                              +
+                                              4
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                >
+                                  <div
+                                    class="user-popover"
+                                  >
+                                    <div
+                                      style="width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-avatar-group"
+                                      >
+                                        <span
+                                          class="user-avatar"
+                                        >
+                                          <span
+                                            class="ant-avatar ant-avatar-sm ant-avatar-circle"
+                                            style="background: rgb(171, 180, 199);"
+                                          >
+                                            <span
+                                              class="ant-avatar-string"
+                                              style="transform: scale(1) translateX(-50%);"
+                                            >
+                                              +
+                                              14
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="DAM-autoname-1667722068293"
+                                >
+                                  DAM-autoname-1667722068293
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="192.186.1.3"
+                                >
+                                  192.186.1.3
+                                </td>
+                                <td
+                                  class="ant-table-cell ant-table-cell-ellipsis"
+                                  title="专有网络"
+                                >
+                                  专有网络
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

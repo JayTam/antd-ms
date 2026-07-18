@@ -1,0 +1,3579 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage basic.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ms-title-prefix"
+            >
+              <a
+                class="ms-page-back-btn"
+              >
+                <span
+                  aria-label="left"
+                  class="anticon anticon-left"
+                  color="#1890ff"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="left"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <h3
+              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-x-large"
+            >
+              标题
+            </h3>
+          </div>
+          <div
+            class="ms-title-extra"
+          >
+            <div
+              class="ant-space ant-space-horizontal ant-space-align-center ms-actions"
+            >
+              <div
+                class="ant-space-item"
+                style="margin-right: 0px;"
+              >
+                <button
+                  class="ant-btn ant-btn-link ant-btn-sm ant-btn-block"
+                  label="操作1"
+                  style="padding: 0px; text-align: left;"
+                  type="button"
+                >
+                  <span>
+                    操作1
+                  </span>
+                </button>
+              </div>
+              <span
+                class="ant-space-item-split"
+                style="margin-right: 0px;"
+              >
+                <div
+                  class="ant-divider ant-divider-vertical"
+                  role="separator"
+                />
+              </span>
+              <div
+                class="ant-space-item"
+                style="margin-right: 0px;"
+              >
+                <button
+                  class="ant-btn ant-btn-link ant-btn-sm ant-btn-block"
+                  label="操作2"
+                  style="padding: 0px; text-align: left;"
+                  type="button"
+                >
+                  <span>
+                    操作2
+                  </span>
+                </button>
+              </div>
+              <span
+                class="ant-space-item-split"
+                style="margin-right: 0px;"
+              >
+                <div
+                  class="ant-divider ant-divider-vertical"
+                  role="separator"
+                />
+              </span>
+              <div
+                class="ant-space-item"
+                style="margin-right: 0px;"
+              >
+                <button
+                  class="ant-btn ant-btn-link ant-btn-sm ant-btn-block"
+                  label="操作3"
+                  style="padding: 0px; text-align: left;"
+                  type="button"
+                >
+                  <span>
+                    操作3
+                  </span>
+                </button>
+              </div>
+              <span
+                class="ant-space-item-split"
+                style="margin-right: 0px;"
+              >
+                <div
+                  class="ant-divider ant-divider-vertical"
+                  role="separator"
+                />
+              </span>
+              <div
+                class="ant-space-item"
+              >
+                <button
+                  class="ant-btn ant-btn-link ant-btn-sm ant-btn-block ant-dropdown-trigger ms-dropdown"
+                  style="padding: 0px; text-align: left;"
+                  type="button"
+                >
+                  <span>
+                    <span>
+                      更多
+                    </span>
+                    <span
+                      class="anticon"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class=""
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="0 0 1024 1024"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M875.52 346.917a18.286 18.286 0 0 1 0 25.819l-350.5 350.647a18.286 18.286 0 0 1-25.893 0L148.48 372.736a18.286 18.286 0 0 1 0-25.82l41.399-41.398a18.286 18.286 0 0 1 25.892 0L512 601.819l296.375-296.228a18.286 18.286 0 0 1 25.82 0l41.398 41.326z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          我是内容渲染区域
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage compose-child.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ms-title-prefix"
+            >
+              <a
+                class="ms-page-back-btn"
+              >
+                <span
+                  aria-label="left"
+                  class="anticon anticon-left"
+                  color="#1890ff"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="left"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <h3
+              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-x-large"
+            >
+              主页面 - 子页面请求
+            </h3>
+          </div>
+          <div
+            class="ms-title-extra"
+          >
+            <div
+              class="ant-space ant-space-horizontal ant-space-align-center ms-actions"
+            />
+          </div>
+        </div>
+        <div
+          class="ms-sub-page-divider"
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ms-sub-page-divider"
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ms-descriptions-divider"
+        >
+          <div
+            class="ms-descriptions"
+          >
+            <form
+              class="ant-form ant-form-horizontal ant-form-hide-required-mark"
+            >
+              <div
+                class="ms-title-container"
+              >
+                <div
+                  class="ms-title"
+                >
+                  <div
+                    class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                  >
+                    <span
+                      class="ant-skeleton-input"
+                      style="height: 22px; display: flex;"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-row ms-descriptions-content"
+                style="margin-left: -16px; margin-right: -16px;"
+              >
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="storage"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="ip"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="updateAt"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="createAt"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="num"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                style="display: none;"
+              />
+            </form>
+          </div>
+        </div>
+        <div
+          class="ms-table"
+        >
+          <div
+            class="ms-title-container"
+          >
+            <div
+              class="ms-title"
+            >
+              <h3
+                class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-gradient ms-title-middle"
+              >
+                子表格
+              </h3>
+            </div>
+          </div>
+          <div
+            class="ms-table-filter"
+          >
+            <div
+              class="ant-row ant-row-no-wrap ant-row-space-between ant-row-top"
+              style="margin: -4px -4px -4px -4px; padding-bottom: 16px;"
+            >
+              <div
+                class="ant-col"
+                style="padding: 4px 4px 4px 4px;"
+              >
+                <div
+                  class="ant-row ant-row-no-wrap ant-row-top"
+                  style="margin: -4px -4px -4px -4px;"
+                >
+                  <div
+                    class="ant-col"
+                    style="padding: 4px 4px 4px 4px;"
+                  >
+                    <form
+                      class="ant-form ant-form-horizontal ms-query-form"
+                      id="MsTableForm"
+                    >
+                      <div
+                        class="ant-row"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <div
+                            class="ant-form-item"
+                          >
+                            <div
+                              class="ant-row ant-form-item-row"
+                            >
+                              <div
+                                class="ant-col ant-form-item-control"
+                              >
+                                <div
+                                  class="ant-form-item-control-input"
+                                >
+                                  <div
+                                    class="ant-form-item-control-input-content"
+                                  >
+                                    <span
+                                      class="ant-input-group ant-input-group-compact ms-select-query"
+                                    >
+                                      <div
+                                        class="ant-select ms-select-query-select ant-select-single ant-select-show-arrow"
+                                        data-testid="ms-query-merged-select"
+                                      >
+                                        <div
+                                          class="ant-select-selector"
+                                        >
+                                          <span
+                                            class="ant-select-selection-search"
+                                          >
+                                            <input
+                                              aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                                              aria-autocomplete="list"
+                                              aria-controls="rc_select_TEST_OR_SSR_list"
+                                              aria-haspopup="listbox"
+                                              aria-owns="rc_select_TEST_OR_SSR_list"
+                                              autocomplete="off"
+                                              class="ant-select-selection-search-input"
+                                              id="rc_select_TEST_OR_SSR"
+                                              readonly=""
+                                              role="combobox"
+                                              style="opacity: 0;"
+                                              type="search"
+                                              unselectable="on"
+                                              value=""
+                                            />
+                                          </span>
+                                          <span
+                                            class="ant-select-selection-item"
+                                            title="实例名称"
+                                          >
+                                            实例名称
+                                          </span>
+                                        </div>
+                                        <span
+                                          aria-hidden="true"
+                                          class="ant-select-arrow"
+                                          style="user-select: none;"
+                                          unselectable="on"
+                                        >
+                                          <span
+                                            aria-label="down"
+                                            class="anticon anticon-down ant-select-suffix"
+                                            role="img"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              data-icon="down"
+                                              fill="currentColor"
+                                              focusable="false"
+                                              height="1em"
+                                              viewBox="64 64 896 896"
+                                              width="1em"
+                                            >
+                                              <path
+                                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                              />
+                                            </svg>
+                                          </span>
+                                        </span>
+                                      </div>
+                                      <span
+                                        class="ant-input-group-wrapper ant-input-search ms-select-query-search"
+                                      >
+                                        <span
+                                          class="ant-input-wrapper ant-input-group"
+                                        >
+                                          <span
+                                            class="ant-input-affix-wrapper"
+                                          >
+                                            <input
+                                              class="ant-input"
+                                              id="MsTableForm_name"
+                                              placeholder="请输入实例名称"
+                                              type="text"
+                                              value=""
+                                            />
+                                            <span
+                                              class="ant-input-suffix"
+                                            >
+                                              <span
+                                                class="ant-input-clear-icon ant-input-clear-icon-hidden"
+                                                role="button"
+                                                tabindex="-1"
+                                              >
+                                                <span
+                                                  aria-label="close-circle"
+                                                  class="anticon anticon-close-circle"
+                                                  role="img"
+                                                >
+                                                  <svg
+                                                    aria-hidden="true"
+                                                    data-icon="close-circle"
+                                                    fill="currentColor"
+                                                    fill-rule="evenodd"
+                                                    focusable="false"
+                                                    height="1em"
+                                                    viewBox="64 64 896 896"
+                                                    width="1em"
+                                                  >
+                                                    <path
+                                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                                    />
+                                                  </svg>
+                                                </span>
+                                              </span>
+                                            </span>
+                                          </span>
+                                          <span
+                                            class="ant-input-group-addon"
+                                          >
+                                            <button
+                                              class="ant-btn ant-btn-default ant-btn-icon-only ant-input-search-button"
+                                              type="button"
+                                            >
+                                              <span
+                                                aria-label="search"
+                                                class="anticon anticon-search"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="search"
+                                                  fill="currentColor"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </button>
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <div
+                            class="ant-form-item"
+                          >
+                            <div
+                              class="ant-row ant-form-item-row"
+                            >
+                              <div
+                                class="ant-col ant-form-item-control"
+                              >
+                                <div
+                                  class="ant-form-item-control-input"
+                                >
+                                  <div
+                                    class="ant-form-item-control-input-content"
+                                  >
+                                    <div
+                                      class="ant-select ant-select-in-form-item ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+                                      style="min-width: 140px; width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-select-selector"
+                                      >
+                                        <span
+                                          class="ant-select-selection-search"
+                                        >
+                                          <input
+                                            aria-activedescendant="MsTableForm_networkType_list_0"
+                                            aria-autocomplete="list"
+                                            aria-controls="MsTableForm_networkType_list"
+                                            aria-haspopup="listbox"
+                                            aria-owns="MsTableForm_networkType_list"
+                                            autocomplete="off"
+                                            class="ant-select-selection-search-input"
+                                            id="MsTableForm_networkType"
+                                            role="combobox"
+                                            type="search"
+                                            value=""
+                                          />
+                                        </span>
+                                        <span
+                                          class="ant-select-selection-placeholder"
+                                        >
+                                          网络类型
+                                        </span>
+                                      </div>
+                                      <span
+                                        aria-hidden="true"
+                                        class="ant-select-arrow"
+                                        style="user-select: none;"
+                                        unselectable="on"
+                                      >
+                                        <span
+                                          aria-label="down"
+                                          class="anticon anticon-down ant-select-suffix"
+                                          role="img"
+                                        >
+                                          <svg
+                                            aria-hidden="true"
+                                            data-icon="down"
+                                            fill="currentColor"
+                                            focusable="false"
+                                            height="1em"
+                                            viewBox="64 64 896 896"
+                                            width="1em"
+                                          >
+                                            <path
+                                              d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                            />
+                                          </svg>
+                                        </span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <input
+                        style="display: none;"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-col"
+                style="padding: 4px 4px 4px 4px;"
+              >
+                <div
+                  class="ant-space ant-space-horizontal ant-space-align-center"
+                >
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 8px;"
+                  >
+                    <button
+                      class="ant-btn ant-btn-default ant-btn-icon-only ant-btn-loading"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-loading-icon"
+                      >
+                        <span
+                          aria-label="loading"
+                          class="anticon anticon-loading anticon-spin"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="loading"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                          >
+                            <path
+                              d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 8px;"
+                  >
+                    <button
+                      class="ant-btn ant-btn-default ant-btn-icon-only ant-dropdown-trigger"
+                      type="button"
+                    >
+                      <span
+                        aria-label="column-height"
+                        class="anticon anticon-column-height"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="column-height"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M840 836H184c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h656c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm0-724H184c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h656c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zM610.8 378c6 0 9.4-7 5.7-11.7L515.7 238.7a7.14 7.14 0 00-11.3 0L403.6 366.3a7.23 7.23 0 005.7 11.7H476v268h-62.8c-6 0-9.4 7-5.7 11.7l100.8 127.5c2.9 3.7 8.5 3.7 11.3 0l100.8-127.5c3.7-4.7.4-11.7-5.7-11.7H548V378h62.8z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                  <div
+                    class="ant-space-item"
+                  >
+                    <button
+                      class="ant-btn ant-btn-default ant-btn-icon-only"
+                      type="button"
+                    >
+                      <span
+                        aria-label="setting"
+                        class="anticon anticon-setting"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="setting"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M924.8 625.7l-65.5-56c3.1-19 4.7-38.4 4.7-57.8s-1.6-38.8-4.7-57.8l65.5-56a32.03 32.03 0 009.3-35.2l-.9-2.6a443.74 443.74 0 00-79.7-137.9l-1.8-2.1a32.12 32.12 0 00-35.1-9.5l-81.3 28.9c-30-24.6-63.5-44-99.7-57.6l-15.7-85a32.05 32.05 0 00-25.8-25.7l-2.7-.5c-52.1-9.4-106.9-9.4-159 0l-2.7.5a32.05 32.05 0 00-25.8 25.7l-15.8 85.4a351.86 351.86 0 00-99 57.4l-81.9-29.1a32 32 0 00-35.1 9.5l-1.8 2.1a446.02 446.02 0 00-79.7 137.9l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.3 56.6c-3.1 18.8-4.6 38-4.6 57.1 0 19.2 1.5 38.4 4.6 57.1L99 625.5a32.03 32.03 0 00-9.3 35.2l.9 2.6c18.1 50.4 44.9 96.9 79.7 137.9l1.8 2.1a32.12 32.12 0 0035.1 9.5l81.9-29.1c29.8 24.5 63.1 43.9 99 57.4l15.8 85.4a32.05 32.05 0 0025.8 25.7l2.7.5a449.4 449.4 0 00159 0l2.7-.5a32.05 32.05 0 0025.8-25.7l15.7-85a350 350 0 0099.7-57.6l81.3 28.9a32 32 0 0035.1-9.5l1.8-2.1c34.8-41.1 61.6-87.5 79.7-137.9l.9-2.6c4.5-12.3.8-26.3-9.3-35zM788.3 465.9c2.5 15.1 3.8 30.6 3.8 46.1s-1.3 31-3.8 46.1l-6.6 40.1 74.7 63.9a370.03 370.03 0 01-42.6 73.6L721 702.8l-31.4 25.8c-23.9 19.6-50.5 35-79.3 45.8l-38.1 14.3-17.9 97a377.5 377.5 0 01-85 0l-17.9-97.2-37.8-14.5c-28.5-10.8-55-26.2-78.7-45.7l-31.4-25.9-93.4 33.2c-17-22.9-31.2-47.6-42.6-73.6l75.5-64.5-6.5-40c-2.4-14.9-3.7-30.3-3.7-45.5 0-15.3 1.2-30.6 3.7-45.5l6.5-40-75.5-64.5c11.3-26.1 25.6-50.7 42.6-73.6l93.4 33.2 31.4-25.9c23.7-19.5 50.2-34.9 78.7-45.7l37.9-14.3 17.9-97.2c28.1-3.2 56.8-3.2 85 0l17.9 97 38.1 14.3c28.7 10.8 55.4 26.2 79.3 45.8l31.4 25.8 92.8-32.9c17 22.9 31.2 47.6 42.6 73.6L781.8 426l6.5 39.9zM512 326c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm79.2 255.2A111.6 111.6 0 01512 614c-29.9 0-58-11.7-79.2-32.8A111.6 111.6 0 01400 502c0-29.9 11.7-58 32.8-79.2C454 401.6 482.1 390 512 390c29.9 0 58 11.6 79.2 32.8A111.6 111.6 0 01624 502c0 29.9-11.7 58-32.8 79.2z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-spin-nested-loading"
+          >
+            <div
+              class="ant-spin-container"
+            >
+              <div
+                class="ms-table-content"
+              >
+                <div
+                  class="ant-table-wrapper"
+                >
+                  <div
+                    class="ant-spin-nested-loading"
+                  >
+                    <div
+                      class="ant-spin-container"
+                    >
+                      <div
+                        class="ant-table ant-table-small ant-table-empty ant-table-scroll-horizontal"
+                      >
+                        <div
+                          class="ant-table-container"
+                        >
+                          <div
+                            class="ant-table-content"
+                            style="overflow-x: auto; overflow-y: hidden;"
+                          >
+                            <table
+                              style="width: 100%; min-width: 100%; table-layout: fixed;"
+                            >
+                              <colgroup>
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                              </colgroup>
+                              <thead
+                                class="ant-table-thead"
+                              >
+                                <tr>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="实例名称"
+                                  >
+                                    实例名称
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="IP地址"
+                                  >
+                                    IP地址
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="网络类型"
+                                  >
+                                    网络类型
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="运行状态"
+                                  >
+                                    运行状态
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="操作"
+                                  >
+                                    操作
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody
+                                class="ant-table-tbody"
+                              >
+                                <tr
+                                  aria-hidden="true"
+                                  class="ant-table-measure-row"
+                                  style="height: 0px; font-size: 0px;"
+                                >
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr
+                                  class="ant-table-placeholder"
+                                >
+                                  <td
+                                    class="ant-table-cell"
+                                    colspan="5"
+                                  >
+                                    <div
+                                      class="ant-table-expanded-row-fixed"
+                                      style="width: 0px; position: sticky; left: 0px; overflow: hidden;"
+                                    />
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ms-table-content-footer"
+              >
+                <div
+                  class="ant-row ant-row-space-between ant-row-middle"
+                  style="margin-top: 16px;"
+                >
+                  <div
+                    class="ant-col"
+                  />
+                  <div
+                    class="ant-col"
+                  >
+                    <ul
+                      class="ant-pagination ant-pagination-mini"
+                    >
+                      <li
+                        class="ant-pagination-total-text"
+                      >
+                        共 0 项
+                      </li>
+                      <li
+                        aria-disabled="true"
+                        class="ant-pagination-prev ant-pagination-disabled"
+                        title="Previous Page"
+                      >
+                        <button
+                          class="ant-pagination-item-link"
+                          disabled=""
+                          tabindex="-1"
+                          type="button"
+                        >
+                          <span
+                            aria-label="left"
+                            class="anticon anticon-left"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              data-icon="left"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </li>
+                      <li
+                        class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-disabled"
+                        tabindex="0"
+                        title="1"
+                      >
+                        <a
+                          rel="nofollow"
+                        >
+                          1
+                        </a>
+                      </li>
+                      <li
+                        aria-disabled="true"
+                        class="ant-pagination-next ant-pagination-disabled"
+                        title="Next Page"
+                      >
+                        <button
+                          class="ant-pagination-item-link"
+                          disabled=""
+                          tabindex="-1"
+                          type="button"
+                        >
+                          <span
+                            aria-label="right"
+                            class="anticon anticon-right"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              data-icon="right"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </li>
+                      <li
+                        class="ant-pagination-options"
+                      >
+                        <div
+                          aria-label="Page Size"
+                          class="ant-select ant-select-sm ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+                        >
+                          <div
+                            class="ant-select-selector"
+                          >
+                            <span
+                              class="ant-select-selection-search"
+                            >
+                              <input
+                                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                                aria-autocomplete="list"
+                                aria-controls="rc_select_TEST_OR_SSR_list"
+                                aria-expanded="false"
+                                aria-haspopup="listbox"
+                                aria-label="Page Size"
+                                aria-owns="rc_select_TEST_OR_SSR_list"
+                                autocomplete="off"
+                                class="ant-select-selection-search-input"
+                                id="rc_select_TEST_OR_SSR"
+                                readonly=""
+                                role="combobox"
+                                style="opacity: 0;"
+                                type="search"
+                                unselectable="on"
+                                value=""
+                              />
+                            </span>
+                            <span
+                              class="ant-select-selection-item"
+                              title="10 / page"
+                            >
+                              10 / page
+                            </span>
+                          </div>
+                          <span
+                            aria-hidden="true"
+                            class="ant-select-arrow"
+                            style="user-select: none;"
+                            unselectable="on"
+                          >
+                            <span
+                              aria-label="down"
+                              class="anticon anticon-down ant-select-suffix"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage compose-main.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+            >
+              <span
+                class="ant-skeleton-input"
+                style="height: 28.28px; display: flex;"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+          >
+            <span
+              class="ant-skeleton-input"
+              style="height: 28.28px; display: flex;"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-skeleton ant-skeleton-active"
+        >
+          <div
+            class="ant-skeleton-content"
+          >
+            <h3
+              class="ant-skeleton-title"
+              style="width: 38%;"
+            />
+            <ul
+              class="ant-skeleton-paragraph"
+            >
+              <li />
+              <li />
+              <li
+                style="width: 61%;"
+              />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage descriptions.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ms-title-prefix"
+            >
+              <a
+                class="ms-page-back-btn"
+              >
+                <span
+                  aria-label="left"
+                  class="anticon anticon-left"
+                  color="#1890ff"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="left"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <h3
+              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-x-large"
+            >
+              主标题
+            </h3>
+          </div>
+          <div
+            class="ms-title-extra"
+          >
+            <div
+              class="ant-space ant-space-horizontal ant-space-align-center ms-actions"
+            />
+          </div>
+        </div>
+        <div
+          class="ms-sub-page-divider"
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="ms-descriptions"
+          >
+            <form
+              class="ant-form ant-form-horizontal ant-form-hide-required-mark"
+            >
+              <div
+                class="ms-title-container"
+              >
+                <div
+                  class="ms-title"
+                >
+                  <div
+                    class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                  >
+                    <span
+                      class="ant-skeleton-input"
+                      style="height: 22px; display: flex;"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-row ms-descriptions-content"
+                style="margin-left: -16px; margin-right: -16px;"
+              >
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="storage"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="ip"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="updateAt"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="createAt"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-8"
+                  style="padding-left: 16px; padding-right: 16px;"
+                >
+                  <div
+                    class="ant-form-item"
+                  >
+                    <div
+                      class="ant-row ant-form-item-row"
+                    >
+                      <div
+                        class="ant-col ant-form-item-label ant-form-item-label-left"
+                        style="flex: 0 0 90px;"
+                      >
+                        <label
+                          class="ant-form-item-no-colon"
+                          for="num"
+                          title=""
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-button ant-skeleton-button-sm"
+                              style="border-radius: 0;"
+                            />
+                          </div>
+                        </label>
+                      </div>
+                      <div
+                        class="ant-col ant-form-item-control"
+                      >
+                        <div
+                          class="ant-form-item-control-input"
+                        >
+                          <div
+                            class="ant-form-item-control-input-content"
+                          >
+                            <div
+                              class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                            >
+                              <span
+                                class="ant-skeleton-input ant-skeleton-input-sm"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                style="display: none;"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage forms.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ms-title-prefix"
+            >
+              <a
+                class="ms-page-back-btn"
+              >
+                <span
+                  aria-label="left"
+                  class="anticon anticon-left"
+                  color="#1890ff"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="left"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <h3
+              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-x-large"
+            >
+              主标题
+            </h3>
+          </div>
+          <div
+            class="ms-title-extra"
+          >
+            <div
+              class="ant-space ant-space-horizontal ant-space-align-center ms-actions"
+            />
+          </div>
+        </div>
+        <div
+          class="ms-sub-page-divider"
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <form
+            class="ant-form ant-form-horizontal"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <h3
+                  class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-gradient ms-title-middle"
+                >
+                  子表单（组件请求）
+                </h3>
+              </div>
+            </div>
+            <div
+              class="ant-row"
+              style="margin-left: -16px; margin-right: -16px;"
+            >
+              <div
+                class="ant-col ant-col-24"
+                style="padding-left: 16px; padding-right: 16px;"
+              >
+                <div
+                  class="ant-form-item"
+                >
+                  <div
+                    class="ant-row ant-form-item-row"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label ant-form-item-label-left"
+                      style="flex: 0 0 80px;"
+                    >
+                      <label
+                        class="ant-form-item-no-colon"
+                        for="storage"
+                        title=""
+                      >
+                        <div
+                          class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                        >
+                          <span
+                            class="ant-skeleton-button"
+                            style="border-radius: 0;"
+                          />
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control"
+                    >
+                      <div
+                        class="ant-form-item-control-input"
+                      >
+                        <div
+                          class="ant-form-item-control-input-content"
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-input"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-col ant-col-24"
+                style="padding-left: 16px; padding-right: 16px;"
+              >
+                <div
+                  class="ant-form-item"
+                >
+                  <div
+                    class="ant-row ant-form-item-row"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label ant-form-item-label-left"
+                      style="flex: 0 0 80px;"
+                    >
+                      <label
+                        class="ant-form-item-no-colon"
+                        for="ip"
+                        title=""
+                      >
+                        <div
+                          class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                        >
+                          <span
+                            class="ant-skeleton-button"
+                            style="border-radius: 0;"
+                          />
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control"
+                    >
+                      <div
+                        class="ant-form-item-control-input"
+                      >
+                        <div
+                          class="ant-form-item-control-input-content"
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-input"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-col ant-col-24"
+                style="padding-left: 16px; padding-right: 16px;"
+              >
+                <div
+                  class="ant-form-item"
+                >
+                  <div
+                    class="ant-row ant-form-item-row"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label ant-form-item-label-left"
+                      style="flex: 0 0 80px;"
+                    >
+                      <label
+                        class="ant-form-item-no-colon"
+                        for="updateAt"
+                        title=""
+                      >
+                        <div
+                          class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                        >
+                          <span
+                            class="ant-skeleton-button"
+                            style="border-radius: 0;"
+                          />
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control"
+                    >
+                      <div
+                        class="ant-form-item-control-input"
+                      >
+                        <div
+                          class="ant-form-item-control-input-content"
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-input"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-col ant-col-24"
+                style="padding-left: 16px; padding-right: 16px;"
+              >
+                <div
+                  class="ant-form-item"
+                >
+                  <div
+                    class="ant-row ant-form-item-row"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label ant-form-item-label-left"
+                      style="flex: 0 0 80px;"
+                    >
+                      <label
+                        class="ant-form-item-no-colon"
+                        for="createAt"
+                        title=""
+                      >
+                        <div
+                          class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                        >
+                          <span
+                            class="ant-skeleton-button"
+                            style="border-radius: 0;"
+                          />
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control"
+                    >
+                      <div
+                        class="ant-form-item-control-input"
+                      >
+                        <div
+                          class="ant-form-item-control-input-content"
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-input"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-col ant-col-24"
+                style="padding-left: 16px; padding-right: 16px;"
+              >
+                <div
+                  class="ant-form-item"
+                >
+                  <div
+                    class="ant-row ant-form-item-row"
+                  >
+                    <div
+                      class="ant-col ant-form-item-label ant-form-item-label-left"
+                      style="flex: 0 0 80px;"
+                    >
+                      <label
+                        class="ant-form-item-no-colon"
+                        for="num"
+                        title=""
+                      >
+                        <div
+                          class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                        >
+                          <span
+                            class="ant-skeleton-button"
+                            style="border-radius: 0;"
+                          />
+                        </div>
+                      </label>
+                    </div>
+                    <div
+                      class="ant-col ant-form-item-control"
+                    >
+                      <div
+                        class="ant-form-item-control-input"
+                      >
+                        <div
+                          class="ant-form-item-control-input-content"
+                        >
+                          <div
+                            class="ant-skeleton ant-skeleton-element ant-skeleton-active ant-skeleton-block"
+                          >
+                            <span
+                              class="ant-skeleton-input"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-row ant-row-space-between"
+            >
+              <div />
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center"
+              >
+                <div
+                  class="ant-space-item"
+                  style="margin-right: 8px;"
+                >
+                  <div
+                    class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                  >
+                    <span
+                      class="ant-skeleton-button"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                  >
+                    <span
+                      class="ant-skeleton-button"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input
+              style="display: none;"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage pages.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ms-title-prefix"
+            >
+              <a
+                class="ms-page-back-btn"
+              >
+                <span
+                  aria-label="left"
+                  class="anticon anticon-left"
+                  color="#1890ff"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="left"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <h3
+              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-x-large"
+            >
+              主标题
+            </h3>
+          </div>
+          <div
+            class="ms-title-extra"
+          >
+            <div
+              class="ant-space ant-space-horizontal ant-space-align-center ms-actions"
+            />
+          </div>
+        </div>
+        <div
+          class="ms-sub-page-divider"
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ms-sub-page-divider"
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ms-sub-page-divider"
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container ms-title-block"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage request.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+            >
+              <span
+                class="ant-skeleton-input"
+                style="height: 28.28px; display: flex;"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+          >
+            <span
+              class="ant-skeleton-input"
+              style="height: 28.28px; display: flex;"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-skeleton ant-skeleton-active"
+        >
+          <div
+            class="ant-skeleton-content"
+          >
+            <h3
+              class="ant-skeleton-title"
+              style="width: 38%;"
+            />
+            <ul
+              class="ant-skeleton-paragraph"
+            >
+              <li />
+              <li />
+              <li
+                style="width: 61%;"
+              />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage tables.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ms-title-prefix"
+            >
+              <a
+                class="ms-page-back-btn"
+              >
+                <span
+                  aria-label="left"
+                  class="anticon anticon-left"
+                  color="#1890ff"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="left"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </div>
+            <h3
+              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-x-large"
+            >
+              主标题
+            </h3>
+          </div>
+          <div
+            class="ms-title-extra"
+          >
+            <div
+              class="ant-space ant-space-horizontal ant-space-align-center ms-actions"
+            />
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <div
+            class="ms-sub-page"
+          >
+            <div
+              class="ms-title-container"
+            >
+              <div
+                class="ms-title"
+              >
+                <div
+                  class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+                >
+                  <span
+                    class="ant-skeleton-input"
+                    style="height: 22px; display: flex;"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+              >
+                <span
+                  class="ant-skeleton-input"
+                  style="height: 22px; display: flex;"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-skeleton ant-skeleton-active"
+            >
+              <div
+                class="ant-skeleton-content"
+              >
+                <h3
+                  class="ant-skeleton-title"
+                  style="width: 38%;"
+                />
+                <ul
+                  class="ant-skeleton-paragraph"
+                >
+                  <li />
+                  <li />
+                  <li
+                    style="width: 61%;"
+                  />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ms-table"
+        >
+          <div
+            class="ms-title-container"
+          >
+            <div
+              class="ms-title"
+            >
+              <h3
+                class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line ms-title-text ms-title-gradient ms-title-middle"
+              >
+                子表格（组件请求）
+              </h3>
+            </div>
+          </div>
+          <div
+            class="ms-table-filter"
+          >
+            <div
+              class="ant-row ant-row-no-wrap ant-row-space-between ant-row-top"
+              style="margin: -4px -4px -4px -4px; padding-bottom: 16px;"
+            >
+              <div
+                class="ant-col"
+                style="padding: 4px 4px 4px 4px;"
+              >
+                <div
+                  class="ant-row ant-row-no-wrap ant-row-top"
+                  style="margin: -4px -4px -4px -4px;"
+                >
+                  <div
+                    class="ant-col"
+                    style="padding: 4px 4px 4px 4px;"
+                  >
+                    <form
+                      class="ant-form ant-form-horizontal ms-query-form"
+                      id="MsTableForm"
+                    >
+                      <div
+                        class="ant-row"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <div
+                            class="ant-form-item"
+                          >
+                            <div
+                              class="ant-row ant-form-item-row"
+                            >
+                              <div
+                                class="ant-col ant-form-item-control"
+                              >
+                                <div
+                                  class="ant-form-item-control-input"
+                                >
+                                  <div
+                                    class="ant-form-item-control-input-content"
+                                  >
+                                    <span
+                                      class="ant-input-group ant-input-group-compact ms-select-query"
+                                    >
+                                      <div
+                                        class="ant-select ms-select-query-select ant-select-single ant-select-show-arrow"
+                                        data-testid="ms-query-merged-select"
+                                      >
+                                        <div
+                                          class="ant-select-selector"
+                                        >
+                                          <span
+                                            class="ant-select-selection-search"
+                                          >
+                                            <input
+                                              aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                                              aria-autocomplete="list"
+                                              aria-controls="rc_select_TEST_OR_SSR_list"
+                                              aria-haspopup="listbox"
+                                              aria-owns="rc_select_TEST_OR_SSR_list"
+                                              autocomplete="off"
+                                              class="ant-select-selection-search-input"
+                                              id="rc_select_TEST_OR_SSR"
+                                              readonly=""
+                                              role="combobox"
+                                              style="opacity: 0;"
+                                              type="search"
+                                              unselectable="on"
+                                              value=""
+                                            />
+                                          </span>
+                                          <span
+                                            class="ant-select-selection-item"
+                                            title="实例名称"
+                                          >
+                                            实例名称
+                                          </span>
+                                        </div>
+                                        <span
+                                          aria-hidden="true"
+                                          class="ant-select-arrow"
+                                          style="user-select: none;"
+                                          unselectable="on"
+                                        >
+                                          <span
+                                            aria-label="down"
+                                            class="anticon anticon-down ant-select-suffix"
+                                            role="img"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              data-icon="down"
+                                              fill="currentColor"
+                                              focusable="false"
+                                              height="1em"
+                                              viewBox="64 64 896 896"
+                                              width="1em"
+                                            >
+                                              <path
+                                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                              />
+                                            </svg>
+                                          </span>
+                                        </span>
+                                      </div>
+                                      <span
+                                        class="ant-input-group-wrapper ant-input-search ms-select-query-search"
+                                      >
+                                        <span
+                                          class="ant-input-wrapper ant-input-group"
+                                        >
+                                          <span
+                                            class="ant-input-affix-wrapper"
+                                          >
+                                            <input
+                                              class="ant-input"
+                                              id="MsTableForm_name"
+                                              placeholder="请输入实例名称"
+                                              type="text"
+                                              value=""
+                                            />
+                                            <span
+                                              class="ant-input-suffix"
+                                            >
+                                              <span
+                                                class="ant-input-clear-icon ant-input-clear-icon-hidden"
+                                                role="button"
+                                                tabindex="-1"
+                                              >
+                                                <span
+                                                  aria-label="close-circle"
+                                                  class="anticon anticon-close-circle"
+                                                  role="img"
+                                                >
+                                                  <svg
+                                                    aria-hidden="true"
+                                                    data-icon="close-circle"
+                                                    fill="currentColor"
+                                                    fill-rule="evenodd"
+                                                    focusable="false"
+                                                    height="1em"
+                                                    viewBox="64 64 896 896"
+                                                    width="1em"
+                                                  >
+                                                    <path
+                                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                                    />
+                                                  </svg>
+                                                </span>
+                                              </span>
+                                            </span>
+                                          </span>
+                                          <span
+                                            class="ant-input-group-addon"
+                                          >
+                                            <button
+                                              class="ant-btn ant-btn-default ant-btn-icon-only ant-input-search-button"
+                                              type="button"
+                                            >
+                                              <span
+                                                aria-label="search"
+                                                class="anticon anticon-search"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="search"
+                                                  fill="currentColor"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0011.6 0l43.6-43.5a8.2 8.2 0 000-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </button>
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <div
+                            class="ant-form-item"
+                          >
+                            <div
+                              class="ant-row ant-form-item-row"
+                            >
+                              <div
+                                class="ant-col ant-form-item-control"
+                              >
+                                <div
+                                  class="ant-form-item-control-input"
+                                >
+                                  <div
+                                    class="ant-form-item-control-input-content"
+                                  >
+                                    <div
+                                      class="ant-select ant-select-in-form-item ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-show-search"
+                                      style="min-width: 140px; width: 100%;"
+                                    >
+                                      <div
+                                        class="ant-select-selector"
+                                      >
+                                        <span
+                                          class="ant-select-selection-search"
+                                        >
+                                          <input
+                                            aria-activedescendant="MsTableForm_networkType_list_0"
+                                            aria-autocomplete="list"
+                                            aria-controls="MsTableForm_networkType_list"
+                                            aria-haspopup="listbox"
+                                            aria-owns="MsTableForm_networkType_list"
+                                            autocomplete="off"
+                                            class="ant-select-selection-search-input"
+                                            id="MsTableForm_networkType"
+                                            role="combobox"
+                                            type="search"
+                                            value=""
+                                          />
+                                        </span>
+                                        <span
+                                          class="ant-select-selection-placeholder"
+                                        >
+                                          网络类型
+                                        </span>
+                                      </div>
+                                      <span
+                                        aria-hidden="true"
+                                        class="ant-select-arrow"
+                                        style="user-select: none;"
+                                        unselectable="on"
+                                      >
+                                        <span
+                                          aria-label="down"
+                                          class="anticon anticon-down ant-select-suffix"
+                                          role="img"
+                                        >
+                                          <svg
+                                            aria-hidden="true"
+                                            data-icon="down"
+                                            fill="currentColor"
+                                            focusable="false"
+                                            height="1em"
+                                            viewBox="64 64 896 896"
+                                            width="1em"
+                                          >
+                                            <path
+                                              d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                            />
+                                          </svg>
+                                        </span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <input
+                        style="display: none;"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-col"
+                style="padding: 4px 4px 4px 4px;"
+              >
+                <div
+                  class="ant-space ant-space-horizontal ant-space-align-center"
+                >
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 8px;"
+                  >
+                    <button
+                      class="ant-btn ant-btn-default ant-btn-icon-only ant-btn-loading"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-loading-icon"
+                      >
+                        <span
+                          aria-label="loading"
+                          class="anticon anticon-loading anticon-spin"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="loading"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="0 0 1024 1024"
+                            width="1em"
+                          >
+                            <path
+                              d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 8px;"
+                  >
+                    <button
+                      class="ant-btn ant-btn-default ant-btn-icon-only ant-dropdown-trigger"
+                      type="button"
+                    >
+                      <span
+                        aria-label="column-height"
+                        class="anticon anticon-column-height"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="column-height"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M840 836H184c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h656c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zm0-724H184c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h656c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8zM610.8 378c6 0 9.4-7 5.7-11.7L515.7 238.7a7.14 7.14 0 00-11.3 0L403.6 366.3a7.23 7.23 0 005.7 11.7H476v268h-62.8c-6 0-9.4 7-5.7 11.7l100.8 127.5c2.9 3.7 8.5 3.7 11.3 0l100.8-127.5c3.7-4.7.4-11.7-5.7-11.7H548V378h62.8z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                  <div
+                    class="ant-space-item"
+                  >
+                    <button
+                      class="ant-btn ant-btn-default ant-btn-icon-only"
+                      type="button"
+                    >
+                      <span
+                        aria-label="setting"
+                        class="anticon anticon-setting"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="setting"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M924.8 625.7l-65.5-56c3.1-19 4.7-38.4 4.7-57.8s-1.6-38.8-4.7-57.8l65.5-56a32.03 32.03 0 009.3-35.2l-.9-2.6a443.74 443.74 0 00-79.7-137.9l-1.8-2.1a32.12 32.12 0 00-35.1-9.5l-81.3 28.9c-30-24.6-63.5-44-99.7-57.6l-15.7-85a32.05 32.05 0 00-25.8-25.7l-2.7-.5c-52.1-9.4-106.9-9.4-159 0l-2.7.5a32.05 32.05 0 00-25.8 25.7l-15.8 85.4a351.86 351.86 0 00-99 57.4l-81.9-29.1a32 32 0 00-35.1 9.5l-1.8 2.1a446.02 446.02 0 00-79.7 137.9l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.3 56.6c-3.1 18.8-4.6 38-4.6 57.1 0 19.2 1.5 38.4 4.6 57.1L99 625.5a32.03 32.03 0 00-9.3 35.2l.9 2.6c18.1 50.4 44.9 96.9 79.7 137.9l1.8 2.1a32.12 32.12 0 0035.1 9.5l81.9-29.1c29.8 24.5 63.1 43.9 99 57.4l15.8 85.4a32.05 32.05 0 0025.8 25.7l2.7.5a449.4 449.4 0 00159 0l2.7-.5a32.05 32.05 0 0025.8-25.7l15.7-85a350 350 0 0099.7-57.6l81.3 28.9a32 32 0 0035.1-9.5l1.8-2.1c34.8-41.1 61.6-87.5 79.7-137.9l.9-2.6c4.5-12.3.8-26.3-9.3-35zM788.3 465.9c2.5 15.1 3.8 30.6 3.8 46.1s-1.3 31-3.8 46.1l-6.6 40.1 74.7 63.9a370.03 370.03 0 01-42.6 73.6L721 702.8l-31.4 25.8c-23.9 19.6-50.5 35-79.3 45.8l-38.1 14.3-17.9 97a377.5 377.5 0 01-85 0l-17.9-97.2-37.8-14.5c-28.5-10.8-55-26.2-78.7-45.7l-31.4-25.9-93.4 33.2c-17-22.9-31.2-47.6-42.6-73.6l75.5-64.5-6.5-40c-2.4-14.9-3.7-30.3-3.7-45.5 0-15.3 1.2-30.6 3.7-45.5l6.5-40-75.5-64.5c11.3-26.1 25.6-50.7 42.6-73.6l93.4 33.2 31.4-25.9c23.7-19.5 50.2-34.9 78.7-45.7l37.9-14.3 17.9-97.2c28.1-3.2 56.8-3.2 85 0l17.9 97 38.1 14.3c28.7 10.8 55.4 26.2 79.3 45.8l31.4 25.8 92.8-32.9c17 22.9 31.2 47.6 42.6 73.6L781.8 426l6.5 39.9zM512 326c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm79.2 255.2A111.6 111.6 0 01512 614c-29.9 0-58-11.7-79.2-32.8A111.6 111.6 0 01400 502c0-29.9 11.7-58 32.8-79.2C454 401.6 482.1 390 512 390c29.9 0 58 11.6 79.2 32.8A111.6 111.6 0 01624 502c0 29.9-11.7 58-32.8 79.2z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-spin-nested-loading"
+          >
+            <div
+              class="ant-spin-container"
+            >
+              <div
+                class="ms-table-content"
+              >
+                <div
+                  class="ant-table-wrapper"
+                >
+                  <div
+                    class="ant-spin-nested-loading"
+                  >
+                    <div
+                      class="ant-spin-container"
+                    >
+                      <div
+                        class="ant-table ant-table-small ant-table-empty ant-table-scroll-horizontal"
+                      >
+                        <div
+                          class="ant-table-container"
+                        >
+                          <div
+                            class="ant-table-content"
+                            style="overflow-x: auto; overflow-y: hidden;"
+                          >
+                            <table
+                              style="width: 100%; min-width: 100%; table-layout: fixed;"
+                            >
+                              <colgroup>
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                                <col
+                                  style="width: 90px;"
+                                />
+                              </colgroup>
+                              <thead
+                                class="ant-table-thead"
+                              >
+                                <tr>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="实例名称"
+                                  >
+                                    实例名称
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="IP地址"
+                                  >
+                                    IP地址
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="网络类型"
+                                  >
+                                    网络类型
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="运行状态"
+                                  >
+                                    运行状态
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                  <th
+                                    class="ant-table-cell ant-table-cell-ellipsis react-resizable"
+                                    title="操作"
+                                  >
+                                    操作
+                                    <span
+                                      class="ms-table-column-resizable-handle"
+                                    />
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody
+                                class="ant-table-tbody"
+                              >
+                                <tr
+                                  aria-hidden="true"
+                                  class="ant-table-measure-row"
+                                  style="height: 0px; font-size: 0px;"
+                                >
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                  <td
+                                    style="padding: 0px; border: 0px; height: 0px;"
+                                  >
+                                    <div
+                                      style="height: 0px; overflow: hidden;"
+                                    >
+                                       
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr
+                                  class="ant-table-placeholder"
+                                >
+                                  <td
+                                    class="ant-table-cell"
+                                    colspan="5"
+                                  >
+                                    <div
+                                      class="ant-table-expanded-row-fixed"
+                                      style="width: 0px; position: sticky; left: 0px; overflow: hidden;"
+                                    />
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ms-table-content-footer"
+              >
+                <div
+                  class="ant-row ant-row-space-between ant-row-middle"
+                  style="margin-top: 16px;"
+                >
+                  <div
+                    class="ant-col"
+                  />
+                  <div
+                    class="ant-col"
+                  >
+                    <ul
+                      class="ant-pagination ant-pagination-mini"
+                    >
+                      <li
+                        class="ant-pagination-total-text"
+                      >
+                        共 0 项
+                      </li>
+                      <li
+                        aria-disabled="true"
+                        class="ant-pagination-prev ant-pagination-disabled"
+                        title="Previous Page"
+                      >
+                        <button
+                          class="ant-pagination-item-link"
+                          disabled=""
+                          tabindex="-1"
+                          type="button"
+                        >
+                          <span
+                            aria-label="left"
+                            class="anticon anticon-left"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              data-icon="left"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </li>
+                      <li
+                        class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-disabled"
+                        tabindex="0"
+                        title="1"
+                      >
+                        <a
+                          rel="nofollow"
+                        >
+                          1
+                        </a>
+                      </li>
+                      <li
+                        aria-disabled="true"
+                        class="ant-pagination-next ant-pagination-disabled"
+                        title="Next Page"
+                      >
+                        <button
+                          class="ant-pagination-item-link"
+                          disabled=""
+                          tabindex="-1"
+                          type="button"
+                        >
+                          <span
+                            aria-label="right"
+                            class="anticon anticon-right"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              data-icon="right"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </li>
+                      <li
+                        class="ant-pagination-options"
+                      >
+                        <div
+                          aria-label="Page Size"
+                          class="ant-select ant-select-sm ant-pagination-options-size-changer ant-select-single ant-select-show-arrow"
+                        >
+                          <div
+                            class="ant-select-selector"
+                          >
+                            <span
+                              class="ant-select-selection-search"
+                            >
+                              <input
+                                aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                                aria-autocomplete="list"
+                                aria-controls="rc_select_TEST_OR_SSR_list"
+                                aria-expanded="false"
+                                aria-haspopup="listbox"
+                                aria-label="Page Size"
+                                aria-owns="rc_select_TEST_OR_SSR_list"
+                                autocomplete="off"
+                                class="ant-select-selection-search-input"
+                                id="rc_select_TEST_OR_SSR"
+                                readonly=""
+                                role="combobox"
+                                style="opacity: 0;"
+                                type="search"
+                                unselectable="on"
+                                value=""
+                              />
+                            </span>
+                            <span
+                              class="ant-select-selection-item"
+                              title="10 / page"
+                            >
+                              10 / page
+                            </span>
+                          </div>
+                          <span
+                            aria-hidden="true"
+                            class="ant-select-arrow"
+                            style="user-select: none;"
+                            unselectable="on"
+                          >
+                            <span
+                              aria-label="down"
+                              class="anticon anticon-down ant-select-suffix"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="down"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsPage 组件 demo 测试 正确渲染 MsPage tabs.tsx 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-body"
+      style="padding: 20px;"
+    >
+      <div
+        class="ms-page"
+      >
+        <div
+          class="ms-title-container"
+        >
+          <div
+            class="ms-title"
+          >
+            <div
+              class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+            >
+              <span
+                class="ant-skeleton-input"
+                style="height: 28.28px; display: flex;"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-skeleton ant-skeleton-element ant-skeleton-active"
+          >
+            <span
+              class="ant-skeleton-input"
+              style="height: 28.28px; display: flex;"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-skeleton ant-skeleton-active"
+        >
+          <div
+            class="ant-skeleton-content"
+          >
+            <h3
+              class="ant-skeleton-title"
+              style="width: 38%;"
+            />
+            <ul
+              class="ant-skeleton-paragraph"
+            >
+              <li />
+              <li />
+              <li
+                style="width: 61%;"
+              />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

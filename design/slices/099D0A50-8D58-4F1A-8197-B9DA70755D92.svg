@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>099D0A50-8D58-4F1A-8197-B9DA70755D92</title>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="上传" transform="translate(-188, -2819)">
+            <g id="未知文件" transform="translate(188, 2819)">
+                <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                <g id="编组" transform="translate(1, 0)">
+                    <path d="M14,15.4285714 C14,15.7441714 13.73138,16 13.4,16 L0.6,16 C0.26862,16 0,15.7441714 0,15.4285714 L0,0.571428571 C0,0.255828571 0.26862,0 0.6,0 L10.12,0 L14,3.6952381 L14,15.4285714 Z" id="路径" fill="#4795FF" fill-rule="nonzero"></path>
+                    <rect id="矩形" fill="#FFFFFF" x="3" y="7.4" width="8" height="1.4" rx="0.7"></rect>
+                    <rect id="矩形备份-3" fill="#FFFFFF" x="3" y="10.8" width="8" height="1.4" rx="0.7"></rect>
+                    <rect id="矩形" fill="#FFFFFF" x="3" y="4" width="4" height="1.4" rx="0.7"></rect>
+                    <path d="M14,3.6952381 L10.72,3.6952381 C10.38862,3.6952381 10.12,3.43940952 10.12,3.12380952 L10.12,0" id="路径" fill-opacity="0.4" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

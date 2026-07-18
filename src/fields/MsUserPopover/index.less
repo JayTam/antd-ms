@@ -1,0 +1,141 @@
+@ant-prefix: ant;
+
+.user-popover {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  row-gap: 6px;
+
+  .user-select {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 6px 4px 6px 0;
+
+    .user-close {
+      position: absolute;
+      right: 0;
+      width: 10px;
+      height: 10px;
+      color: #f55445;
+      visibility: hidden;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    &:hover {
+      .user-close {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  .select-name {
+    position: relative;
+    width: 56px;
+    height: 24px;
+    padding: 0 10px;
+    line-height: 24px;
+    text-align: left;
+
+    .select-title {
+      position: relative;
+      display: inline-block;
+      max-width: 46px;
+      padding-right: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.extra-user-label {
+  display: inline-block;
+  width: 100%;
+  margin: 0 8px;
+  margin-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.select-icon {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.user-popover-wrap {
+  padding-top: 10px;
+}
+
+.user-add-button {
+  display: flex;
+  align-items: center;
+  margin: 6px 0 6px 0;
+  color: #2695f1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.disabled-button {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+
+.popover-wrapper {
+  max-height: 376px;
+  overflow: auto;
+
+  .search-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 260px;
+    padding: 4px 4px 16px 4px;
+    background-color: #fff;
+  }
+}
+
+.one-line {
+  flex-wrap: nowrap;
+
+  .selected-one-line {
+    // max-width: calc(100% - 100px);
+    display: flex;
+    // max-width: calc(100% - 100px);
+    overflow: hidden;
+    white-space: nowrap;
+    white-space: nowrap;
+  }
+
+  .select-name {
+    width: auto;
+    padding-right: 0;
+
+    .select-title {
+      display: flex;
+      max-width: none;
+    }
+  }
+
+  .user-select {
+    margin-right: 10px;
+  }
+}
+
+.extra-warp {
+  display: flex;
+  align-items: center;
+}
+
+.tooltip-max-width {
+  max-width: 800px;
+}

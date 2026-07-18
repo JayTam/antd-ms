@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="160px" viewBox="0 0 180 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>选择提示</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="180" height="160"></rect>
+        <rect id="path-3" x="13.1265823" y="13.1332357" width="124.894515" height="94.9633968" rx="4"></rect>
+        <filter x="-24.0%" y="-25.3%" width="148.0%" height="163.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.255866708   0 0 0 0 0.722967618  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="6.81803463%" y1="49.0912644%" x2="90.0196886%" y2="50.3041867%" id="linearGradient-5">
+            <stop stop-color="#37D8FF" offset="1.48601399%"></stop>
+            <stop stop-color="#7CEEF0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4.38000011,0 L120.514515,-8.8817842e-16 C122.933522,7.26149736e-15 124.894515,1.96099285 124.894515,4.38000011 L124.894515,16.8374817 L124.894515,16.8374817 L0,16.8374817 L-8.8817842e-16,4.38000011 C-1.18442137e-15,1.96099285 1.96099285,-4.43813994e-16 4.38000011,-8.8817842e-16 Z" id="path-6"></path>
+        <linearGradient x1="1.60982339e-13%" y1="50%" x2="97.2137238%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#6FE1FF" offset="0%"></stop>
+            <stop stop-color="#6AB2FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.68428101%" y1="50%" x2="95.0380566%" y2="50%" id="linearGradient-9">
+            <stop stop-color="#2E85FF" offset="0%"></stop>
+            <stop stop-color="#23A5FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.68428101%" y1="50%" x2="95.0380566%" y2="50%" id="linearGradient-10">
+            <stop stop-color="#2E85FF" offset="0%"></stop>
+            <stop stop-color="#23A5FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="空状态" transform="translate(-240, -2362)">
+            <g id="编组-12" transform="translate(240, 2362)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(7, 22)">
+                        <rect id="矩形" stroke="none" fill="#E6F0FA" fill-rule="evenodd" x="0" y="0" width="124.894515" height="94.9633968" rx="4"></rect>
+                        <g id="矩形备份-11" stroke="none" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#EBF4FF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="矩形" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(13.1266, 13.1332)">
+                            <mask id="mask-7" fill="white">
+                                <use xlink:href="#path-6"></use>
+                            </mask>
+                            <use id="蒙版" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                            <rect fill="#6B69FF" mask="url(#mask-7)" x="0" y="0" width="32.0675105" height="20.204978"></rect>
+                            <rect id="矩形备份-16" fill="#7F8FFF" mask="url(#mask-7)" x="32.0675105" y="0" width="32.0675105" height="20.204978"></rect>
+                            <rect id="矩形备份-17" fill="#9AB2FF" mask="url(#mask-7)" x="64.1350211" y="0" width="32.0675105" height="20.204978"></rect>
+                            <rect id="矩形备份-18" fill="#C9DCFF" mask="url(#mask-7)" x="96.2025316" y="0" width="32.0675105" height="20.204978"></rect>
+                        </g>
+                        <ellipse id="椭圆形" stroke="none" fill="#FFC548" fill-rule="evenodd" cx="21.1434599" cy="21.9729136" rx="2.10970464" ry="2.10468521"></ellipse>
+                        <ellipse id="椭圆形备份" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="28.7383966" cy="21.9729136" rx="2.10970464" ry="2.10468521"></ellipse>
+                        <ellipse id="椭圆形备份-2" stroke="none" fill="#FFFFFF" fill-rule="evenodd" cx="36.3333333" cy="21.9729136" rx="2.10970464" ry="2.10468521"></ellipse>
+                        <rect id="矩形" stroke="none" fill="url(#linearGradient-8)" fill-rule="evenodd" x="21.5654008" y="38.3894583" width="58.2278481" height="13.4699854"></rect>
+                        <polyline id="路径-5" stroke="#FFFFFF" stroke-width="1.68776371" fill="none" points="69.7689481 43.4407028 72.7225346 45.966325 75.6761211 43.4407028"></polyline>
+                        <rect id="矩形备份-20" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="21.6909639" y="60.2781845" width="29.7634912" height="34.3484627"></rect>
+                        <rect id="矩形备份-21" stroke="none" fill="#FFFFFF" fill-rule="evenodd" opacity="0.600000024" x="59.9737753" y="60.2781845" width="29.7634912" height="34.3484627"></rect>
+                        <rect id="矩形备份-23" stroke="none" fill="#FFFFFF" fill-rule="evenodd" opacity="0.400000006" x="98.2565866" y="60.2781845" width="29.7634912" height="34.3484627"></rect>
+                        <g id="编组-16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(93.8017, 77.9575)">
+                            <rect id="矩形" fill="url(#linearGradient-9)" x="0" y="0" width="47.257384" height="15.1537335" rx="1.68776371"></rect>
+                            <rect id="矩形备份-22" fill="#67E0D3" x="0" y="21.8887262" width="47.257384" height="15.1537335" rx="1.68776371"></rect>
+                            <ellipse id="椭圆形" fill="url(#linearGradient-10)" cx="61.6033755" cy="7.57686676" rx="7.59493671" ry="7.57686676"></ellipse>
+                            <ellipse id="椭圆形备份-3" fill="#67E0D3" cx="61.6033755" cy="29.465593" rx="7.59493671" ry="7.57686676"></ellipse>
+                            <ellipse id="椭圆形" fill="#FFFFFF" cx="58.2278481" cy="29.465593" rx="1" ry="1"></ellipse>
+                            <ellipse id="椭圆形备份-4" fill="#FFFFFF" cx="61.6033755" cy="29.465593" rx="1" ry="1"></ellipse>
+                            <ellipse id="椭圆形备份-5" fill="#FFFFFF" cx="64.978903" cy="29.465593" rx="1" ry="1"></ellipse>
+                            <polyline id="路径-5" stroke="#FFFFFF" stroke-width="1.68776371" points="58.0855637 7.17500852 61.0185383 10.0780666 65.1782758 5.61697811"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

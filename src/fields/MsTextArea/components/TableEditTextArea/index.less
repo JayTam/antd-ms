@@ -1,0 +1,23 @@
+@ant-prefix: ant;
+
+.row-edit-text-area-overlay {
+  .@{ant-prefix}-popover-inner-content {
+    padding: 8px;
+  }
+}
+
+.row-edit-text-area-input {
+  cursor: pointer;
+}
+
+.row-edit-text-area .@{ant-prefix}-input {
+  min-width: 220px;
+  height: 120px;
+}
+
+.@{ant-prefix}-input-textarea-show-count.@{ant-prefix}-input-textarea-in-form-item::after {
+  display: inline-block;
+  float: none !important;
+  width: 100%;
+  text-align: right;
+}

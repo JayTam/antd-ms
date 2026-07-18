@@ -1,0 +1,27 @@
+@ant-prefix: ant;
+
+.ms-form-table-cell > .@{ant-prefix}-form-item,
+.ms-form-table-cell > .@{ant-prefix}-col > .@{ant-prefix}-form-item {
+  margin: 0;
+
+  .@{ant-prefix}-form-item-label {
+    display: none;
+  }
+}
+
+.ms-form-table-click-edit-cell {
+  min-height: 48px;
+  padding: 0 !important;
+  .@{ant-prefix}-form-item {
+    margin-bottom: 0 !important;
+  }
+  .ms-form-table-action-cell {
+    padding-top: 8px;
+  }
+  .ms-form-table-order-cell {
+    display: block;
+    height: 48px !important;
+    padding-left: 16px !important;
+    line-height: 48px !important;
+  }
+}

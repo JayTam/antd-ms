@@ -1,0 +1,52 @@
+@import url('../../design/global/index.less');
+@ant-prefix: ant;
+
+.ms-statistic-container {
+  .@{ant-prefix}-skeleton-title {
+    margin: 1.29px 0;
+  }
+
+  .ms-statistic-card:focus {
+    border: 1px solid @primary-hover-color;
+    border-radius: 4px;
+  }
+
+  .icon-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    padding: 0 4px;
+    cursor: pointer;
+  }
+
+  .icon-container-hover {
+    &:hover {
+      background-color: @white-gray-color;
+    }
+  }
+
+  .item-hover {
+    transition: box-shadow 0.3s, border-color, 0.3s outline 0.3s;
+
+    &:hover {
+      outline: transparent;
+      border-color: transparent;
+      box-shadow: 0 1px 2px -2px rgba(0 0 0 / 16%), 0 3px 6px 0 rgba(0 0 0 / 12%),
+        0 5px 12px 4px rgba(0 0 0 / 9%);
+    }
+  }
+
+  .card-normal {
+    padding: 12px;
+    outline: 1px solid @white-color;
+    border-radius: @border-radius-md;
+  }
+
+  .card-gray {
+    padding: 12px;
+    background-color: @light-gray-color;
+    border-radius: @border-radius-md;
+  }
+}

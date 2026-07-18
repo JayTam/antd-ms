@@ -1,0 +1,32 @@
+@ant-prefix: ant;
+
+.ms-empty {
+  .@{ant-prefix}-empty-image {
+    height: unset;
+    margin: auto;
+  }
+
+  .@{ant-prefix}-empty-footer {
+    margin-top: 10px;
+  }
+
+  .ms-empty-title {
+    margin-bottom: 4px;
+    color: #20242e;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .ms-empty-desc {
+    color: #78858f;
+    line-height: 20px;
+  }
+
+  .ms-empty-btn {
+    margin-top: 16px;
+
+    .@{ant-prefix}-btn:not(:first-child) {
+      margin-left: 8px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.ms-dual-column-drawer-layout {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100%;
+  overflow: auto;
+  .ms-dual-column-drawer-left {
+    flex: 1;
+  }
+  .ms-dual-column-drawer-left,
+  .ms-dual-column-drawer-right {
+    min-height: 100%;
+    padding: 24px;
+  }
+  .ms-dual-column-drawer-right {
+    background-color: #f7f8fa;
+  }
+  .ms-dual-column-drawer-bottom {
+    flex: 0 0 100%;
+    min-height: 30px;
+    padding: 24px;
+    border-top: 10px solid #f1f1f1;
+  }
+}
+.ms-drawer-no-padding .ant-drawer-content .ant-drawer-body {
+  padding: 0;
+  .ant-spin-nested-loading,
+  .ant-spin-container {
+    height: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>50B08CC7-98D7-4367-BB18-EFC19F0F08AB</title>
+    <g id="图表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="仪表盘页面示例" transform="translate(-1040, -151)">
+            <g id="编组-16备份-5" transform="translate(1024, 135)">
+                <g id="mongo" transform="translate(16, 16)">
+                    <rect id="矩形" fill="#F5F7FA" x="0" y="0" width="40" height="40" rx="4"></rect>
+                    <g id="编组" transform="translate(8, 8)" fill-rule="nonzero">
+                        <polygon id="路径" fill-opacity="0.01" fill="#D8D8D8" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M12.5392,1.56 C13.3432,3.192 18.6112,7.248 18.6112,12.288 C18.6112,17.328 15.7072,19.644 13.1872,21.024 L13.1872,23.376 C13.1872,23.796 12.7432,24 12.4672,24 C12.1912,24 11.6872,23.808 11.6872,23.472 L11.6872,21.156 C13.9792,20.388 12.6592,6.612 12.5392,1.56 Z M12.3232,0 C12.2901091,1.59072727 12.2742441,3.30995041 12.2568977,5.05588004 L12.2444221,6.26761633 C12.2429586,6.40244979 12.2414607,6.53730228 12.23992,6.67212747 L12.2300938,7.48038042 C12.1480292,13.8033223 11.9337455,19.8612727 10.7032,20.844 C9.7552,20.544 5.1712,18.612 5.1712,12.276 C5.1712,5.268 11.6872,2.868 12.3232,0 Z" id="形状结合" fill="#006EFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsFieldMsFormTabs 组件 demo 测试 正确渲染 MsFieldMsFormTabs basic.tsx 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row"
+        style="margin-left: -16px; margin-right: -16px;"
+      >
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="_ms_form_list_"
+                  title="列表"
+                >
+                  列表
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <div
+                      class="ms-form-tabs"
+                      id="list"
+                    >
+                      <div
+                        class="ant-row box-tabs-nav-list"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <button
+                            class="ant-btn ant-btn-default box-tabs-add"
+                            type="button"
+                          >
+                            <span
+                              class="anticon box-tabs-add-icon"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                                />
+                              </svg>
+                            </span>
+                            <p
+                              class="box-tabs-add-text"
+                            >
+                              新增
+                            </p>
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="box-tabs-content"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-row-space-between"
+      >
+        <div />
+        <div
+          class="ant-space ant-space-horizontal ant-space-align-center"
+        >
+          <div
+            class="ant-space-item"
+            style="margin-right: 8px;"
+          >
+            <button
+              class="ant-btn ant-btn-default"
+              type="button"
+            >
+              <span>
+                重 置
+              </span>
+            </button>
+          </div>
+          <div
+            class="ant-space-item"
+          >
+            <button
+              class="ant-btn ant-btn-primary"
+              type="button"
+            >
+              <span>
+                提 交
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <input
+        style="display: none;"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsFormTabs 组件 demo 测试 正确渲染 MsFieldMsFormTabs delete-confirm.tsx 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row"
+        style="margin-left: -16px; margin-right: -16px;"
+      >
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="_ms_form_list_"
+                  title="列表"
+                >
+                  列表
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <div
+                      class="ms-form-tabs"
+                      id="list"
+                    >
+                      <div
+                        class="ant-row box-tabs-nav-list"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <div
+                            aria-controls="box-tabs-4-tabpanel-0"
+                            aria-selected="true"
+                            class="box-tabs-tab box-tabs-tab-active"
+                            id="box-tabs-4-tab-0"
+                            role="tab"
+                            tabindex="0"
+                          >
+                            <span
+                              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line box-tabs-tab-title"
+                            >
+                              选项0
+                            </span>
+                            <span
+                              class="anticon box-tabs-tab-del"
+                              role="img"
+                              tabindex="-1"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M216.43 148.846a25.6 25.6 0 0 0-36.206 0l-31.086 31.085a25.6 25.6 0 0 0 0 36.206L445.074 512 149.138 807.936a25.6 25.6 0 0 0 0 36.206l31.086 31.012a25.6 25.6 0 0 0 36.206 0l295.863-295.936 295.862 295.936a25.6 25.6 0 0 0 36.206 0l31.086-31.085a25.6 25.6 0 0 0 0-36.206L579.51 512l295.936-295.863a25.6 25.6 0 0 0 0-36.206l-31.086-31.085a25.6 25.6 0 0 0-36.206 0L512.293 444.782 216.43 148.846z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <button
+                            class="ant-btn ant-btn-default box-tabs-add"
+                            type="button"
+                          >
+                            <span
+                              class="anticon box-tabs-add-icon"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                                />
+                              </svg>
+                            </span>
+                            <p
+                              class="box-tabs-add-text"
+                            >
+                              新增
+                            </p>
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="box-tabs-content"
+                      >
+                        <div
+                          aria-hidden="false"
+                          aria-labelledby="box-tabs-4-tab-0"
+                          class="box-tabs-tabpanel"
+                          id="box-tabs-4-tabpanel-0"
+                          role="tabpanel"
+                        >
+                          <div
+                            class="ant-row"
+                            style="margin-left: -10px; margin-right: -10px;"
+                          >
+                            <div
+                              class="ant-col ant-col-24"
+                              style="padding-left: 10px; padding-right: 10px;"
+                            >
+                              <div
+                                class="ant-form-item"
+                              >
+                                <div
+                                  class="ant-row ant-form-item-row"
+                                >
+                                  <div
+                                    class="ant-col ant-form-item-label ant-form-item-label-left"
+                                  >
+                                    <label
+                                      class="ant-form-item-no-colon"
+                                      for="list_0_text1"
+                                      title="输入1"
+                                    >
+                                      输入1
+                                    </label>
+                                  </div>
+                                  <div
+                                    class="ant-col ant-form-item-control"
+                                  >
+                                    <div
+                                      class="ant-form-item-control-input"
+                                    >
+                                      <div
+                                        class="ant-form-item-control-input-content"
+                                      >
+                                        <span
+                                          class="ant-input-affix-wrapper"
+                                          style="width: 100%;"
+                                        >
+                                          <input
+                                            class="ant-input"
+                                            id="list_0_text1"
+                                            placeholder="请输入输入1"
+                                            type="text"
+                                            value="text1"
+                                          />
+                                          <span
+                                            class="ant-input-suffix"
+                                          >
+                                            <span
+                                              class="ant-input-clear-icon"
+                                              role="button"
+                                              tabindex="-1"
+                                            >
+                                              <span
+                                                aria-label="close-circle"
+                                                class="anticon anticon-close-circle"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="close-circle"
+                                                  fill="currentColor"
+                                                  fill-rule="evenodd"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ant-col ant-col-24"
+                              style="padding-left: 10px; padding-right: 10px;"
+                            >
+                              <div
+                                class="ant-form-item"
+                              >
+                                <div
+                                  class="ant-row ant-form-item-row"
+                                >
+                                  <div
+                                    class="ant-col ant-form-item-label ant-form-item-label-left"
+                                  >
+                                    <label
+                                      class="ant-form-item-no-colon"
+                                      for="list_0_text2"
+                                      title="输入2"
+                                    >
+                                      输入2
+                                    </label>
+                                  </div>
+                                  <div
+                                    class="ant-col ant-form-item-control"
+                                  >
+                                    <div
+                                      class="ant-form-item-control-input"
+                                    >
+                                      <div
+                                        class="ant-form-item-control-input-content"
+                                      >
+                                        <span
+                                          class="ant-input-affix-wrapper"
+                                          style="width: 100%;"
+                                        >
+                                          <input
+                                            class="ant-input"
+                                            id="list_0_text2"
+                                            placeholder="请输入输入2"
+                                            type="text"
+                                            value="text2"
+                                          />
+                                          <span
+                                            class="ant-input-suffix"
+                                          >
+                                            <span
+                                              class="ant-input-clear-icon"
+                                              role="button"
+                                              tabindex="-1"
+                                            >
+                                              <span
+                                                aria-label="close-circle"
+                                                class="anticon anticon-close-circle"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="close-circle"
+                                                  fill="currentColor"
+                                                  fill-rule="evenodd"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-row-space-between"
+      >
+        <div />
+        <div
+          class="ant-space ant-space-horizontal ant-space-align-center"
+        >
+          <div
+            class="ant-space-item"
+            style="margin-right: 8px;"
+          >
+            <button
+              class="ant-btn ant-btn-default"
+              type="button"
+            >
+              <span>
+                重 置
+              </span>
+            </button>
+          </div>
+          <div
+            class="ant-space-item"
+          >
+            <button
+              class="ant-btn ant-btn-primary"
+              type="button"
+            >
+              <span>
+                提 交
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <input
+        style="display: none;"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsFormTabs 组件 demo 测试 正确渲染 MsFieldMsFormTabs depend-hidden.tsx 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row"
+        style="margin-left: -16px; margin-right: -16px;"
+      >
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="depended"
+                  title="开关"
+                >
+                  开关
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <div
+                      class="ant-radio-group ant-radio-group-outline ms-radio"
+                      id="depended"
+                      style="width: 100%;"
+                    >
+                      <label
+                        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-in-form-item"
+                      >
+                        <span
+                          class="ant-radio-button ant-radio-button-checked"
+                        >
+                          <input
+                            checked=""
+                            class="ant-radio-button-input"
+                            type="radio"
+                            value="show"
+                          />
+                          <span
+                            class="ant-radio-button-inner"
+                          />
+                        </span>
+                        <span>
+                          显示
+                        </span>
+                      </label>
+                      <label
+                        class="ant-radio-button-wrapper ant-radio-button-wrapper-in-form-item"
+                      >
+                        <span
+                          class="ant-radio-button"
+                        >
+                          <input
+                            class="ant-radio-button-input"
+                            type="radio"
+                            value="hidden"
+                          />
+                          <span
+                            class="ant-radio-button-inner"
+                          />
+                        </span>
+                        <span>
+                          隐藏
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="_ms_form_list_"
+                  title="列表"
+                >
+                  列表
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <div
+                      class="ms-form-tabs"
+                      id="list"
+                    >
+                      <div
+                        class="ant-row box-tabs-nav-list"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <button
+                            class="ant-btn ant-btn-default box-tabs-add"
+                            type="button"
+                          >
+                            <span
+                              class="anticon box-tabs-add-icon"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                                />
+                              </svg>
+                            </span>
+                            <p
+                              class="box-tabs-add-text"
+                            >
+                              新增
+                            </p>
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="box-tabs-content"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-row-space-between"
+      >
+        <div />
+        <div
+          class="ant-space ant-space-horizontal ant-space-align-center"
+        >
+          <div
+            class="ant-space-item"
+            style="margin-right: 8px;"
+          >
+            <button
+              class="ant-btn ant-btn-default"
+              type="button"
+            >
+              <span>
+                重 置
+              </span>
+            </button>
+          </div>
+          <div
+            class="ant-space-item"
+          >
+            <button
+              class="ant-btn ant-btn-primary"
+              type="button"
+            >
+              <span>
+                提 交
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <input
+        style="display: none;"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsFormTabs 组件 demo 测试 正确渲染 MsFieldMsFormTabs description.tsx 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row"
+        style="margin-left: -16px; margin-right: -16px;"
+      >
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="_ms_form_list_"
+                  title="列表"
+                >
+                  列表
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <div
+                      class="ms-form-tabs"
+                      id="tabs"
+                    >
+                      <div
+                        class="ant-row box-tabs-nav-list"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <button
+                            class="ant-btn ant-btn-default box-tabs-add"
+                            type="button"
+                          >
+                            <span
+                              class="anticon box-tabs-add-icon"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                                />
+                              </svg>
+                            </span>
+                            <p
+                              class="box-tabs-add-text"
+                            >
+                              新增实例
+                            </p>
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="box-tabs-content"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-row-space-between"
+      >
+        <div />
+        <div
+          class="ant-space ant-space-horizontal ant-space-align-center"
+        >
+          <div
+            class="ant-space-item"
+            style="margin-right: 8px;"
+          >
+            <button
+              class="ant-btn ant-btn-default"
+              type="button"
+            >
+              <span>
+                重 置
+              </span>
+            </button>
+          </div>
+          <div
+            class="ant-space-item"
+          >
+            <button
+              class="ant-btn ant-btn-primary"
+              type="button"
+            >
+              <span>
+                提 交
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <input
+        style="display: none;"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsFormTabs 组件 demo 测试 正确渲染 MsFieldMsFormTabs limit.tsx 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row"
+        style="margin-left: -16px; margin-right: -16px;"
+      >
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="_ms_form_list_"
+                  title="列表"
+                >
+                  列表
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <div
+                      class="ms-form-tabs"
+                      id="list"
+                    >
+                      <div
+                        class="ant-row box-tabs-nav-list"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <div
+                            aria-controls="box-tabs-1-tabpanel-0"
+                            aria-selected="true"
+                            class="box-tabs-tab box-tabs-tab-active"
+                            id="box-tabs-1-tab-0"
+                            role="tab"
+                            tabindex="0"
+                          >
+                            <span
+                              class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line box-tabs-tab-title"
+                            >
+                              选项0
+                            </span>
+                            <span />
+                          </div>
+                        </div>
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <button
+                            class="ant-btn ant-btn-default box-tabs-add"
+                            type="button"
+                          >
+                            <span
+                              class="anticon box-tabs-add-icon"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                                />
+                              </svg>
+                            </span>
+                            <p
+                              class="box-tabs-add-text"
+                            >
+                              新增
+                              <span>
+                                （
+                                1
+                                /
+                                3
+                                ）
+                              </span>
+                            </p>
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="box-tabs-content"
+                      >
+                        <div
+                          aria-hidden="false"
+                          aria-labelledby="box-tabs-1-tab-0"
+                          class="box-tabs-tabpanel"
+                          id="box-tabs-1-tabpanel-0"
+                          role="tabpanel"
+                        >
+                          <div
+                            class="ant-row"
+                            style="margin-left: -10px; margin-right: -10px;"
+                          >
+                            <div
+                              class="ant-col ant-col-24"
+                              style="padding-left: 10px; padding-right: 10px;"
+                            >
+                              <div
+                                class="ant-form-item"
+                              >
+                                <div
+                                  class="ant-row ant-form-item-row"
+                                >
+                                  <div
+                                    class="ant-col ant-form-item-label ant-form-item-label-left"
+                                  >
+                                    <label
+                                      class="ant-form-item-no-colon"
+                                      for="list_0_text1"
+                                      title="输入1"
+                                    >
+                                      输入1
+                                    </label>
+                                  </div>
+                                  <div
+                                    class="ant-col ant-form-item-control"
+                                  >
+                                    <div
+                                      class="ant-form-item-control-input"
+                                    >
+                                      <div
+                                        class="ant-form-item-control-input-content"
+                                      >
+                                        <span
+                                          class="ant-input-affix-wrapper"
+                                          style="width: 100%;"
+                                        >
+                                          <input
+                                            class="ant-input"
+                                            id="list_0_text1"
+                                            placeholder="请输入输入1"
+                                            type="text"
+                                            value="text1"
+                                          />
+                                          <span
+                                            class="ant-input-suffix"
+                                          >
+                                            <span
+                                              class="ant-input-clear-icon"
+                                              role="button"
+                                              tabindex="-1"
+                                            >
+                                              <span
+                                                aria-label="close-circle"
+                                                class="anticon anticon-close-circle"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="close-circle"
+                                                  fill="currentColor"
+                                                  fill-rule="evenodd"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ant-col ant-col-24"
+                              style="padding-left: 10px; padding-right: 10px;"
+                            >
+                              <div
+                                class="ant-form-item"
+                              >
+                                <div
+                                  class="ant-row ant-form-item-row"
+                                >
+                                  <div
+                                    class="ant-col ant-form-item-label ant-form-item-label-left"
+                                  >
+                                    <label
+                                      class="ant-form-item-no-colon"
+                                      for="list_0_text2"
+                                      title="输入2"
+                                    >
+                                      输入2
+                                    </label>
+                                  </div>
+                                  <div
+                                    class="ant-col ant-form-item-control"
+                                  >
+                                    <div
+                                      class="ant-form-item-control-input"
+                                    >
+                                      <div
+                                        class="ant-form-item-control-input-content"
+                                      >
+                                        <span
+                                          class="ant-input-affix-wrapper"
+                                          style="width: 100%;"
+                                        >
+                                          <input
+                                            class="ant-input"
+                                            id="list_0_text2"
+                                            placeholder="请输入输入2"
+                                            type="text"
+                                            value="text2"
+                                          />
+                                          <span
+                                            class="ant-input-suffix"
+                                          >
+                                            <span
+                                              class="ant-input-clear-icon"
+                                              role="button"
+                                              tabindex="-1"
+                                            >
+                                              <span
+                                                aria-label="close-circle"
+                                                class="anticon anticon-close-circle"
+                                                role="img"
+                                              >
+                                                <svg
+                                                  aria-hidden="true"
+                                                  data-icon="close-circle"
+                                                  fill="currentColor"
+                                                  fill-rule="evenodd"
+                                                  focusable="false"
+                                                  height="1em"
+                                                  viewBox="64 64 896 896"
+                                                  width="1em"
+                                                >
+                                                  <path
+                                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm127.98 274.82h-.04l-.08.06L512 466.75 384.14 338.88c-.04-.05-.06-.06-.08-.06a.12.12 0 00-.07 0c-.03 0-.05.01-.09.05l-45.02 45.02a.2.2 0 00-.05.09.12.12 0 000 .07v.02a.27.27 0 00.06.06L466.75 512 338.88 639.86c-.05.04-.06.06-.06.08a.12.12 0 000 .07c0 .03.01.05.05.09l45.02 45.02a.2.2 0 00.09.05.12.12 0 00.07 0c.02 0 .04-.01.08-.05L512 557.25l127.86 127.87c.04.04.06.05.08.05a.12.12 0 00.07 0c.03 0 .05-.01.09-.05l45.02-45.02a.2.2 0 00.05-.09.12.12 0 000-.07v-.02a.27.27 0 00-.05-.06L557.25 512l127.87-127.86c.04-.04.05-.06.05-.08a.12.12 0 000-.07c0-.03-.01-.05-.05-.09l-45.02-45.02a.2.2 0 00-.09-.05.12.12 0 00-.07 0z"
+                                                  />
+                                                </svg>
+                                              </span>
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-row ant-row-space-between"
+      >
+        <div />
+        <div
+          class="ant-space ant-space-horizontal ant-space-align-center"
+        >
+          <div
+            class="ant-space-item"
+            style="margin-right: 8px;"
+          >
+            <button
+              class="ant-btn ant-btn-default"
+              type="button"
+            >
+              <span>
+                重 置
+              </span>
+            </button>
+          </div>
+          <div
+            class="ant-space-item"
+          >
+            <button
+              class="ant-btn ant-btn-primary"
+              type="button"
+            >
+              <span>
+                提 交
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <input
+        style="display: none;"
+      />
+    </form>
+  </div>
+</div>
+`;
+
+exports[`MsFieldMsFormTabs 组件 demo 测试 正确渲染 MsFieldMsFormTabs nest.tsx 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <form
+      class="ant-form ant-form-horizontal"
+    >
+      <div
+        class="ant-row"
+        style="margin-left: -16px; margin-right: -16px;"
+      >
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="_ms_form_list_"
+                  title="列表"
+                >
+                  列表
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <div
+                      class="ms-form-tabs"
+                      id="list"
+                    >
+                      <div
+                        class="ant-row box-tabs-nav-list"
+                        style="margin: -4px -4px -4px -4px;"
+                      >
+                        <div
+                          class="ant-col"
+                          style="padding: 4px 4px 4px 4px;"
+                        >
+                          <button
+                            class="ant-btn ant-btn-default box-tabs-add"
+                            type="button"
+                          >
+                            <span
+                              class="anticon box-tabs-add-icon"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                                />
+                              </svg>
+                            </span>
+                            <p
+                              class="box-tabs-add-text"
+                            >
+                              新增
+                            </p>
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="box-tabs-content"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-col ant-col-24"
+          style="padding-left: 16px; padding-right: 16px;"
+        >
+          <div
+            class="ant-form-item"
+          >
+            <div
+              class="ant-row ant-form-item-row"
+            >
+              <div
+                class="ant-col ant-form-item-label ant-form-item-label-left"
+                style="flex: 0 0 80px;"
+              >
+                <label
+                  class="ant-form-item-no-colon"
+                  for="code"
+                  title="实际值"
+                >
+                  实际值
+                </label>
+              </div>
+              <div
+                class="ant-col ant-form-item-control"
+              >
+                <div
+                  class="ant-form-item-control-input"
+                >
+                  <div
+                    class="ant-form-item-control-input-content"
+                  >
+                    <pre
+                      id="code"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input
+        style="display: none;"
+      />
+    </form>
+  </div>
+</div>
+`;

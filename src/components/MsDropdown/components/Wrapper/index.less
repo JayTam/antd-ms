@@ -1,0 +1,61 @@
+@ant-prefix: ant;
+
+.ms-dropdown-overlay {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e6e8eb;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+  .@{ant-prefix}-dropdown-menu-root {
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 2px;
+  }
+  .@{ant-prefix}-dropdown-menu-item-disabled {
+    color: #c2c6cc !important;
+  }
+  .@{ant-prefix}-dropdown-menu-item:not(.@{ant-prefix}-dropdown-menu-item-disabled) {
+    border-radius: 2px;
+    &:hover {
+      background-color: #f7f8fa;
+      .@{ant-prefix}-btn-text {
+        &:hover {
+          background-color: inherit;
+        }
+      }
+    }
+    &:active {
+      background: #eceef1;
+    }
+  }
+  .@{ant-prefix}-dropdown-menu-item:not(:last-child) {
+    margin-bottom: 4px;
+  }
+  .@{ant-prefix}-dropdown-menu-item,
+  .@{ant-prefix}-dropdown-menu-submenu-title {
+    min-width: 70px;
+    padding: 5px 8px;
+    font-size: 14px;
+    .@{ant-prefix}-dropdown-menu-item-icon {
+      font-size: 14px;
+    }
+    .@{ant-prefix}-dropdown-menu-title-content {
+      height: 22px;
+      .@{ant-prefix}-btn-sm {
+        height: 22px;
+        padding: 0;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+.ms-dropdown-popconfirm {
+  .@{ant-prefix}-popover-message {
+    font-size: 14px;
+  }
+  .@{ant-prefix}-popover-message-icon {
+    color: #006eff;
+    font-size: 14px;
+  }
+}

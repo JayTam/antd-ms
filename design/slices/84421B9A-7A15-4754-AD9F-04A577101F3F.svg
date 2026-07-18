@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>84421B9A-7A15-4754-AD9F-04A577101F3F</title>
+    <g id="导航" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="顶部导航备份" transform="translate(-1254, -13)">
+            <g id="更多" transform="translate(1254, 13)">
+                <rect id="矩形" x="0" y="0" width="24" height="24" rx="2"></rect>
+                <g transform="translate(4, 4)">
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M1,2 L15,2 L15,3 L1,3 Z M1,7 L15,7 L15,8 L1,8 Z M1,12 L15,12 L15,13 L1,13 Z" id="形状结合" fill="#464F5C"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

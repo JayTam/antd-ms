@@ -1,0 +1,124 @@
+@primary-color: #006eff;
+@primary-hover-color: #2e90ff;
+@error-color: #f54545;
+@error-active-color: #c1363b;
+
+.box-tabs-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(230, 232, 235);
+  margin-bottom: 16px;
+}
+
+.box-tabs-tab {
+  outline: none;
+  position: relative;
+  background: #006eff0f;
+  width: 120px;
+  border-radius: 2px;
+  padding: 0 12px;
+  cursor: pointer;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+
+  .box-tabs-tab-title {
+    font-size: 12px;
+    line-height: 16px;
+    color: #20242e;
+    font-weight: 600;
+  }
+
+  .box-tabs-tab-description {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #464f5c;
+  }
+
+  &:hover {
+    border: 1px solid @primary-color;
+  }
+
+  &:focus-visible {
+    border: 1px solid @primary-color;
+  }
+}
+
+.box-tabs-tab.box-tabs-tab-active {
+  border: 1px solid @primary-color;
+  box-shadow: 0 0 0 2px rgba(16, 111, 251, 0.2);
+
+  .box-tabs-tab-title {
+    color: @primary-color;
+  }
+}
+
+.box-tabs-tab.box-tabs-tab-error {
+  background: #f545450f;
+
+  .box-tabs-tab-title {
+    color: @error-color;
+  }
+
+  &:hover {
+    border: 1px solid @error-color;
+  }
+
+  &:focus-visible {
+    border: 1px solid @error-color;
+  }
+}
+
+.box-tabs-tab.box-tabs-tab-error.box-tabs-tab-active {
+  border: 1px solid @error-color;
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+}
+
+// .box-tabs-tab.box-tabs-tab-error {
+//   background: #f545450f;
+//   &.box-tabs-tab-active {
+//     border: 1px solid @error-color;
+//     &:hover {
+//       border: 1px solid @error-color;
+//     }
+//     &:focus-visible {
+//       box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+//     }
+//   }
+//   & .box-tabs-tab-title {
+//     color: @error-color;
+//   }
+
+//   // &:focus-visible {
+//   //   & .box-tabs-tab-title {
+//   //     color: @error-color;
+//   //   }
+//   // }
+// }
+
+.box-tabs-tab-del.anticon {
+  z-index: 2;
+  position: absolute;
+  padding: 2px;
+  top: -0.5em;
+  right: -0.5em;
+  color: #fff;
+  background-color: rgb(120, 133, 143);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+
+.box-tabs-tabpanel-hidden {
+  display: none;
+}
+
+.box-tabs-tabpanel {
+  outline: none;
+}

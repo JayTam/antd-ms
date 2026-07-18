@@ -1,0 +1,51 @@
+{
+  "name": "@jaytam/ms-gantt",
+  "version": "1.0.1",
+  "description": "@jaytam/ms-gantt 是甘特图组件",
+  "keywords": [
+    "gantt",
+    "@jaytam/ms-gantt"
+  ],
+  "homepage": "http://ui.msxf.msxfyun.test",
+  "bugs": {
+    "url": "https://codelab.msxf.com/gc-pbs/gc-ui-fe/-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://codelab.msxf.com/gc-pbs/gc-ui-fe.git",
+    "branch": "dev-master",
+    "platform": "gitlab"
+  },
+  "license": "MIT",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "main": "lib/esm/index"
+  },
+  "module": "lib/esm/index.js",
+  "typings": "lib/esm/index.d.ts",
+  "files": [
+    "lib/esm",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "father build",
+    "prepublishOnly": "npm run build",
+    "rm": "rm -rf node_modules",
+    "sort": "npx sort-package-json",
+    "start": "dumi dev",
+    "test": "jest",
+    "test:coverage": "jest --coverage --silent"
+  },
+  "author": "",
+  "dependencies": {
+    "@visactor/vtable": "^1.18.3",
+    "@visactor/vtable-gantt": "^1.18.3",
+    "ahooks": "^3.8.4",
+    "dayjs": "1.11.13",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "father": "^4.1.3",
+    "react": "^18.3.1"
+  }
+}

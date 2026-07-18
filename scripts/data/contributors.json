@@ -1,0 +1,1281 @@
+{
+  "MsViewList": [
+    {
+      "author": "向必华",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 13,
+      "insertions": 1287,
+      "deletions": 0
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 1,
+      "insertions": 2,
+      "deletions": 2
+    }
+  ],
+  "MsVerify": [
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 13,
+      "insertions": 486,
+      "deletions": 11
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 1,
+      "insertions": 2,
+      "deletions": 1
+    }
+  ],
+  "MsTitle": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 34,
+      "insertions": 529,
+      "deletions": 83
+    }
+  ],
+  "MsTabs": [
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 91,
+      "insertions": 1324,
+      "deletions": 291
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 4,
+      "insertions": 11,
+      "deletions": 11
+    }
+  ],
+  "MsTableView": [
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 23,
+      "insertions": 1848,
+      "deletions": 312
+    },
+    {
+      "author": "yuan",
+      "email": "yuan.cheng01@msxf.com",
+      "commits": 10,
+      "insertions": 37,
+      "deletions": 10
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 3,
+      "insertions": 47,
+      "deletions": 16
+    },
+    {
+      "author": "shenglan.zhou",
+      "email": "shenglan.zhou@msxf.com",
+      "commits": 1,
+      "insertions": 28,
+      "deletions": 1
+    }
+  ],
+  "MsTable": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 1697,
+      "insertions": 27636,
+      "deletions": 12678
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 24,
+      "insertions": 1609,
+      "deletions": 243
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 18,
+      "insertions": 110,
+      "deletions": 75
+    },
+    {
+      "author": "yuan",
+      "email": "yuan.cheng01@msxf.com",
+      "commits": 10,
+      "insertions": 567,
+      "deletions": 330
+    },
+    {
+      "author": "shenglan.zhou",
+      "email": "shenglan.zhou@msxf.com",
+      "commits": 3,
+      "insertions": 128,
+      "deletions": 93
+    },
+    {
+      "author": "冉术勇",
+      "email": "shuyong.ran-n@msxf.com",
+      "commits": 2,
+      "insertions": 31,
+      "deletions": 1
+    },
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 0
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 1,
+      "insertions": 5,
+      "deletions": 0
+    }
+  ],
+  "MsSvg": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 3,
+      "insertions": 43,
+      "deletions": 0
+    }
+  ],
+  "MsStatus": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 42,
+      "insertions": 846,
+      "deletions": 145
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 15,
+      "insertions": 272,
+      "deletions": 47
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 3,
+      "insertions": 5,
+      "deletions": 1
+    }
+  ],
+  "MsStatistic": [
+    {
+      "author": "dengrui",
+      "email": "rui.deng-n@msxf.com",
+      "commits": 39,
+      "insertions": 1577,
+      "deletions": 214
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 22,
+      "deletions": 22
+    }
+  ],
+  "MsSortable": [
+    {
+      "author": "yuan",
+      "email": "yuan.cheng01@msxf.com",
+      "commits": 42,
+      "insertions": 778,
+      "deletions": 184
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 21,
+      "insertions": 209,
+      "deletions": 96
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 1,
+      "insertions": 6,
+      "deletions": 6
+    },
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsSearch": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 64,
+      "insertions": 1532,
+      "deletions": 229
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 6,
+      "insertions": 21,
+      "deletions": 9
+    }
+  ],
+  "MsRows": [
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 30,
+      "insertions": 664,
+      "deletions": 76
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 3,
+      "insertions": 9,
+      "deletions": 14
+    }
+  ],
+  "MsResizable": [
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 18,
+      "insertions": 371,
+      "deletions": 46
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 2,
+      "insertions": 16,
+      "deletions": 5
+    }
+  ],
+  "MsPageLoading": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 8,
+      "insertions": 284,
+      "deletions": 2
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 7,
+      "insertions": 9,
+      "deletions": 9
+    }
+  ],
+  "MsPage": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 161,
+      "insertions": 2393,
+      "deletions": 967
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 41,
+      "insertions": 520,
+      "deletions": 131
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsModal": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 100,
+      "insertions": 1263,
+      "deletions": 326
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 10,
+      "insertions": 146,
+      "deletions": 15
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 8,
+      "insertions": 55,
+      "deletions": 22
+    },
+    {
+      "author": "shenglan.zhou",
+      "email": "shenglan.zhou@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsLayout": [
+    {
+      "author": "冉术勇",
+      "email": "shuyong.ran-n@msxf.com",
+      "commits": 105,
+      "insertions": 1411,
+      "deletions": 271
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 54,
+      "insertions": 587,
+      "deletions": 172
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 52,
+      "insertions": 477,
+      "deletions": 230
+    },
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 13,
+      "insertions": 160,
+      "deletions": 33
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 1,
+      "insertions": 4,
+      "deletions": 8
+    }
+  ],
+  "MsInstance": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 60,
+      "insertions": 785,
+      "deletions": 95
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 10,
+      "insertions": 33,
+      "deletions": 39
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsIconFont": [
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 34,
+      "insertions": 271,
+      "deletions": 99
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 9,
+      "insertions": 45,
+      "deletions": 49
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 1,
+      "insertions": 4,
+      "deletions": 2
+    }
+  ],
+  "MsIcon": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 4,
+      "insertions": 89,
+      "deletions": 0
+    }
+  ],
+  "MsGantt": [
+    {
+      "author": "yuan",
+      "email": "yuan.cheng01@msxf.com",
+      "commits": 5,
+      "insertions": 392,
+      "deletions": 1
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 1,
+      "insertions": 19,
+      "deletions": 18
+    }
+  ],
+  "MsForm": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 899,
+      "insertions": 15650,
+      "deletions": 6521
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 24,
+      "insertions": 152,
+      "deletions": 50
+    },
+    {
+      "author": "yuan",
+      "email": "yuan.cheng01@msxf.com",
+      "commits": 7,
+      "insertions": 41,
+      "deletions": 9
+    },
+    {
+      "author": "冉术勇",
+      "email": "shuyong.ran-n@msxf.com",
+      "commits": 7,
+      "insertions": 20,
+      "deletions": 8
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 6,
+      "insertions": 57,
+      "deletions": 29
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 3,
+      "insertions": 4,
+      "deletions": 2
+    },
+    {
+      "author": "马万琴",
+      "email": "wanqin.ma@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 0
+    },
+    {
+      "author": "GoX",
+      "email": "xun.gong-n@msxf.com",
+      "commits": 1,
+      "insertions": 11,
+      "deletions": 11
+    }
+  ],
+  "MsFlow": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 14,
+      "insertions": 1524,
+      "deletions": 207
+    }
+  ],
+  "MsField": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 108,
+      "insertions": 2211,
+      "deletions": 1221
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 62,
+      "insertions": 494,
+      "deletions": 97
+    },
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 3,
+      "insertions": 5,
+      "deletions": 8
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 3,
+      "insertions": 56,
+      "deletions": 6
+    },
+    {
+      "author": "冉术勇",
+      "email": "shuyong.ran-n@msxf.com",
+      "commits": 2,
+      "insertions": 22,
+      "deletions": 0
+    },
+    {
+      "author": "GoX",
+      "email": "xun.gong-n@msxf.com",
+      "commits": 1,
+      "insertions": 3,
+      "deletions": 0
+    },
+    {
+      "author": "马万琴",
+      "email": "wanqin.ma@msxf.com",
+      "commits": 1,
+      "insertions": 3,
+      "deletions": 0
+    }
+  ],
+  "MsEmpty": [
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 18,
+      "insertions": 356,
+      "deletions": 77
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 10,
+      "insertions": 215,
+      "deletions": 28
+    }
+  ],
+  "MsDropdown": [
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 60,
+      "insertions": 968,
+      "deletions": 176
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 14,
+      "deletions": 9
+    }
+  ],
+  "MsDrawer": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 69,
+      "insertions": 1063,
+      "deletions": 237
+    },
+    {
+      "author": "shenglan.zhou",
+      "email": "shenglan.zhou@msxf.com",
+      "commits": 16,
+      "insertions": 312,
+      "deletions": 32
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 4,
+      "insertions": 39,
+      "deletions": 6
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsDocTips": [
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 13,
+      "insertions": 98,
+      "deletions": 45
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 8,
+      "insertions": 239,
+      "deletions": 5
+    },
+    {
+      "author": "lu.huang",
+      "email": "lu.huang@msxf.com",
+      "commits": 7,
+      "insertions": 425,
+      "deletions": 84
+    }
+  ],
+  "MsDevopsPage": [
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 26,
+      "insertions": 328,
+      "deletions": 44
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 2,
+      "insertions": 6,
+      "deletions": 6
+    }
+  ],
+  "MsDevopsLayout": [
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 408,
+      "insertions": 6609,
+      "deletions": 1775
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 12,
+      "insertions": 26,
+      "deletions": 15
+    }
+  ],
+  "MsDescriptions": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 210,
+      "insertions": 3114,
+      "deletions": 1121
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 4,
+      "insertions": 9,
+      "deletions": 3
+    }
+  ],
+  "MsCopy": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 27,
+      "insertions": 238,
+      "deletions": 36
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 9,
+      "insertions": 132,
+      "deletions": 26
+    },
+    {
+      "author": "冉术勇",
+      "email": "shuyong.ran-n@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 0
+    }
+  ],
+  "MsConfirm": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 37,
+      "insertions": 807,
+      "deletions": 98
+    }
+  ],
+  "MsConfigProvider": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 27,
+      "insertions": 362,
+      "deletions": 113
+    },
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 14,
+      "insertions": 148,
+      "deletions": 48
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 2,
+      "insertions": 7,
+      "deletions": 2
+    }
+  ],
+  "MsActions": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 111,
+      "insertions": 1505,
+      "deletions": 669
+    },
+    {
+      "author": "冉术勇",
+      "email": "shuyong.ran-n@msxf.com",
+      "commits": 18,
+      "insertions": 307,
+      "deletions": 109
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 15,
+      "insertions": 108,
+      "deletions": 62
+    },
+    {
+      "author": "易航",
+      "email": "hang.yi-n@msxf.com",
+      "commits": 5,
+      "insertions": 119,
+      "deletions": 48
+    },
+    {
+      "author": "Bo Wei(魏波)",
+      "email": "bo.wei-n@msxf.com",
+      "commits": 2,
+      "insertions": 24,
+      "deletions": 0
+    }
+  ],
+  "MsUserPopover": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 55,
+      "insertions": 2264,
+      "deletions": 104
+    },
+    {
+      "author": "马万琴",
+      "email": "wanqin.ma@msxf.com",
+      "commits": 13,
+      "insertions": 175,
+      "deletions": 195
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 10,
+      "insertions": 76,
+      "deletions": 62
+    }
+  ],
+  "MsUserGroup": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 70,
+      "insertions": 3016,
+      "deletions": 467
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 25,
+      "insertions": 207,
+      "deletions": 76
+    }
+  ],
+  "MsUser": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 49,
+      "insertions": 1621,
+      "deletions": 104
+    }
+  ],
+  "MsUpload": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 37,
+      "insertions": 624,
+      "deletions": 136
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 15,
+      "insertions": 509,
+      "deletions": 6
+    },
+    {
+      "author": "马万琴",
+      "email": "wanqin.ma@msxf.com",
+      "commits": 5,
+      "insertions": 98,
+      "deletions": 9
+    }
+  ],
+  "MsTreeSelect": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 21,
+      "insertions": 377,
+      "deletions": 93
+    }
+  ],
+  "MsTimeRange": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 63,
+      "deletions": 3
+    }
+  ],
+  "MsTime": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 63,
+      "deletions": 3
+    }
+  ],
+  "MsTextArea": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 12,
+      "insertions": 75,
+      "deletions": 10
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 6,
+      "insertions": 26,
+      "deletions": 20
+    }
+  ],
+  "MsText": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 7,
+      "insertions": 86,
+      "deletions": 15
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 7,
+      "insertions": 28,
+      "deletions": 21
+    }
+  ],
+  "MsSwitch": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 12,
+      "insertions": 279,
+      "deletions": 8
+    }
+  ],
+  "MsSelect": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 43,
+      "insertions": 1093,
+      "deletions": 138
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 6,
+      "insertions": 21,
+      "deletions": 8
+    }
+  ],
+  "MsSearchText": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 3,
+      "insertions": 28,
+      "deletions": 0
+    }
+  ],
+  "MsRulesConfig": [
+    {
+      "author": "GoX",
+      "email": "xun.gong-n@msxf.com",
+      "commits": 108,
+      "insertions": 4005,
+      "deletions": 1262
+    },
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 10,
+      "insertions": 606,
+      "deletions": 27
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 2,
+      "insertions": 3,
+      "deletions": 3
+    }
+  ],
+  "MsRichText": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 29,
+      "insertions": 939,
+      "deletions": 133
+    }
+  ],
+  "MsResourceType": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 17,
+      "insertions": 571,
+      "deletions": 14
+    }
+  ],
+  "MsResourceTags": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 49,
+      "insertions": 2131,
+      "deletions": 320
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 1,
+      "insertions": 3,
+      "deletions": 2
+    }
+  ],
+  "MsResourceGroup": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 24,
+      "insertions": 6454,
+      "deletions": 56
+    }
+  ],
+  "MsRate": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 61,
+      "deletions": 3
+    }
+  ],
+  "MsRadio": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 25,
+      "insertions": 285,
+      "deletions": 28
+    }
+  ],
+  "MsProgress": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 58,
+      "deletions": 3
+    }
+  ],
+  "MsPresetResourceTags": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 26,
+      "insertions": 1299,
+      "deletions": 56
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 1,
+      "insertions": 2,
+      "deletions": 1
+    }
+  ],
+  "MsPassword": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 62,
+      "deletions": 3
+    }
+  ],
+  "MsPartUpload": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 12,
+      "insertions": 489,
+      "deletions": 5
+    },
+    {
+      "author": "冉川江",
+      "email": "chuanjiang.ran@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsPaginationSelect": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 13,
+      "insertions": 339,
+      "deletions": 29
+    }
+  ],
+  "MsIp": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 44,
+      "insertions": 1429,
+      "deletions": 103
+    },
+    {
+      "author": "bihua.xiang-n@msxf.com",
+      "email": "bihua.xiang-n@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsInputNumber": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 7,
+      "insertions": 70,
+      "deletions": 5
+    }
+  ],
+  "MsImage": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 67,
+      "deletions": 3
+    }
+  ],
+  "MsGroup": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 58,
+      "insertions": 825,
+      "deletions": 192
+    },
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 1,
+      "insertions": 13,
+      "deletions": 0
+    }
+  ],
+  "MsFormTable": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 66,
+      "insertions": 1656,
+      "deletions": 542
+    },
+    {
+      "author": "郑义",
+      "email": "yi.zheng05@msxf.com",
+      "commits": 9,
+      "insertions": 245,
+      "deletions": 17
+    },
+    {
+      "author": "董卫星",
+      "email": "weixing.dong-n@msxf.com",
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1
+    }
+  ],
+  "MsFormList": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 53,
+      "insertions": 1584,
+      "deletions": 538
+    }
+  ],
+  "MsFieldEmpty": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 1,
+      "insertions": 12,
+      "deletions": 0
+    }
+  ],
+  "MsDigit": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 14,
+      "insertions": 298,
+      "deletions": 12
+    }
+  ],
+  "MsDiffEditor": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 12,
+      "insertions": 572,
+      "deletions": 4
+    }
+  ],
+  "MsDateRange": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 16,
+      "insertions": 225,
+      "deletions": 16
+    }
+  ],
+  "MsDate": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 16,
+      "insertions": 225,
+      "deletions": 20
+    }
+  ],
+  "MsCollapse": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 43,
+      "insertions": 827,
+      "deletions": 112
+    }
+  ],
+  "MsCodeEditor": [
+    {
+      "author": "xiaoli.liu01",
+      "email": "xiaoli.liu01@msxf.com",
+      "commits": 12,
+      "insertions": 505,
+      "deletions": 4
+    }
+  ],
+  "MsCheckbox": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 20,
+      "insertions": 222,
+      "deletions": 27
+    }
+  ],
+  "MsCascader": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 32,
+      "insertions": 564,
+      "deletions": 121
+    }
+  ],
+  "MsAvatar": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 6,
+      "insertions": 61,
+      "deletions": 3
+    }
+  ],
+  "MsAutoComplete": [
+    {
+      "author": "jie.tan",
+      "email": "jie.tan@msxf.com",
+      "commits": 13,
+      "insertions": 207,
+      "deletions": 13
+    }
+  ]
+}

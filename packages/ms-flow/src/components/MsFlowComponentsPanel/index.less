@@ -1,0 +1,61 @@
+.ms-flow-components-panel {
+  flex-shrink: 0;
+  width: 250px;
+  height: 100%;
+  padding: 0;
+  background: #fff;
+  border-right: 1px solid #d9d9d9;
+  user-select: none;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    background: #fff;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .content {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .content-padding {
+    padding: 16px;
+  }
+}
+
+.ms-flow-component-wrapper {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.ms-flow-component {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  text-align: center;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #c2c8d5;
+  border-radius: 2px;
+  box-shadow: -1px -1px 4px 0 #e0e0e080, -2px 2px 4px 0 #f5f5f580, 2px 3px 8px 2px #9696960d;
+  transition: all 0.15s ease-in-out;
+}
+
+.ms-flow-component:hover {
+  background-color: #fff;
+  border: 1px solid #3057e3;
+  box-shadow: 0 0 3px 3px rgb(48 86 227 / 15%);
+  cursor: move;
+}
+
+.ms-flow-component-menu-title {
+  margin-bottom: 10px;
+}

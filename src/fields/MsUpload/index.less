@@ -1,0 +1,103 @@
+@ant-prefix: ant;
+
+.ms-picture-card {
+  white-space: normal;
+
+  .@{ant-prefix}-upload-list-picture-card {
+    .@{ant-prefix}-upload-list-item {
+      padding: 0;
+    }
+  }
+}
+
+.ms-upload-read {
+  .@{ant-prefix}-upload-list-item:first-child {
+    margin: 0;
+  }
+
+  .@{ant-prefix}-upload-list-text-container:first-child {
+    .ms-upload-item-render-content {
+      margin-top: 0;
+    }
+  }
+}
+
+.ms-upload-block {
+  .@{ant-prefix}-upload.@{ant-prefix}-upload-select {
+    display: block;
+  }
+}
+
+.ms-upload-item-render-content {
+  width: 100%;
+  margin-top: 6px;
+  height: 24px;
+  line-height: 24px;
+  background: #f7f8fa;
+  border-radius: 2px;
+
+  .ms-upload-item-render {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+
+    .ms-upload-item {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .ms-upload-item-icon {
+      margin-right: 8px;
+    }
+
+    .ms-upload-item-icon-default {
+      color: #78858f;
+    }
+
+    .ms-upload-item-error-name {
+      color: #f54545;
+    }
+  }
+
+  .ms-upload-item-render-progress {
+    width: 100%;
+    height: 2px;
+    margin-top: 4px;
+    overflow: hidden;
+
+    .@{ant-prefix}-progress-inner {
+      vertical-align: top !important;
+    }
+  }
+}
+
+.ms-upload-drag {
+  background: #fafcff !important;
+
+  .ms-upload-drag-desc {
+    color: #78858f;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.ms-upload-drag-paste {
+  background: #fafcff !important;
+  .@{ant-prefix}-upload-btn{
+    padding:8px 8px 0 8px!important;
+    background-color: #fff;
+  }
+  .ms-upload-drag-desc {
+    color: #78858f;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.ms-upload-drag-disabled {
+  .ms-upload-drag-desc {
+    color: #c2c6cc;
+  }
+}
