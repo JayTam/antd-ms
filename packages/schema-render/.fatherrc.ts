@@ -1,8 +1,10 @@
-export default {
-  esm: 'rollup',
-  cjs: 'rollup',
-  umd: {
-    name: 'rcSchemaRender',
+import { defineConfig } from 'father';
+
+export default defineConfig({
+  esm: {
+    output: 'dist',
   },
-  extraExternals: ['react'],
-};
+  cjs: {
+    output: 'dist',
+  },
+});

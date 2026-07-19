@@ -31,11 +31,12 @@ export type MsRulesConfigRef = Ref<HTMLDivElement>;
 export type MsRulesConfigProps<D = any> = MsFieldProps<any> &
   MsFormColumnType<D> &
   MsFieldBaseProps<RcRulesConfig> & {
-    columns: RcFieldItem<D>[]
+    columns: RcFieldItem<D>[];
   };
 
-export type rulesConfigFormColumns<D = any> = MsFieldProps<any> & MsFormColumnType<D> &
-  MsFieldBaseProps<RcRulesConfig> & { columns?: RcFieldItem<D>[] }
+export type rulesConfigFormColumns<D = any> = MsFieldProps<any> &
+  MsFormColumnType<D> &
+  MsFieldBaseProps<RcRulesConfig> & { columns?: RcFieldItem<D>[] };
 
 export type MsJson =
   | string

@@ -15,206 +15,179 @@ toc: content
 
 # 更新日志
 
-
 ## [2.24.0](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.23.6-2025112110...v2.24.0) (2025-12-02)
-
 
 ### Features
 
-* 组件库增加国际化能力 ([f2ba45a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f2ba45abbacf9ae11b66f947e8a6d7a9f508fc83))
-* **ms-drawer:** 实现不重新打开抽屉，动态更新抽屉内容，使用 MsDrawer.DrawerHolder 组件 ([8679ade](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8679ade065384927b88ba1a23f7ef66f79842b2f))
-* **ms-modal:** 实现不重新打开弹窗，动态更新弹窗内容，使用 MsModal.ModalHolder 组件 ([4e265b6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/4e265b651d055abf37c3082a6fc0dbe5ede697bb))
-* **ms-table-view:** 过滤后端返回的表单数据dataindex不在columns的数据 ([203ee10](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/203ee105448930bfd7e5e729937ff6ea1cb84599))
-* **ms-table:** toolbar 下所有工具按钮新增 btnProps 属性 ([e0516c5](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/e0516c523948c2414dcad6c6ffa70f0aab4a9bb7))
-* **ms-upload:** 文件上传支持粘贴类型，支持MP4文件播放预览 ([f4622f6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f4622f6d191b2147879e2ef0b7ecee81ef74b35e))
+- 组件库增加国际化能力 ([f2ba45a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f2ba45abbacf9ae11b66f947e8a6d7a9f508fc83))
+- **ms-drawer:** 实现不重新打开抽屉，动态更新抽屉内容，使用 MsDrawer.DrawerHolder 组件 ([8679ade](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8679ade065384927b88ba1a23f7ef66f79842b2f))
+- **ms-modal:** 实现不重新打开弹窗，动态更新弹窗内容，使用 MsModal.ModalHolder 组件 ([4e265b6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/4e265b651d055abf37c3082a6fc0dbe5ede697bb))
+- **ms-table-view:** 过滤后端返回的表单数据 dataindex 不在 columns 的数据 ([203ee10](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/203ee105448930bfd7e5e729937ff6ea1cb84599))
+- **ms-table:** toolbar 下所有工具按钮新增 btnProps 属性 ([e0516c5](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/e0516c523948c2414dcad6c6ffa70f0aab4a9bb7))
+- **ms-upload:** 文件上传支持粘贴类型，支持 MP4 文件播放预览 ([f4622f6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f4622f6d191b2147879e2ef0b7ecee81ef74b35e))
 
 ### [2.23.6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.23.5-2025111415...v2.23.6) (2025-11-21)
 
-
 ### Features
 
-* **ms-table:** 实现 column.valueType=cascader，表格列展示自动根据 options 映射 label ([942270a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/942270ae39f48037a3e8577d916a392900649046))
-* **ms-table:** 新增 polling.showSpinning 开启轮询时的表格加载效果 ([da277b2](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/da277b2df740f2741abf238f0b17df7232b1b780))
-
+- **ms-table:** 实现 column.valueType=cascader，表格列展示自动根据 options 映射 label ([942270a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/942270ae39f48037a3e8577d916a392900649046))
+- **ms-table:** 新增 polling.showSpinning 开启轮询时的表格加载效果 ([da277b2](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/da277b2df740f2741abf238f0b17df7232b1b780))
 
 ### Bug Fixes
 
-* **ms-copy:** msCopy类型为default时支持ellipsis ([2d2c386](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2d2c3862e913228891b4f5a0889562112dc5b8ad))
-* **ms-form:** 修复只读模式下 value=0 显示 "-" 空占位 ([1da7bee](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1da7bee23ba12f738001f4e9d4e7e90ede841c73))
-* **ms-table-view:** 修复视图组件 Tabs 视图模式下切换导致 Tabs 消失，并优化切换时骨架过渡效果 ([9284932](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/9284932f8d2536779659db1917d702ee59d6f39d))
+- **ms-copy:** msCopy 类型为 default 时支持 ellipsis ([2d2c386](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2d2c3862e913228891b4f5a0889562112dc5b8ad))
+- **ms-form:** 修复只读模式下 value=0 显示 "-" 空占位 ([1da7bee](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1da7bee23ba12f738001f4e9d4e7e90ede841c73))
+- **ms-table-view:** 修复视图组件 Tabs 视图模式下切换导致 Tabs 消失，并优化切换时骨架过渡效果 ([9284932](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/9284932f8d2536779659db1917d702ee59d6f39d))
 
 ### [2.23.5](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v0.0.1-2025111116...v2.23.5) (2025-11-14)
 
-
 ### Features
 
-* **ms-rules-config:** 初始行参数命名合理化 ([391dfa5](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/391dfa5867d71124310d43ad336f3be94fb2d685))
-* **ms-rules-config:** 添加初始化行的赋值 ([8228a9f](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8228a9f8fe45ff168d663abc156070cb9e1bc8e2))
-
+- **ms-rules-config:** 初始行参数命名合理化 ([391dfa5](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/391dfa5867d71124310d43ad336f3be94fb2d685))
+- **ms-rules-config:** 添加初始化行的赋值 ([8228a9f](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8228a9f8fe45ff168d663abc156070cb9e1bc8e2))
 
 ### Bug Fixes
 
-* **ms-table-view:** 优化视图筛选条件样式 ([1136cb6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1136cb64eac49174743bcf0fd9519b9207834001))
-* **ms-table:** 修复 aggr 筛选类型下，筛选项清空但是选择器未清空 ([8a93562](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8a93562fc827562c9f97ef275ff58f9f34db1f65))
+- **ms-table-view:** 优化视图筛选条件样式 ([1136cb6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1136cb64eac49174743bcf0fd9519b9207834001))
+- **ms-table:** 修复 aggr 筛选类型下，筛选项清空但是选择器未清空 ([8a93562](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8a93562fc827562c9f97ef275ff58f9f34db1f65))
 
 ### [2.23.4](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.23.3...v2.23.4) (2025-11-10)
 
-
 ### Features
 
-* **ms-auto-complete:** 将该组件 fieldProps.autoSelect 配置默认关闭 ([c8a2475](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/c8a2475f82650076bb024830fc7698508eb9a61f))
-* **ms-form:** 新增 getPopupContainer 属性可以统一设置所有字段组件 ([0054705](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/0054705a6748edff9cd288590a4eb7542cf2e740))
-* **ms-user-popover:** 支持精确控制某个人员是否可以删除，支持精确控制某个人员是否可以调整 ([5d2c7b6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/5d2c7b66a30b4aa386234b15ff3e5e2fbcc52cd7))
-
+- **ms-auto-complete:** 将该组件 fieldProps.autoSelect 配置默认关闭 ([c8a2475](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/c8a2475f82650076bb024830fc7698508eb9a61f))
+- **ms-form:** 新增 getPopupContainer 属性可以统一设置所有字段组件 ([0054705](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/0054705a6748edff9cd288590a4eb7542cf2e740))
+- **ms-user-popover:** 支持精确控制某个人员是否可以删除，支持精确控制某个人员是否可以调整 ([5d2c7b6](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/5d2c7b66a30b4aa386234b15ff3e5e2fbcc52cd7))
 
 ### Bug Fixes
 
-* **ms-table:** 修复 request 请求失败时，编辑表格新增行时会白屏报错 ([e1084fb](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/e1084fbacc3d66e7b320fe716d2158b918bf1cab))
+- **ms-table:** 修复 request 请求失败时，编辑表格新增行时会白屏报错 ([e1084fb](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/e1084fbacc3d66e7b320fe716d2158b918bf1cab))
 
 ### [2.23.3](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.23.1...v2.23.3) (2025-11-05)
 
-
 ### Features
 
-* **ms-copy:** 省略时支持tooltip提示 ([4dc5021](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/4dc50210d4f6235d5e8b973b416b8d72166a8e6d))
-* **ms-resizable:** 新增支持从右侧展开收起容器 ([a27269b](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/a27269bdf6a878d39455a0a3a8aaf59635551d36))
-
+- **ms-copy:** 省略时支持 tooltip 提示 ([4dc5021](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/4dc50210d4f6235d5e8b973b416b8d72166a8e6d))
+- **ms-resizable:** 新增支持从右侧展开收起容器 ([a27269b](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/a27269bdf6a878d39455a0a3a8aaf59635551d36))
 
 ### Bug Fixes
 
-* **ms-status:** 修复Tooltip包裹MsStatus，hover上去未生效 ([08c52ae](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/08c52aee6d9b77002ffcadd19a7bdf5889310475))
+- **ms-status:** 修复 Tooltip 包裹 MsStatus，hover 上去未生效 ([08c52ae](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/08c52aee6d9b77002ffcadd19a7bdf5889310475))
 
 ### [2.23.2](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.23.1...v2.23.2) (2025-10-24)
 
-
 ### Features
 
-* **ms-copy:** 省略时支持tooltip提示 ([4dc5021](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/4dc50210d4f6235d5e8b973b416b8d72166a8e6d))
-
+- **ms-copy:** 省略时支持 tooltip 提示 ([4dc5021](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/4dc50210d4f6235d5e8b973b416b8d72166a8e6d))
 
 ### Bug Fixes
 
-* **ms-status:** 修复Tooltip包裹MsStatus，hover上去未生效 ([08c52ae](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/08c52aee6d9b77002ffcadd19a7bdf5889310475))
+- **ms-status:** 修复 Tooltip 包裹 MsStatus，hover 上去未生效 ([08c52ae](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/08c52aee6d9b77002ffcadd19a7bdf5889310475))
 
 ### [2.23.1](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.23.0...v2.23.1) (2025-10-23)
 
-
 ### Features
 
-* **ms-devops-layout:** 导航选中了下级菜单，对应的上级菜单调整为主色，且字重从500调整为400。 demo中调整icon类型 ([6ed90e3](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/6ed90e32ba3db388deccec0a475087e70792178d))
-* **ms-rules-config:** 添加条件的默认值设置 ([7e52fa5](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/7e52fa51a906120227eefc59a0a07b825fd966f1))
-* **ms-tabs:** 将MsTabs默认type类型的上下padding从16px调整为9px ([0541e0a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/0541e0a4d61e1570b0448d5ed9d0db19e630139e))
-* **user-group:** 支持单独设置某一类型是否支持filterSearchResult ([2ec7e34](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2ec7e34c9a686ba00e0d1fc0d00b658dbaa038dc))
-
+- **ms-devops-layout:** 导航选中了下级菜单，对应的上级菜单调整为主色，且字重从 500 调整为 400。 demo 中调整 icon 类型 ([6ed90e3](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/6ed90e32ba3db388deccec0a475087e70792178d))
+- **ms-rules-config:** 添加条件的默认值设置 ([7e52fa5](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/7e52fa51a906120227eefc59a0a07b825fd966f1))
+- **ms-tabs:** 将 MsTabs 默认 type 类型的上下 padding 从 16px 调整为 9px ([0541e0a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/0541e0a4d61e1570b0448d5ed9d0db19e630139e))
+- **user-group:** 支持单独设置某一类型是否支持 filterSearchResult ([2ec7e34](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2ec7e34c9a686ba00e0d1fc0d00b658dbaa038dc))
 
 ### Bug Fixes
 
-* **ms-descriptions:** 优化描述列表分组的样式 ([98871e3](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/98871e37d83f8cd35d903df7e0e4cd919aba3797))
-* **ms-rules-config:** 修复单层条件未设置最大条件数，操作按钮显示异常问题 ([377af86](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/377af86f08d347caf8fe85f4d5c78bb365317650))
-* **ms-table:** 修复使用 columnState.request 时，选字段中固定在左侧，不固定，固定在右侧分组顺序混乱 ([fe2c2e7](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/fe2c2e7e42dfacbbc4792a7c4aa4c31cac8f96fb))
+- **ms-descriptions:** 优化描述列表分组的样式 ([98871e3](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/98871e37d83f8cd35d903df7e0e4cd919aba3797))
+- **ms-rules-config:** 修复单层条件未设置最大条件数，操作按钮显示异常问题 ([377af86](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/377af86f08d347caf8fe85f4d5c78bb365317650))
+- **ms-table:** 修复使用 columnState.request 时，选字段中固定在左侧，不固定，固定在右侧分组顺序混乱 ([fe2c2e7](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/fe2c2e7e42dfacbbc4792a7c4aa4c31cac8f96fb))
 
 ## [2.23.0](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.17...v2.23.0) (2025-09-26)
 
-
 ### Features
 
-* **ms-form-list:** 当设置 fieldProps.max 会在新增按钮范围显示，fieldProps.hideAddButtonLimitText 可关闭该范围显示 ([1f4083e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1f4083e01935d76b0e7632afe1dd629b65f056fa))
-* **ms-form-tabs:** 新增选项列表 field 组件 ([afd787e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/afd787e8e79805acc9f843973df9e2a479e4bed6))
-* **ms-form:** 实现分步表单中有 collapse 折叠，当点击下一步校验错误时，自动展开 collapse 并滚动到错误位置 ([b3d04c3](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/b3d04c3dbc5f1c00e52ee6aa13c9e9429de6b01c))
-
+- **ms-form-list:** 当设置 fieldProps.max 会在新增按钮范围显示，fieldProps.hideAddButtonLimitText 可关闭该范围显示 ([1f4083e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1f4083e01935d76b0e7632afe1dd629b65f056fa))
+- **ms-form-tabs:** 新增选项列表 field 组件 ([afd787e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/afd787e8e79805acc9f843973df9e2a479e4bed6))
+- **ms-form:** 实现分步表单中有 collapse 折叠，当点击下一步校验错误时，自动展开 collapse 并滚动到错误位置 ([b3d04c3](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/b3d04c3dbc5f1c00e52ee6aa13c9e9429de6b01c))
 
 ### Bug Fixes
 
-* **ms-devops-layout:** 修复noAuthRedirectPath中roles为空数组时未提交的问题 ([f3a769d](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f3a769d3d12d0b33a3a59afa47eefc9a71edf2cc))
-* **ms-form-list:** 修复 valuesNormal 在 formList 场景下，列表子项目设置 initialValue 未生效 ([ad8b568](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/ad8b568542bfa0f32cf81dab31be003cdc7ee842))
-* **ms-form:** 修复 valuesNormal 对 formList,formTable,formTabs 列表组件下子项的 column.initialValue 不生效 ([dc30453](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/dc30453b9902ce3b9e9554394c63cec147f0d354))
-* **ms-form:** 修复开启 valueEnumSyncToForm 并且存在初始值时，未将初始值对应的 option 同步到 form ([c86035d](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/c86035d00c0468ac1be4296254565d84514cbc2c))
+- **ms-devops-layout:** 修复 noAuthRedirectPath 中 roles 为空数组时未提交的问题 ([f3a769d](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f3a769d3d12d0b33a3a59afa47eefc9a71edf2cc))
+- **ms-form-list:** 修复 valuesNormal 在 formList 场景下，列表子项目设置 initialValue 未生效 ([ad8b568](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/ad8b568542bfa0f32cf81dab31be003cdc7ee842))
+- **ms-form:** 修复 valuesNormal 对 formList,formTable,formTabs 列表组件下子项的 column.initialValue 不生效 ([dc30453](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/dc30453b9902ce3b9e9554394c63cec147f0d354))
+- **ms-form:** 修复开启 valueEnumSyncToForm 并且存在初始值时，未将初始值对应的 option 同步到 form ([c86035d](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/c86035d00c0468ac1be4296254565d84514cbc2c))
 
 ### [2.22.17](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.16...v2.22.17) (2025-09-23)
 
-
 ### Features
 
-* **ms-image:** 新增错误占位图 ([8defeb8](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8defeb8dc99081c8511f45454b52fdc66f4ff07f))
-* **ms-rules-config:** 增加单组条件最大添加数量功能 ([6dd3c8a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/6dd3c8add566241e494d852a4f5ee213590e7ac3))
+- **ms-image:** 新增错误占位图 ([8defeb8](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8defeb8dc99081c8511f45454b52fdc66f4ff07f))
+- **ms-rules-config:** 增加单组条件最大添加数量功能 ([6dd3c8a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/6dd3c8add566241e494d852a4f5ee213590e7ac3))
 
 ### [2.22.16](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.15...v2.22.16) (2025-09-18)
 
-
 ### Features
 
-* **ms-table:** 列拖移功能重构，优化用户体验 ([7e3674b](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/7e3674b7eeabd5447a621d876fb95c2b118198a6))
-* **ms-table:** 新增 column.ellipsis.showTooltip 内容区域使用 Tooltip 展示省略 ([032f083](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/032f0837d10f66c8239ad031e5322bed946f9683))
-* **ms-table:** 优化表头宽度较窄时开启 column.tooltip，仅省略文字内容，始终显示 tooltip 提示图标 ([69e5d21](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/69e5d21fddaf55eb0d90843053644cd0b9a6f6f4))
-* **ms-user-group:** 支持filterSearchResult属性，可以控制是否根据search值来过滤返回结果 ([39415ce](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/39415ce974f7f8de44507abc79f5cbac8459663e))
-* **ms-user-group:** user-group组件支持岗位的显示 ([488db9a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/488db9a8f7eff5678ad5f5bbf6a2ca637b48fab0))
-
+- **ms-table:** 列拖移功能重构，优化用户体验 ([7e3674b](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/7e3674b7eeabd5447a621d876fb95c2b118198a6))
+- **ms-table:** 新增 column.ellipsis.showTooltip 内容区域使用 Tooltip 展示省略 ([032f083](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/032f0837d10f66c8239ad031e5322bed946f9683))
+- **ms-table:** 优化表头宽度较窄时开启 column.tooltip，仅省略文字内容，始终显示 tooltip 提示图标 ([69e5d21](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/69e5d21fddaf55eb0d90843053644cd0b9a6f6f4))
+- **ms-user-group:** 支持 filterSearchResult 属性，可以控制是否根据 search 值来过滤返回结果 ([39415ce](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/39415ce974f7f8de44507abc79f5cbac8459663e))
+- **ms-user-group:** user-group 组件支持岗位的显示 ([488db9a](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/488db9a8f7eff5678ad5f5bbf6a2ca637b48fab0))
 
 ### Bug Fixes
 
-* **user-popover:** 增加监听table类型的user-popover的父容器宽度变化，修复父容器宽度变化时显示的头像数不正确的问题 ([d2b08ff](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/d2b08ffb4bd1016a72203e8767d2d5dbf5e8bcbe))
+- **user-popover:** 增加监听 table 类型的 user-popover 的父容器宽度变化，修复父容器宽度变化时显示的头像数不正确的问题 ([d2b08ff](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/d2b08ffb4bd1016a72203e8767d2d5dbf5e8bcbe))
 
 ### [2.22.15](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.14...v2.22.15) (2025-09-12)
 
-
 ### Features
 
-* **UserPopover:** 用户组件新增职位显示 ([b6be060](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/b6be0608f32a7bcd3ca9961d8d5ec70b112a7b82))
-
+- **UserPopover:** 用户组件新增职位显示 ([b6be060](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/b6be0608f32a7bcd3ca9961d8d5ec70b112a7b82))
 
 ### Bug Fixes
 
-* **ms-form:** 修复分步表单 stepsProps.defaultCurrent 失效 ([8a60d40](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8a60d40a5b4145114b0366f210eae6689e93f804))
-* **ms-icons:** 修复引入 @rc-component/father-plugin 导致 umi2 项目存在兼容性问题 ([b78d5ef](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/b78d5ef43ff2ca32e94180e94d8552457b18ad51))
-* **ms-rules-config:** 修复fieldReadRender不为函数返回问题 ([8fc4ff0](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8fc4ff0b569d0cf760025f1a1978bf332edf827d))
+- **ms-form:** 修复分步表单 stepsProps.defaultCurrent 失效 ([8a60d40](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8a60d40a5b4145114b0366f210eae6689e93f804))
+- **ms-icons:** 修复引入 @rc-component/father-plugin 导致 umi2 项目存在兼容性问题 ([b78d5ef](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/b78d5ef43ff2ca32e94180e94d8552457b18ad51))
+- **ms-rules-config:** 修复 fieldReadRender 不为函数返回问题 ([8fc4ff0](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/8fc4ff0b569d0cf760025f1a1978bf332edf827d))
 
 ### [2.22.14](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.13...v2.22.14) (2025-09-09)
 
-
 ### Features
 
-* **ms-icons:** 根据 ms-ui 组件库图标完善 ms-icons 图标 ([a55b58b](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/a55b58b1fd2f198e4dfe0c6642fc8c827144abd8))
-* **ms-rules-config:** 此组件中重写fieldReadRender方法 ([53d38b0](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/53d38b056518cf09100fcdf50e49a2c948147eec))
-
+- **ms-icons:** 根据 ms-ui 组件库图标完善 ms-icons 图标 ([a55b58b](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/a55b58b1fd2f198e4dfe0c6642fc8c827144abd8))
+- **ms-rules-config:** 此组件中重写 fieldReadRender 方法 ([53d38b0](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/53d38b056518cf09100fcdf50e49a2c948147eec))
 
 ### Bug Fixes
 
-* **ms-cascader:** 修复 fieldProps.loadChildrenData 异步报错 loading 状态未取消 ([28b205f](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/28b205fbf281b5eab3b774cd19f3fc7f372fde8d))
-* **ms-dropdown:** 优化dropdown中buttonType设置为primary后，同时设置为disabled为true时的样式效果 ([1922148](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1922148e68dc60c9e0a741ea179e41bd67de26e7))
-* **ms-table-view:** 初始化时计算下拉箭头显示情况;聚合表单点击搜索时根据参数决定是否情况field的值 ([02e5b6d](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/02e5b6d3a124dc11db6951c896e386efb8b0b2e9))
+- **ms-cascader:** 修复 fieldProps.loadChildrenData 异步报错 loading 状态未取消 ([28b205f](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/28b205fbf281b5eab3b774cd19f3fc7f372fde8d))
+- **ms-dropdown:** 优化 dropdown 中 buttonType 设置为 primary 后，同时设置为 disabled 为 true 时的样式效果 ([1922148](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1922148e68dc60c9e0a741ea179e41bd67de26e7))
+- **ms-table-view:** 初始化时计算下拉箭头显示情况;聚合表单点击搜索时根据参数决定是否情况 field 的值 ([02e5b6d](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/02e5b6d3a124dc11db6951c896e386efb8b0b2e9))
 
 ### [2.22.13](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.12...v2.22.13) (2025-09-04)
 
-
 ### Features
 
-* **ms-actions:** 优化更多下拉菜单的滚动样式，上下各留 4px 区域 ([2ddc8f2](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2ddc8f223df38b0836257d771dea809e701e73d1))
-* **ms-cascader:** 新增 fieldProps.loadChildrenData 处理异步加载子项 ([3e19f8e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/3e19f8e820b5bd267fc591ca4d83b7136397b9fb))
-* **ms-statistic:** 副指标位置增加 follow 值; 指标的鼠标悬浮样式增加过渡效果 ([6d45322](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/6d45322dc074e917a3c7bcfca2176fdf88459f2f))
-* **ms-table-view:** 视图类型 UI 调整 ([f4a87bd](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f4a87bd9ff6850295baf970d33b0d3ba8a6a51dd))
-
+- **ms-actions:** 优化更多下拉菜单的滚动样式，上下各留 4px 区域 ([2ddc8f2](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2ddc8f223df38b0836257d771dea809e701e73d1))
+- **ms-cascader:** 新增 fieldProps.loadChildrenData 处理异步加载子项 ([3e19f8e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/3e19f8e820b5bd267fc591ca4d83b7136397b9fb))
+- **ms-statistic:** 副指标位置增加 follow 值; 指标的鼠标悬浮样式增加过渡效果 ([6d45322](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/6d45322dc074e917a3c7bcfca2176fdf88459f2f))
+- **ms-table-view:** 视图类型 UI 调整 ([f4a87bd](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f4a87bd9ff6850295baf970d33b0d3ba8a6a51dd))
 
 ### Bug Fixes
 
-* **ms-ip:** 修复粘贴非法格式时，要剔除合法格式之外的内容 ([ccd707f](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/ccd707fc95083fb00bbf1fffd1038aaec718c646))
+- **ms-ip:** 修复粘贴非法格式时，要剔除合法格式之外的内容 ([ccd707f](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/ccd707fc95083fb00bbf1fffd1038aaec718c646))
 
 ### [2.22.12](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.11...v2.22.12) (2025-08-28)
 
-
 ### Features
 
-* **ms-table:** 优化 scroll.y=auto-content 在表格 dataSource 变更时触发重新计算滚动高度 ([f7ea931](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f7ea93197e90df840cc92887084e13dac28b1544))
-
+- **ms-table:** 优化 scroll.y=auto-content 在表格 dataSource 变更时触发重新计算滚动高度 ([f7ea931](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/f7ea93197e90df840cc92887084e13dac28b1544))
 
 ### Bug Fixes
 
-* **ms-field:** 使用 useDebounceFn 修复 debounce 失效，涉及 user, userGroup,  resourceGroup 组件 ([cececc7](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/cececc7d8033ee74f3b9f01c7ed4b67287a1c7b7))
-* **ms-form-table:** 修复 formTable 存在三级依赖时，使用 column.skipRequest 异常 ([d3e592c](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/d3e592c9533eb806653998fa0e08201340727557))
-* **ms-request:** 修复sentry报错，401场景下request未返回reject，无业务影响 ([05343b1](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/05343b1e1219fb2aec448d84d8117b0fc57a06d0))
-* **ms-table:** 修复监听浏览器 resize 事件防抖失效，进而优化性能 ([0a73919](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/0a739191b50383fcabbc2ccc3a33390c74247527))
-* **ms-table:** 修复列设置 columnState.defaultValue 失效，2.22.3 引入的问题 ([1a93980](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1a9398011200a494b760ee07b3ac4def703cc5a3))
-* **ms-tabs:** 修复ms-tabs 在card类型下，英文使用默认字体类型时的抖动问题 ([eda6550](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/eda6550bad62f0e4959c45699a4327dd17ef180b))
-* **ms-user-group:** 修复清空搜索查询值时未触发重新查询的问题 ([2c0444e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2c0444e6a3cbd4d4fd15a5cb44f55a4995e50a31))
+- **ms-field:** 使用 useDebounceFn 修复 debounce 失效，涉及 user, userGroup, resourceGroup 组件 ([cececc7](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/cececc7d8033ee74f3b9f01c7ed4b67287a1c7b7))
+- **ms-form-table:** 修复 formTable 存在三级依赖时，使用 column.skipRequest 异常 ([d3e592c](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/d3e592c9533eb806653998fa0e08201340727557))
+- **ms-request:** 修复 sentry 报错，401 场景下 request 未返回 reject，无业务影响 ([05343b1](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/05343b1e1219fb2aec448d84d8117b0fc57a06d0))
+- **ms-table:** 修复监听浏览器 resize 事件防抖失效，进而优化性能 ([0a73919](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/0a739191b50383fcabbc2ccc3a33390c74247527))
+- **ms-table:** 修复列设置 columnState.defaultValue 失效，2.22.3 引入的问题 ([1a93980](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/1a9398011200a494b760ee07b3ac4def703cc5a3))
+- **ms-tabs:** 修复 ms-tabs 在 card 类型下，英文使用默认字体类型时的抖动问题 ([eda6550](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/eda6550bad62f0e4959c45699a4327dd17ef180b))
+- **ms-user-group:** 修复清空搜索查询值时未触发重新查询的问题 ([2c0444e](https://codelab.msxf.com/gc-pbs/gc-ui-fe/commit/2c0444e6a3cbd4d4fd15a5cb44f55a4995e50a31))
 
 ### [2.22.11](https://codelab.msxf.com/gc-pbs/gc-ui-fe/compare/v2.22.10...v2.22.11) (2025-08-21)
 
