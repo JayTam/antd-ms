@@ -4,8 +4,7 @@
   "description": "@jaytam/schema-render 是一个通用型 schema 转 React 组件的工具组件。",
   "license": "MIT",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "unpkg": "dist/index.umd.min.js",
+  "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "sideEffects": false,
   "files": [
@@ -14,7 +13,7 @@
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
-    "build": "father build",
+    "build": "father build && tsc --emitDeclarationOnly --declaration --outDir dist",
     "test": "jest --silent",
     "test:coverage": "jest --coverage --silent"
   },
