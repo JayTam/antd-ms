@@ -9,6 +9,9 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
     "paths": {
       "@/*": ["src/*"],
       "@jaytam/schema-render": ["src/index.tsx"],
@@ -16,6 +19,7 @@
     },
     "allowSyntheticDefaultImports": true
   },
+  "include": [".fatherrc.ts", "src/**/*", "typings.d.ts"],
   "exclude": [
     "node_modules",
     "lib",
