@@ -37,3 +37,6 @@ coverage/
 # Temp files
 *.local
 .tmp/
+
+# Test & coverage (umi-test)
+.umi-test/
