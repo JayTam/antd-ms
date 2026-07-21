@@ -15,13 +15,18 @@
   },
   "license": "MIT",
   "author": "JayTam",
-  "main": "lib/esm/index",
-  "module": "lib/esm/index.js",
-  "typings": "lib/esm/index.d.ts",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
   "files": [
+    "es",
     "lib",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "father build",
     "rm": "rm -rf node_modules"

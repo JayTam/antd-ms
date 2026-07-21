@@ -2,21 +2,6 @@
   "name": "@jaytam/schema-render",
   "version": "0.0.1",
   "description": "@jaytam/schema-render 是一个通用型 schema 转 React 组件的工具组件。",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "sideEffects": false,
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "start": "dumi dev",
-    "docs:build": "dumi build",
-    "build": "father build && tsc --emitDeclarationOnly --declaration --outDir dist",
-    "test": "jest --silent",
-    "test:coverage": "jest --coverage --silent"
-  },
   "keywords": [
     "@jaytam/schema-render",
     "react schema render",
@@ -27,8 +12,38 @@
     "render",
     "schema"
   ],
+  "homepage": "https://github.com/JayTam/antd-ms",
+  "bugs": {
+    "url": "https://github.com/JayTam/antd-ms/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayTam/antd-ms.git"
+  },
+  "license": "MIT",
+  "author": "JayTam",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "es",
+    "lib",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "build": "father build",
+    "test": "jest --silent",
+    "test:coverage": "jest --coverage --silent"
+  },
   "peerDependencies": {
-    "react": "^16.8.6"
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5",

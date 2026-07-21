@@ -3,11 +3,11 @@ import path from 'path';
 
 export default defineConfig({
   esm: {
-    output: 'lib/esm',
+    output: 'es',
     ignores: ['src/**/__demo__/**', 'src/__docs__/**'],
   },
   cjs: {
-    output: 'lib/cjs',
+    output: 'lib',
     ignores: ['src/**/__demo__/**', 'src/__docs__/**'],
   },
   alias: {

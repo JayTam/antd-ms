@@ -4,8 +4,10 @@ packages/*/node_modules/
 
 # Build output
 lib/
+es/
 dist/
 packages/*/lib/
+packages/*/es/
 packages/*/dist/
 
 # pnpm
