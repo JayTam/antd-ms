@@ -1,0 +1,42 @@
+@ant-prefix: ant;
+
+.preset-tags.@{ant-prefix}-select-disabled.@{ant-prefix}-select:not(
+    .@{ant-prefix}-select-customize-input
+  )
+  .@{ant-prefix}-select-selector {
+  color: rgba(0, 0, 0, 0.85);
+  cursor: auto;
+}
+
+@ant-prefix: ant;
+
+.preset-tags-list-add-btn.@{ant-prefix}-btn-link {
+  padding: 0;
+}
+
+.preset-tags-list-add-btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preset-tags-list-add-icon {
+  background: rgb(234, 243, 255);
+  border-radius: 100%;
+  width: 16px;
+  max-width: 16px;
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  position: relative;
+  & svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.preset-tags-list-add-text {
+  line-height: 16px;
+}

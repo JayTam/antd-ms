@@ -1,0 +1,37 @@
+@ant-prefix: ant;
+
+.ms-form-list-add-btn.@{ant-prefix}-btn-link {
+  padding: 0;
+}
+
+.ms-form-table .ms-form-list-add-btn.@{ant-prefix}-btn-link {
+  height: 16px;
+  line-height: 16px;
+}
+
+.ms-form-list-add-btn-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ms-form-list-add-icon {
+  background: rgb(234, 243, 255);
+  border-radius: 100%;
+  width: 16px;
+  max-width: 16px;
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  position: relative;
+  & svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.ms-form-list-add-text {
+  line-height: 16px;
+}

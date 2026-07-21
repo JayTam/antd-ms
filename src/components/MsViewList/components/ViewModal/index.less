@@ -1,0 +1,31 @@
+@ant-prefix: ant;
+
+.ms-add-view-form {
+  .ms-form-title-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 22px;
+
+    .title {
+      flex: 1;
+      padding-right: 8px;
+      overflow: hidden;
+      color: #20242e;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: inherit;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.ms-add-view-popover {
+  width: 320px;
+
+  .@{ant-prefix}-popover-inner-content {
+    width: 100%;
+  }
+}

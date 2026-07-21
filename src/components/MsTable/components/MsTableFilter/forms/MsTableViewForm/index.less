@@ -1,0 +1,282 @@
+@ant-prefix: ant;
+
+.ms-view-form-container {
+  position: relative;
+  display: none;
+  margin-bottom: 16px;
+  padding: 24px 14px 24px 24px;
+  background: #f7f8fa;
+  border-radius: 4px;
+  transition: height 0.3s ease;
+  user-select: none;
+
+  .ms-view-form {
+    padding: 0px;
+    // 右内边距2px,防止滚动条超出
+    padding-right: 2px;
+
+    .ms-view-form-item-wrapper {
+      overflow-x: hidden;
+    }
+
+    .ms-view-form-item-del {
+      padding-left: 4px;
+      color: #78858f;
+      opacity: 0;
+    }
+
+    .@{ant-prefix}-form-item {
+      margin-bottom: 16px;
+
+      &:hover {
+        .ms-view-form-item-del {
+          opacity: 1;
+        }
+      }
+    }
+
+    .@{ant-prefix}-form-item-control-input {
+      position: relative;
+
+      // &::before {
+      //   position: absolute;
+      //   top: 0;
+      //   left: -124px;
+      //   width: 100%;
+      //   min-width: 150px;
+      //   height: 100%;
+      //   background-color: #fff;
+      //   border-top: 1px solid #d9d9d9;
+      //   border-bottom: 1px solid #d9d9d9;
+      //   border-left: 1px solid #d9d9d9;
+      //   content: '';
+      // }
+    }
+
+    .@{ant-prefix}-form-item-label {
+      z-index: 2;
+      height: 32px;
+      padding-left: 8px;
+      background: #ffffff;
+      border-top: 1px solid #d9d9d9;
+      border-bottom: 1px solid #d9d9d9;
+      border-left: 1px solid #d9d9d9;
+
+      label {
+        display: inline-block;
+        max-width: 100%;
+        height: 30px;
+        min-height: 30px;
+        overflow: hidden;
+        line-height: 30px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .@{ant-prefix}-input-affix-wrapper {
+      min-height: 32px;
+    }
+  }
+}
+
+.ms-view-form-container.open {
+  display: block;
+}
+
+.ms-arrow-down-double-wrap {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 32px);
+  transform: translateY(18px) translateX(-12px);
+}
+
+.ms-view-btn-wrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 300px;
+  padding-top: 8px;
+  padding-right: 10px;
+}
+
+.ms-view-column-drawer {
+  .@{ant-prefix}-drawer-body {
+    padding: 0 24px 16px 24px;
+  }
+
+  .ms-view-column-group-empty {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: 32px 0;
+    transform: translate(-50%, calc(-50% - 64px));
+  }
+}
+
+.ms-view-column-group-input {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  padding: 16px 0;
+  background-color: #fff;
+}
+
+.ms-view-column-group {
+  margin-top: 8px;
+}
+
+.ms-view-column-group-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  .ms-view-column-group-item {
+    height: 32px;
+    padding: 0 16px;
+    color: #464f5c;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e6e8eb;
+    border-radius: 2px;
+    user-select: none;
+
+    &:hover {
+      border-color: #006eff;
+      cursor: pointer;
+    }
+
+    &.ms-view-column-group-item-active {
+      position: relative;
+      border-color: #006eff;
+
+      .ms-view-column-group-item-active-icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #006eff;
+        font-size: 21px;
+      }
+    }
+
+    &.ms-view-column-group-item-disabled {
+      color: #cec6cc;
+      border-color: #e6e8eb !important;
+      cursor: not-allowed;
+
+      .ms-view-column-group-item-active-icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: #e6e8eb;
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+// 折叠面板样式重写
+.ms-view-column-group-collapse {
+  &.@{ant-prefix}-collapse-icon-position-end {
+    .@{ant-prefix}-collapse-item {
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+
+      .@{ant-prefix}-collapse-header {
+        padding: 5px 40px 5px 8px;
+        color: #464f5c;
+        font-weight: 500;
+        font-size: 14px;
+        background: #f7f8fa;
+        border-radius: 2px;
+        user-select: none;
+      }
+
+      .@{ant-prefix}-collapse-content {
+        .@{ant-prefix}-collapse-content-box {
+          padding: 16px 8px 8px 8px;
+        }
+      }
+    }
+  }
+}
+
+.ms-view-name-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  cursor: pointer;
+
+  .anticon {
+    padding-left: 8px;
+    cursor: pointer;
+  }
+
+  .ms-view-name-content-arrow {
+    svg {
+      transition: all 0.5s ease;
+    }
+  }
+
+  &:hover {
+    .ms-view-name-content-arrow {
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.ms-view-name {
+  max-width: 116px;
+  height: 32px;
+  overflow: hidden;
+  color: #20242e;
+  font-size: 14px;
+  line-height: 32px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.@{ant-prefix}-btn {
+  &.ms-view-btn-save {
+    margin: 4px 0 20px 0;
+    color: #20242e;
+    font-size: 12px;
+    background: #eceef1 !important;
+    border-color: #eceef1 !important;
+    border-radius: 2px;
+  }
+
+  &.ms-view-btn-reset {
+    margin: 4px 0 20px 0;
+    color: #20242e;
+    font-size: 12px;
+    background: #eceef1 !important;
+    border-color: #eceef1 !important;
+    border-radius: 2px;
+  }
+}
+
+// 重置最后一个表单项的样式
+.ms-view-form-container .ms-view-form .ms-view-form-item-last {
+  margin-bottom: 0px;
+
+  .@{ant-prefix}-form-item-control-input {
+    height: 1px;
+    min-height: 1px;
+
+    &::before {
+      left: 0px;
+      height: 1px;
+      background-color: #f7f8fa;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+**/*.svg
+**/*.ejs
+**/*.html
+
+# dumi
+.dumi/tmp
+.dumi/tmp-production
+
+# umi
+.umi
+.umi-production
+.umi-test
+
+# output
+dist
+lib
+coverage
+design
+
+# lock
+pnpm-lock.yaml
+
+src/docs/guide/CHANGELOG.md
+
+# docs
+src/docs/standard/*.md
+src/docs/wiki/standard-development/*.md
+
+# components
+src/components/MsDescriptions/index.md
+src/components/MsForm/index.$tab-example.md
+src/components/MsDrawer/index.md
+src/components/MsModal/index.md
+src/components/MsActions/index.md
+src/components/MsTitle/index.md
+src/components/MsCopy/index.md
+
+# fields
+src/fields/MsDate/index.md
+src/fields/MsDateRange/index.md
+src/fields/MsGroup/index.md
+src/fields/MsCollapse/index.md

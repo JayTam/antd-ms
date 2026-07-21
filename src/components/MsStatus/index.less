@@ -1,0 +1,104 @@
+@font-size-base: 14px;
+@ant-prefix: ant;
+
+.ms-status {
+  display: inline-flex;
+  align-items: center;
+
+  .ms-status-text {
+    font-size: @font-size-base;
+  }
+}
+
+.@{ant-prefix}-tag {
+  &.ms-status-tag {
+    margin-right: 0;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    border: none;
+
+    & + .ms-status-tag {
+      margin-left: 8px;
+    }
+  }
+
+  &.ms-status-tag-xm {
+    padding: 2px 6px;
+  }
+
+  &.ms-status-tag-m {
+    padding: 6px 8px;
+  }
+
+  &.ms-status-tag-lg {
+    padding: 8px 12px;
+  }
+}
+
+.ms-status-close {
+  display: none;
+}
+
+.ms-status-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ms-status-ellipsis {
+  display: inline-flex;
+  width: 88px;
+
+  &.@{ant-prefix}-tag-hidden {
+    display: none;
+  }
+
+  .ms-status-text {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.ms-status-round {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 8px;
+}
+
+.ms-status-processing {
+  animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.ms-status-close-icon {
+  margin-left: 8px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 10px;
+  cursor: pointer;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.ms-status-tooltip {
+  margin-left: 4px;
+  font-size: 12px;
+}

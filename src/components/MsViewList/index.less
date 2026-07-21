@@ -1,0 +1,252 @@
+@ant-prefix: ant;
+
+.ms-view-list-loading {
+  height: 100%;
+
+  & > div > .@{ant-prefix}-spin-spinning {
+    max-height: unset;
+  }
+
+  & > .@{ant-prefix}-spin-container {
+    height: 100%;
+  }
+}
+
+.ms-view-list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+  user-select: none;
+  height: 100%;
+
+  .ms-view-list-header {
+    // position: sticky;
+    // top: 0;
+    // z-index: 9;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px 16px 16px;
+    background-color: #fff;
+
+    .ms-view-list-title {
+      display: flex;
+      flex: 1;
+      gap: 8px;
+      align-items: center;
+      padding-left: 8px;
+      overflow: hidden;
+      color: #20242e;
+      font-weight: 500;
+      font-size: 14px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      .ms-view-list-title-text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .ms-view-list-tips-icon {
+        display: flex;
+        align-items: center;
+        color: #60666e;
+        cursor: pointer;
+
+        &:hover {
+          color: #006eff;
+        }
+      }
+    }
+
+    .ms-view-list-icon {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: flex-end;
+      color: #464f5c;
+      font-size: 16px;
+      cursor: pointer;
+
+      .anticon :hover {
+        color: #006eff;
+      }
+    }
+  }
+
+  .ms-view-list-item {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px 0 8px;
+    color: #464f5c;
+    font-size: 14px;
+    line-height: 32px;
+    border-radius: 4px;
+
+    &:not(:first-child) {
+      margin-bottom: 4px;
+    }
+
+    .ms-view-list-item-title-wrapper {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      .ms-view-list-item-title {
+        flex: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        cursor: pointer;
+      }
+    }
+
+    .ms-view-list-item-tool {
+      color: #464f5c;
+
+      .ms-view-list-item-count {
+        white-space: nowrap;
+      }
+
+      .ms-view-list-item-more {
+        display: none;
+        cursor: pointer;
+
+        &:hover {
+          color: #006eff;
+        }
+      }
+    }
+
+    &.ms-view-list-item-show-dropdown:hover {
+      background: #f7f8fa;
+      border-radius: 4px;
+
+      .ms-view-list-item-count {
+        display: none;
+      }
+
+      .ms-view-list-item-more {
+        display: unset;
+      }
+    }
+
+    .ms-view-list-item-more-show {
+      .ms-view-list-item-count {
+        display: none;
+      }
+
+      .ms-view-list-item-more {
+        display: unset;
+      }
+    }
+
+    &.ms-view-list-item-active {
+      color: #006eff;
+
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 2px;
+        height: 14px;
+        background-color: #006eff;
+        transform: translateY(-50%);
+        content: '';
+      }
+    }
+  }
+}
+
+.ms-view-list-dropdown {
+  .@{ant-prefix}-dropdown-menu-item {
+    white-space: nowrap;
+  }
+}
+
+.ms-view-list-empty {
+  margin: 20px auto 0;
+}
+
+// 重写部分拖动排序的样式
+.ms-view-list-sortable-container {
+  .ms-sortable-item-container {
+    display: block;
+    margin-bottom: 4px;
+    border: none;
+  }
+}
+
+.ms-view-list-list {
+  flex: 1;
+  overflow-y: auto;
+
+  .ms-sortable-item-container {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
+.ms-view-list-other-tool {
+  padding: 4px 4px 0 4px;
+  border-top: 1px solid #e6e8eb;
+
+  .ms-view-list-other-btn {
+    width: 100%;
+    padding: 0 4px;
+    text-align: left;
+
+    .ms-view-list-icon {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+      padding-left: 4px;
+      font-size: 16px;
+    }
+
+    &:hover {
+      background: #f7f8fa;
+      border-radius: 2px;
+    }
+  }
+}
+
+// 重写有则msView 的样式
+.form-top-msview {
+  width: 200px;
+  height: calc(100vh - 80px);
+  min-height: 180px;
+  max-height: 480px;
+  padding: 4px 0;
+
+  .ms-sortable-item-container {
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+
+  .ms-view-list-item {
+    margin-left: 0;
+    padding: 0 8px;
+
+    &.ms-view-list-item-active {
+      color: #464f5c;
+      background: #ebf4ff;
+
+      &.ms-view-list-item-show-dropdown:hover {
+        background: #ebf4ff;
+      }
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+}

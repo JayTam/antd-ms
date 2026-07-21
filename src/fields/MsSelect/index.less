@@ -1,0 +1,16 @@
+@ant-prefix: ant;
+
+// 带初始值请求可选项，隐藏初始值
+.initial-loading {
+  .@{ant-prefix}-select-selection-item {
+    display: none;
+  }
+}
+
+.hide-selected-icon {
+  &:not(.@{ant-prefix}-select-item-option-disabled) {
+    .@{ant-prefix}-select-item-option-state {
+      display: none;
+    }
+  }
+}

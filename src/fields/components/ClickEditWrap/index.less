@@ -1,0 +1,98 @@
+@ant-prefix: ant;
+
+.ms-click-edit-wrap {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  &:hover {
+    background-color: #eceef1;
+    cursor: pointer;
+  }
+  .ms-click-edit-text {
+    height: 32px;
+    padding: 0 8px;
+    overflow: hidden; /*超出部分隐藏*/
+    line-height: 32px;
+    white-space: nowrap; /*禁止换行*/
+    text-overflow: ellipsis; /*省略号*/
+  }
+  .ms-click-edit-select {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 32px;
+    padding: 0 8px;
+    .select-icon {
+      display: none;
+    }
+    > .ms-select-text-ellipsis {
+      overflow: hidden; /*超出部分隐藏*/
+      white-space: nowrap; /*禁止换行*/
+      text-overflow: ellipsis; /*省略号*/
+    }
+  }
+  &:hover {
+    .ms-click-edit-select {
+      .select-icon {
+        display: inline;
+        color: #464f5c;
+      }
+    }
+  }
+
+  .@{ant-prefix}-input,
+  .@{ant-prefix}-select-selector {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+  }
+  .@{ant-prefix}-input-affix-wrapper {
+    padding-left: 0px !important;
+  }
+}
+.ms-click-in-edit-wrap {
+  background-color: #eceef1;
+  .@{ant-prefix}-input-affix-wrapper-borderless {
+    background-color: #fff !important;
+    > input {
+      height: 22px;
+    }
+  }
+  .@{ant-prefix}-input-borderless {
+    background-color: #fff !important;
+  }
+}
+
+//覆盖原始antd表单编辑框的样式
+.ms-click-edit-select-wrap {
+  .@{ant-prefix}-select-selector {
+    min-height: 48px !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    background-color: #eceef1 !important;
+    border: none !important;
+    & > .@{ant-prefix}-select-selection-item,
+    & > .@{ant-prefix}-select-selection-placeholder {
+      padding-top: 9px !important;
+    }
+  }
+  .@{ant-prefix}-select-multiple {
+    .@{ant-prefix}-select-selector {
+      & > .@{ant-prefix}-select-selection-placeholder {
+        padding-top: 0px;
+      }
+    }
+  }
+}
+.user-popover-click-edit {
+  padding-right: 0;
+  padding-left: 0;
+  .ms-click-edit-select {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  > .user-popover {
+    padding: 12px 0;
+  }
+}

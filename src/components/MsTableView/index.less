@@ -1,0 +1,38 @@
+@ant-prefix: ant;
+
+.ms-table-view {
+  display: flex;
+  height: 100vh;
+  background-color: #fff;
+
+  .ms-table-view-content {
+    flex: 1;
+    height: 100%;
+    padding: 16px 16px 16px 0;
+    overflow: hidden auto;
+  }
+}
+
+.ms-view-tabs-wrapper {
+  .@{ant-prefix}-tabs-nav-more {
+    display: none;
+    padding-top: 0 !important;
+  }
+
+  .@{ant-prefix}-tabs-nav {
+    height: 40px;
+
+    .@{ant-prefix}-tabs-tab {
+      height: 40px;
+      padding-bottom: 0px;
+    }
+
+    .@{ant-prefix}-tabs-extra-content {
+      height: 40px;
+    }
+
+    .@{ant-prefix}-tabs-tab {
+      padding-top: 0 !important;
+    }
+  }
+}

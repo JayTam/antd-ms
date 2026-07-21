@@ -1,0 +1,23 @@
+# dumi
+.dumi/tmp
+.dumi/tmp-production
+
+# umi
+.umi
+.umi-production
+.umi-test
+
+# output
+dist
+lib
+coverage
+
+# lock
+pnpm-lock.yaml
+
+# 资源
+assets
+design
+
+scripts
+

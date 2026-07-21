@@ -1,0 +1,41 @@
+{
+  "name": "@jaytam/schema-render",
+  "version": "0.0.1",
+  "description": "@jaytam/schema-render 是一个通用型 schema 转 React 组件的工具组件。",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "build": "father build && tsc --emitDeclarationOnly --declaration --outDir dist",
+    "test": "jest --silent",
+    "test:coverage": "jest --coverage --silent"
+  },
+  "keywords": [
+    "@jaytam/schema-render",
+    "react schema render",
+    "json schema",
+    "schema renderer",
+    "react",
+    "renderer",
+    "render",
+    "schema"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5",
+    "@testing-library/react": "^14",
+    "@umijs/plugin-antd": "^0.9.1",
+    "babel-plugin-import": "^1.13.3",
+    "dumi": "^2.4.20",
+    "father": "^4.1.3"
+  }
+}

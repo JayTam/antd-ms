@@ -1,0 +1,55 @@
+.component-meta {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.component-meta-item {
+  margin-bottom: 8px;
+}
+
+.component-meta-item-label {
+  margin-right: 16px;
+  color: #00000073;
+  user-select: none;
+}
+
+.component-meta-item-value {
+  border-radius: 2px;
+  padding: 0 4px;
+  cursor: pointer;
+  color: #000000a6;
+  & a {
+    color: #000000a6;
+  }
+  &:hover {
+    background-color: #0000000a;
+  }
+}
+
+.component-meta-item-value.disabled-hover {
+  cursor: default;
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.component-meta-item-value.danger {
+  color: read;
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.contributor-item {
+  cursor: pointer;
+}
+
+.contributor-item + .contributor-item {
+  margin-left: 16px;
+}
+
+.component-doc-edit-icon {
+  font-size: 20px;
+  margin-left: 12px;
+}

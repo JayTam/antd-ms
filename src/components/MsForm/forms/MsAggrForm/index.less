@@ -1,0 +1,41 @@
+@ant-prefix: ant;
+
+.ms-aggr-form {
+  margin-bottom: 0;
+}
+
+.ms-aggr-form-select-query {
+  position: relative;
+  display: inline-flex !important;
+  width: 400px;
+  border: 1px solid #d9d9d9;
+
+  // &:hover {
+  //   z-index: 1;
+  //   border-color: #388eff;
+  //   border-right-width: 1px;
+  // }
+
+  .@{ant-prefix}-select:not(.@{ant-prefix}-select-customize-input) .@{ant-prefix}-select-selector {
+    height: auto;
+    border: none;
+  }
+
+  .@{ant-prefix}-picker {
+    border: none;
+  }
+
+  .@{ant-prefix}-picker-input > input {
+    line-height: 1.5;
+  }
+}
+
+.ms-aggr-form-input {
+  display: inline-block;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.ms-aggr-search-icon {
+  color: rgba(0, 0, 0, 0.45);
+}

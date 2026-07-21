@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsResizable 组件 demo 测试 正确渲染 MsResizable basic.tsx 1`] = `
+<div>
+  <div
+    style="display: flex;"
+  >
+    <div
+      class="ms-resizable"
+      style="height: 200px; width: 200px; padding-right: 21px;"
+    >
+      <div
+        class="ms-resizable-content"
+        style="overflow: hidden;"
+      >
+        左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域 左侧区域
+      </div>
+      <div
+        class="ms-resizable-handle ms-resizable-handle-left"
+        style="cursor: ew-resize;"
+      />
+      <div
+        class="ms-resizable-trapezoid ms-resizable-trapezoid-left"
+        style="top: 0px;"
+      >
+        <span
+          class="anticon"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            class=""
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M677.083 878.007a18.286 18.286 0 0 1-25.819 0L300.617 527.36a18.286 18.286 0 0 1 0-25.82l350.647-350.646a18.286 18.286 0 0 1 25.82 0l41.398 41.325a18.286 18.286 0 0 1 0 25.893L422.181 514.414l296.301 296.375a18.286 18.286 0 0 1 0 25.819l-41.399 41.399z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div
+      style="flex: 1; padding: 16px; margin: 0px 16px; overflow: hidden; background-color: rgb(250, 250, 250);"
+    >
+      中间区域 中间区域 中间区域 中间区域 中间区域 中间区域 中间区域 中间区域 中间区域
+    </div>
+    <div
+      class="ms-resizable"
+      style="height: 200px; width: 200px; padding-left: 21px;"
+    >
+      <div
+        class="ms-resizable-content"
+      >
+        右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域 右侧区域
+      </div>
+      <div
+        class="ms-resizable-handle ms-resizable-handle-right"
+        style="cursor: ew-resize;"
+      />
+      <div
+        class="ms-resizable-trapezoid ms-resizable-trapezoid-right"
+        style="bottom: 0px;"
+      >
+        <span
+          class="anticon"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            class=""
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M342.016 150.894a18.286 18.286 0 0 1 25.82 0L718.481 501.54a18.286 18.286 0 0 1 0 25.819L367.91 878.007a18.286 18.286 0 0 1-25.82 0l-41.399-41.399a18.286 18.286 0 0 1 0-25.82l296.156-296.374-296.229-296.302a18.286 18.286 0 0 1 0-25.893l41.326-41.325z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsResizable 组件 demo 测试 正确渲染 MsResizable disabled.tsx 1`] = `
+<div>
+  <div
+    class="ms-resizable"
+    style="height: 500px; width: 200px; padding-right: 21px;"
+  >
+    <div
+      class="ms-resizable-content"
+    >
+      展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案
+    </div>
+    <div
+      class="ms-resizable-handle ms-resizable-handle-left"
+      style="cursor: default;"
+    />
+    <div
+      class="ms-resizable-trapezoid ms-resizable-trapezoid-left"
+      style="top: 40%;"
+    >
+      <span
+        class="anticon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class=""
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M677.083 878.007a18.286 18.286 0 0 1-25.819 0L300.617 527.36a18.286 18.286 0 0 1 0-25.82l350.647-350.646a18.286 18.286 0 0 1 25.82 0l41.398 41.325a18.286 18.286 0 0 1 0 25.893L422.181 514.414l296.301 296.375a18.286 18.286 0 0 1 0 25.819l-41.399 41.399z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsResizable 组件 demo 测试 正确渲染 MsResizable set-width.tsx 1`] = `
+<div>
+  <div
+    class="ms-resizable"
+    style="height: 400px; width: 300px; padding-right: 21px;"
+  >
+    <div
+      class="ms-resizable-content"
+    >
+      展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案展示文案
+    </div>
+    <div
+      class="ms-resizable-handle ms-resizable-handle-left"
+      style="cursor: ew-resize;"
+    />
+    <div
+      class="ms-resizable-trapezoid ms-resizable-trapezoid-left"
+      style="top: 40%;"
+    >
+      <span
+        class="anticon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class=""
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M677.083 878.007a18.286 18.286 0 0 1-25.819 0L300.617 527.36a18.286 18.286 0 0 1 0-25.82l350.647-350.646a18.286 18.286 0 0 1 25.82 0l41.398 41.325a18.286 18.286 0 0 1 0 25.893L422.181 514.414l296.301 296.375a18.286 18.286 0 0 1 0 25.819l-41.399 41.399z"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;

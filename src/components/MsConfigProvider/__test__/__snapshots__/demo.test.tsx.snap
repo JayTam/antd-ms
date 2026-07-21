@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsConfigProvider 组件 demo 测试 正确渲染 MsConfigProvider iconfont.tsx 1`] = `<div />`;
+
+exports[`MsConfigProvider 组件 demo 测试 正确渲染 MsConfigProvider sentry.tsx 1`] = `<div />`;

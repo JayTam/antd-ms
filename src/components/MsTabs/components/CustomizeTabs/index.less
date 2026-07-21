@@ -1,0 +1,105 @@
+@ant-prefix: ant;
+
+.ms-customize-tabs {
+  .ms-customize-tabs-extra-wrap {
+    display: flex;
+    align-items: center;
+    .ms-customize-tabs-content {
+      flex: auto;
+    }
+  }
+  .ms-tabs-radio {
+    .@{ant-prefix}-radio-button-wrapper {
+      padding: 0 12px;
+      font-size: 14px;
+      line-height: 30px;
+      &:not(.@{ant-prefix}-radio-button-wrapper-checked) {
+        color: #464f5c;
+        border-color: #e6e8eb;
+      }
+    }
+  }
+
+  .ms-tabs-radio-wrap {
+    display: flex;
+    .radio-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 32px;
+      color: #464f5c;
+      font-size: 12px;
+      border: 1px solid #e6e8eb;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .radio-left {
+      border-right: 0;
+      border-radius: 2px 0px 0px 2px;
+    }
+    .radio-right {
+      border-left: 0;
+      border-radius: 0 2px 2px 0;
+    }
+    .radio-disable {
+      color: #c2c6cc;
+      cursor: not-allowed;
+    }
+    &.ms-tabs-radio-max {
+      .ant-radio-button-wrapper:first-child {
+        border-radius: 0;
+      }
+      .ant-radio-button-wrapper:last-child {
+        border-radius: 0;
+      }
+    }
+  }
+
+  .ms-text-tabs {
+    display: flex;
+    align-items: center;
+    .ms-text-tabs-item {
+      margin-right: 8px;
+      padding: 6px 12px;
+      color: #464f5c;
+      font-size: 14px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.ms-tabs-selected {
+        color: #20242e;
+        font-weight: 500;
+        background: #f7f8fa;
+        border-radius: 2px;
+      }
+    }
+  }
+  .ms-text-block-tabs {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px;
+    background: #eceef1;
+    border-radius: 2px;
+    .ms-text-block-tabs-item {
+      margin-right: 2px;
+      padding: 4px 12px;
+      color: #464f5c;
+      font-size: 14px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.ms-tabs-selected {
+        color: #20242e;
+        background: #ffffff;
+        border-radius: 2px;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@ant-prefix: ant;
+
+.@{ant-prefix}-breadcrumb.ms-devops-breadcrumb {
+  margin-bottom: 8px;
+
+  .link {
+    display: inline-block;
+    color: #78858f;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+  }
+  .link.can-selected {
+    color: #2e90ff;
+  }
+  li:last-child .link {
+    color: #20242e;
+    cursor: auto;
+  }
+  .selected {
+    color: #20242e;
+  }
+}

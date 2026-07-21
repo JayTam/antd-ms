@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`快照测试 1`] = `
+<DocumentFragment>
+  <div
+    class="ms-statistic-container"
+  >
+    <div
+      class="ant-card ant-card-bordered ms-statistic-card"
+      style="cursor: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="ant-card-body"
+        style="padding: 16px;"
+      >
+        <div>
+          <div
+            class="ant-row"
+            style="margin: -8px -8px -8px -8px;"
+          >
+            <div
+              class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-24"
+              style="padding: 8px 8px 8px 8px; cursor: pointer;"
+            >
+              <div
+                class="ant-statistic"
+                style="text-align: left;"
+              >
+                <div
+                  class="ant-statistic-title"
+                >
+                  <div
+                    style="width: 100%; display: flex; justify-content: space-between;"
+                  >
+                    <div
+                      style="display: flex; align-items: center;"
+                    >
+                      <div
+                        style="margin-right: 8px;"
+                      >
+                        A
+                      </div>
+                      <h3
+                        class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line"
+                        style="margin-bottom: 0px; margin-top: 0px; font-size: 14px; font-weight: 400; line-height: 1.5; color: rgb(120, 133, 143);"
+                      >
+                        Item 1
+                      </h3>
+                      <div
+                        style="margin-left: 8px;"
+                      >
+                        Z
+                      </div>
+                    </div>
+                    <span>
+                      自定义渲染
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="ant-statistic-content"
+                  style="font-size: 22px; font-weight: 500; color: rgb(32, 36, 46);"
+                >
+                  <div
+                    style="display: flex; justify-content: space-between; flex-direction: row;"
+                  >
+                    <div>
+                      <span>
+                        <span
+                          style="margin-right: 8px;"
+                        >
+                          AA
+                        </span>
+                        <span>
+                          <span
+                            class="ant-statistic-content-value"
+                          >
+                            <span
+                              class="ant-statistic-content-value-int"
+                            >
+                              100
+                            </span>
+                            <span
+                              class="ant-statistic-content-value-decimal"
+                            >
+                              .00
+                            </span>
+                          </span>
+                        </span>
+                        <span
+                          style="font-size: 14px; font-weight: normal; margin-left: 2px;"
+                        >
+                          %
+                        </span>
+                        <span
+                          style="margin-left: 8px;"
+                        >
+                          ZZ
+                        </span>
+                      </span>
+                    </div>
+                    <div
+                      style="margin-left: 0px;"
+                    >
+                      <div
+                        class="ant-statistic"
+                        style="display: flex; align-items: end; gap: 4px;"
+                      >
+                        <div
+                          class="ant-statistic-title"
+                        >
+                          <div
+                            style="width: 100%; display: flex; justify-content: flex-start;"
+                          >
+                            <div
+                              style="display: flex; align-items: center;"
+                            >
+                              <h3
+                                class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line"
+                                style="margin-bottom: 0px; margin-top: 0px; font-size: 12px; font-weight: 400; line-height: 1.5; color: rgb(120, 133, 143);"
+                              >
+                                副指标
+                              </h3>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="ant-statistic-content"
+                          style="font-size: 22px; font-weight: 500; color: rgb(32, 36, 46);"
+                        >
+                          <div
+                            style="display: flex; justify-content: flex-start; flex-direction: row;"
+                          >
+                            <div>
+                              <span
+                                style="font-size: 12px; font-weight: normal;"
+                              >
+                                <span>
+                                  <span
+                                    class="ant-statistic-content-value"
+                                  >
+                                    <span
+                                      class="ant-statistic-content-value-int"
+                                    >
+                                      50
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-24"
+              style="padding: 8px 8px 8px 8px; cursor: pointer;"
+            >
+              <div
+                class="ant-statistic"
+                style="display: flex; align-items: end; gap: 24px;"
+              >
+                <div
+                  class="ant-statistic-title"
+                >
+                  <div
+                    style="width: 100%; display: flex; justify-content: flex-start;"
+                  >
+                    <div
+                      style="display: flex; align-items: center;"
+                    >
+                      <h3
+                        class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line"
+                        style="margin-bottom: 0px; margin-top: 0px; font-size: 14px; font-weight: 400; line-height: 1.5; color: rgb(120, 133, 143);"
+                      >
+                        Item 2
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-statistic-content"
+                  style="font-size: 22px; font-weight: 500; color: rgb(32, 36, 46);"
+                >
+                  <span
+                    class="ant-statistic-content-value"
+                  >
+                    00:04:59
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

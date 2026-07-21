@@ -1,0 +1,18 @@
+@ant-prefix: ant;
+@primary-color: #006eff;
+
+.ms-table-column-resizable-handle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background-color: transparent;
+  cursor: col-resize;
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.ms-table-column-resizable-handle.resizing {
+  background-color: @primary-color;
+}

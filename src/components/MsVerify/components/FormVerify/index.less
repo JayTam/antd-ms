@@ -1,0 +1,79 @@
+@ant-prefix: ant;
+
+.ms-verify-modal {
+  .@{ant-prefix}-modal-body {
+    padding-bottom: 0;
+  }
+
+  .@{ant-prefix}-modal-close-x {
+    .anticon-close {
+      margin-top: 22px;
+      font-size: 20px;
+    }
+  }
+
+  .@{ant-prefix}-modal-content {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.09);
+  }
+
+  .@{ant-prefix}-modal-footer {
+    padding: 0 24px 24px 24px;
+    border-top: none;
+  }
+}
+
+.ms-verify-desc {
+  margin-bottom: 16px;
+  padding-left: 32px;
+  color: #464f5c;
+  font-size: 14px;
+}
+
+.ms-verify-alert {
+  padding: 0 24px 0 0;
+  background-color: transparent;
+  border: none;
+
+  .@{ant-prefix}-alert-icon {
+    font-size: 24px;
+  }
+
+  .@{ant-prefix}-alert-message {
+    color: #20242e;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.ms-verify-form {
+  padding-left: 32px;
+
+  .@{ant-prefix}-modal-body {
+    padding-bottom: 0;
+  }
+
+  .@{ant-prefix}-form-item {
+    flex: 1;
+  }
+
+  .@{ant-prefix}-btn-text {
+    width: 100px;
+    margin-left: 16px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: auto;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: 2px;
+    background: #eee;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: #eee;
+    }
+  }
+}

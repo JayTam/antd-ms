@@ -1,0 +1,51 @@
+@ms-sortable-prefix: ms-sortable-item;
+
+.@{ms-sortable-prefix}-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #eceef1;
+  border-radius: 2px;
+  cursor: move;
+
+  .@{ms-sortable-prefix}-left {
+    display: flex;
+    gap: 4px;
+    margin-left: 4px;
+  }
+
+  .@{ms-sortable-prefix}-right {
+    display: flex;
+
+    .@{ms-sortable-prefix}-tag-wrapper {
+      display: block;
+      cursor: default;
+    }
+
+    .@{ms-sortable-prefix}-top-wrapper {
+      display: none;
+      margin-right: 16px;
+    }
+  }
+
+  &:hover {
+    background-color: #f7f8fa;
+
+    // hover到item 且展示置顶图标时 => 隐藏tag、展示置顶图标
+    .@{ms-sortable-prefix}-right.@{ms-sortable-prefix}-show-top-icon {
+      .@{ms-sortable-prefix}-tag-wrapper {
+        display: none;
+      }
+
+      .@{ms-sortable-prefix}-top-wrapper {
+        display: block;
+        cursor: pointer;
+      }
+    }
+  }
+}

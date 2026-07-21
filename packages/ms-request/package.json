@@ -1,0 +1,49 @@
+{
+  "name": "@jaytam/request-ms",
+  "version": "0.0.3",
+  "description": "@jaytam/request-ms 请求库",
+  "keywords": [
+    "request"
+  ],
+  "homepage": "https://github.com/JayTam/antd-ms",
+  "bugs": {
+    "url": "https://github.com/JayTam/antd-ms/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayTam/antd-ms.git"
+  },
+  "license": "MIT",
+  "author": "JayTam",
+  "main": "lib/esm/index",
+  "module": "lib/esm/index.js",
+  "typings": "lib/esm/index.d.ts",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "father build",
+    "rm": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "dayjs": "1.11.13",
+    "moment": "^2.29.2",
+    "lodash-es": "^4.17.21",
+    "antd": "4.24.16",
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.6",
+    "cross-env": "^7",
+    "father": "^4.1.3",
+    "typescript": "^5",
+    "@types/crypto-js": "^4.1.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "sideEffects": []
+}

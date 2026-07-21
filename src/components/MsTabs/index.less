@@ -1,0 +1,80 @@
+@ant-prefix: ant;
+
+//非卡片布局
+.ms-tabs:not(.@{ant-prefix}-tabs-card) {
+  // 水平布局
+  &.@{ant-prefix}-tabs-top {
+    .@{ant-prefix}-tabs-tab {
+      padding: 9px 0;
+      color: #78858f;
+      font-size: 14px;
+    }
+  }
+  //左右布局
+  &.@{ant-prefix}-tabs-left {
+    .@{ant-prefix}-tabs-nav-list {
+      padding: 0 16px;
+      .@{ant-prefix}-tabs-tab {
+        padding: 6px 8px;
+        color: #78858f;
+        font-size: 14px;
+        line-height: 20px;
+        &:hover {
+          color: #20242e;
+          background: #f7f8fa;
+          border-radius: 4px;
+        }
+      }
+      .@{ant-prefix}-tabs-tab + .@{ant-prefix}-tabs-tab {
+        margin-top: 4px;
+      }
+    }
+    .@{ant-prefix}-tabs-nav .@{ant-prefix}-tabs-ink-bar,
+    div > .@{ant-prefix}-tabs-nav .@{ant-prefix}-tabs-ink-bar {
+      left: 16px;
+      height: 14px !important;
+      margin-top: 9px;
+    }
+  }
+}
+//卡片布局
+.ms-tabs.@{ant-prefix}-tabs-card {
+  & > .@{ant-prefix}-tabs-nav .@{ant-prefix}-tabs-tab:not(.@{ant-prefix}-tabs-tab-active),
+  & > div > .@{ant-prefix}-tabs-nav .@{ant-prefix}-tabs-tab:not(.@{ant-prefix}-tabs-tab-active) {
+    background-color: #f7f8fa;
+  }
+  .@{ant-prefix}-tabs-tab {
+    padding: 5px 15px !important;
+    color: #464f5c;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 4px 4px 0 0 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Cascadia Code', 'Consolas', 'Segoe UI', Roboto,
+      'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  .@{ant-prefix}-tabs-tab-active {
+    .@{ant-prefix}-tabs-tab-btn {
+      color: #20242e;
+      font-weight: 500;
+    }
+  }
+  .@{ant-prefix}-tabs-tab + .@{ant-prefix}-tabs-tab {
+    margin-left: 4px !important;
+  }
+  .@{ant-prefix}-tabs-tab-remove {
+    margin-left: 4px;
+    padding: 0 2px;
+    font-size: 10px;
+  }
+  .@{ant-prefix}-tabs-nav-add {
+    min-width: 32px;
+    margin-left: 4px;
+  }
+  .@{ant-prefix}-tabs-nav {
+    .@{ant-prefix}-tabs-nav-more {
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+    }
+  }
+}

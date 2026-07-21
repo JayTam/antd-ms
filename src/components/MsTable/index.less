@@ -1,0 +1,222 @@
+/* prettier-ignore */
+/* eslint-disable */
+
+@ant-prefix: ant;
+
+.ms-table-column-tooltip {
+  display: flex;
+}
+
+.@{ant-prefix}-table-cell-ellipsis .ms-table-column-title-tooltip {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+// 根据 UI 设计调整样式
+.@{ant-prefix}-table-thead > tr > th {
+  font-weight: 400;
+  background: #f7f8fa;
+}
+
+// expandable 异步加载 loading icon
+.@{ant-prefix}-table-row-indent + .@{ant-prefix}-table-row-expand-loading-container {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-top: 3px;
+  margin-right: 9px;
+  margin-left: 2px;
+  font-size: 14px;
+}
+
+.@{ant-prefix}-table.@{ant-prefix}-table-small
+  .@{ant-prefix}-table-tbody
+  .@{ant-prefix}-table-wrapper:only-child
+  .@{ant-prefix}-table {
+  margin: 0;
+}
+
+/** 开启 borderedHead 之后，去掉 td 之间的边框 */
+.ms-table-bordered-thead {
+  // .@{ant-prefix}-table.@{ant-prefix}-table-bordered > .@{ant-prefix}-table-container > .@{ant-prefix}-table-content > table > thead > tr > th,
+  // .@{ant-prefix}-table.@{ant-prefix}-table-bordered > .@{ant-prefix}-table-container > .@{ant-prefix}-table-header > table > thead > tr > th,
+  // .@{ant-prefix}-table.@{ant-prefix}-table-bordered > .@{ant-prefix}-table-container > .@{ant-prefix}-table-body > table > thead > tr > th,
+  // .@{ant-prefix}-table.@{ant-prefix}-table-bordered > .@{ant-prefix}-table-container > .@{ant-prefix}-table-summary > table > thead > tr > th,
+
+  /* ----------------------------- 去掉 td 的边框 -------------------------------------------- */
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-content
+    > table
+    > tbody
+    > tr
+    > td:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-header
+    > table
+    > tbody
+    > tr
+    > td:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-body
+    > table
+    > tbody
+    > tr
+    > td:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-summary
+    > table
+    > tbody
+    > tr
+    > td:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-content
+    > table
+    > tfoot
+    > tr
+    > th:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-header
+    > table
+    > tfoot
+    > tr
+    > th:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-body
+    > table
+    > tfoot
+    > tr
+    > th:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-summary
+    > table
+    > tfoot
+    > tr
+    > th:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-content
+    > table
+    > tfoot
+    > tr
+    > td:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-header
+    > table
+    > tfoot
+    > tr
+    > td:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-body
+    > table
+    > tfoot
+    > tr
+    > td:not(:last-child),
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-summary
+    > table
+    > tfoot
+    > tr
+    > td:not(:last-child) {
+    border-right-color: transparent;
+  }
+
+  // ------------------- column.fixed=right 也有边框，要去掉 -----------------------------
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-content
+    > table
+    > thead
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-header
+    > table
+    > thead
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-body
+    > table
+    > thead
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-summary
+    > table
+    > thead
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-content
+    > table
+    > tbody
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-header
+    > table
+    > tbody
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-body
+    > table
+    > tbody
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-summary
+    > table
+    > tbody
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-content
+    > table
+    > tfoot
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-header
+    > table
+    > tfoot
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-body
+    > table
+    > tfoot
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after,
+  .@{ant-prefix}-table.@{ant-prefix}-table-bordered
+    > .@{ant-prefix}-table-container
+    > .@{ant-prefix}-table-summary
+    > table
+    > tfoot
+    > tr
+    > .@{ant-prefix}-table-cell-fix-right-first::after {
+    border-right-color: transparent;
+  }
+}

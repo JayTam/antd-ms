@@ -1,0 +1,45 @@
+@ant-prefix: ant;
+
+.ms-actions {
+  .@{ant-prefix}-btn .anticon {
+    margin-left: 4px;
+  }
+}
+
+.ms-actions .@{ant-prefix}-btn:hover {
+  z-index: 2;
+}
+
+// :has 在低版本浏览器不支持，chrome 105 才开始支持，下面使用只是美化去边框，就算不支持影响也很小，所以继续使用
+.ms-actions
+  .@{ant-prefix}-space-item:has(+ .@{ant-prefix}-space-item .ms-action-button-ellipsis)
+  button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.ms-actions .@{ant-prefix}-space-item .ms-action-button-ellipsis {
+  margin-left: -11px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  & @{ant-prefix}icon-ellipsis {
+    margin-left: 0;
+  }
+}
+
+.ms-actions-dropdown-overlay {
+  padding: 4px;
+}
+
+.ms-dropdown-overlay .@{ant-prefix}-dropdown-menu-root.ms-actions-menu-root {
+  max-height: 200px;
+  padding: 0;
+  overflow-y: auto;
+  box-shadow: none;
+}
+
+.ms-actions-menu-root .@{ant-prefix}-dropdown-menu-item.@{ant-prefix}-dropdown-menu-item-disabled {
+  cursor: default;
+}

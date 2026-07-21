@@ -1,0 +1,49 @@
+@primary-color: #006eff;
+@primary-hover-color: #2e90ff;
+
+.box-tabs-add {
+  height: 100%;
+  height: 56px;
+  padding: 0 16px;
+  border-radius: 2px;
+  border: 1px solid rgb(230, 232, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.box-tabs-add[disabled] {
+  border-color: transparent;
+  color: rgba(0, 0, 0, 0.25);
+  &:hover {
+    border-color: transparent;
+  }
+}
+
+.box-tabs-add-icon.anticon {
+  background-color: rgb(234, 243, 255);
+  color: @primary-color;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  margin-bottom: 6px;
+}
+
+.box-tabs-add[disabled] .box-tabs-add-icon.anticon {
+  background-color: #4d535a14;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.box-tabs-add-text {
+  color: @primary-color;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.box-tabs-add[disabled] .box-tabs-add-text {
+  color: rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,41 @@
+@ant-prefix: ant;
+
+.ms-confirm .@{ant-prefix}-modal-body {
+  padding: 32px 32px 24px;
+}
+
+.ms-confirm-header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ms-confirm-icon {
+  margin-right: 16px;
+  color: #faad14;
+  font-size: 22px;
+}
+
+.ms-confirm-title {
+  overflow: hidden;
+  color: #000000d9;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.ms-confirm-content {
+  margin-top: 8px;
+  color: #000000d9;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.ms-confirm-footer {
+  margin-top: 24px;
+  text-align: right;
+
+  & .@{ant-prefix}-btn + .@{ant-prefix}-btn {
+    margin-bottom: 0;
+    margin-left: 8px;
+  }
+}

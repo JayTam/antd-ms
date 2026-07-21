@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsIconFont 组件 demo 测试 正确渲染 MsIconFont index.tsx 1`] = `
+<div>
+  <div>
+    <span
+      class="anticon"
+      role="img"
+      style="font-size: 20px; color: rgb(24, 144, 255);"
+    >
+      <svg
+        aria-hidden="true"
+        class=""
+        fill="currentColor"
+        focusable="false"
+        height="1em"
+        width="1em"
+      >
+        <use
+          xlink:href="#icon-xuniwangguan"
+        />
+      </svg>
+    </span>
+    <div>
+      当图标生效时：compatibleType图标失效：
+      <span
+        class="anticon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class=""
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          width="1em"
+        >
+          <use
+            xlink:href="#icon-yunjiankong1"
+          />
+        </svg>
+      </span>
+    </div>
+    <div>
+      当图标生效时：currentRender自定义内容失效：
+      <span
+        class="anticon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class=""
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          width="1em"
+        >
+          <use
+            xlink:href="#icon-yunjiankong1"
+          />
+        </svg>
+      </span>
+    </div>
+    <div>
+      当图标失效时：compatibleType图标生效：
+      <span
+        class="anticon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          class=""
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          width="1em"
+        >
+          <use
+            xlink:href="#icon-xuniwangguan"
+          />
+        </svg>
+      </span>
+    </div>
+    <div>
+      当图标失效时：currentRender自定义内容生效：
+      <span>
+        xx文本xx
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsIconFont 组件 demo 测试 正确渲染 MsIconFont spin.tsx 1`] = `
+<div>
+  <span
+    class="anticon"
+    role="img"
+  >
+    <svg
+      aria-hidden="true"
+      class="anticon-spin"
+      fill="currentColor"
+      focusable="false"
+      height="1em"
+      width="1em"
+    >
+      <use
+        xlink:href="#icon-ziwang1"
+      />
+    </svg>
+  </span>
+</div>
+`;

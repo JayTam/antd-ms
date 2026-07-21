@@ -1,0 +1,34 @@
+.ms-copy {
+  display: contents;
+  cursor: pointer;
+}
+
+.ms-copy-copyable {
+  .ms-copy-action {
+    height: 12px;
+    margin: 0;
+
+    padding: 0;
+  }
+
+  .ms-copy-hover-action {
+    display: none;
+  }
+
+  &:hover {
+    .ms-copy-hover-action {
+      display: inline-block;
+    }
+  }
+}
+
+.ms-copy-ellipsis {
+  display: flex;
+  align-items: center;
+
+  .ellipsis-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

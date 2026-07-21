@@ -1,0 +1,30 @@
+.ms-rows {
+  padding: 4px 0;
+  .ms-rows-item {
+    overflow: hidden;
+    line-height: 1;
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+  .ms-rows-item-pure {
+    line-height: 24px;
+  }
+  .ms-rows-line-text {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    line-height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+  }
+  .ms-rows-line-clamp {
+    display: -webkit-box;
+    overflow: hidden;
+    line-height: 20px;
+    white-space: normal;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+  }
+}

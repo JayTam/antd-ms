@@ -1,0 +1,36 @@
+@ant-prefix: ant;
+
+.ms-step-container {
+  width: 100%;
+}
+
+.ms-step-container.hidden {
+  display: none;
+}
+
+.ms-form-submitter {
+  margin: 16px 0;
+}
+
+.ms-form-submitter.fixed {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 8;
+  margin: 0;
+  background-color: #fff;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-radius: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.@{ant-prefix}-form-item-label > label {
+  color: #464f5c;
+}
+
+.@{ant-prefix}-form-item-label > label::after {
+  margin: 0 8px;
+}

@@ -1,0 +1,1672 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsSortable 组件 demo 测试 正确渲染 MsSortable basic.tsx 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        aria-describedby="DndDescribedBy-6"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            React.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-6"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Vue.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-6"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Angular.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-6"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Solid.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-6"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Svelte.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-6"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Javascript
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                语言
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-6"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            PReact.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        />
+      </div>
+      <div
+        id="DndDescribedBy-6"
+        style="display: none;"
+      >
+        
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        id="DndLiveRegion-6"
+        role="status"
+        style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsSortable 组件 demo 测试 正确渲染 MsSortable disable-all.tsx 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        aria-describedby="DndDescribedBy-5"
+        aria-disabled="true"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        style="cursor: not-allowed; color: rgb(194, 198, 204);"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(194, 198, 204); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            React.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-5"
+        aria-disabled="true"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        style="cursor: not-allowed; color: rgb(194, 198, 204);"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(194, 198, 204); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Vue.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-5"
+        aria-disabled="true"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        style="cursor: not-allowed; color: rgb(194, 198, 204);"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(194, 198, 204); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Angular.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        id="DndDescribedBy-5"
+        style="display: none;"
+      >
+        
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        id="DndLiveRegion-5"
+        role="status"
+        style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsSortable 组件 demo 测试 正确渲染 MsSortable disable-item.tsx 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        aria-describedby="DndDescribedBy-4"
+        aria-disabled="true"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        style="color: red; cursor: not-allowed;"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(194, 198, 204); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Javascript
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                语言
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-4"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            React.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-4"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Vue.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-4"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Angular.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        id="DndDescribedBy-4"
+        style="display: none;"
+      >
+        
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        id="DndLiveRegion-4"
+        role="status"
+        style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsSortable 组件 demo 测试 正确渲染 MsSortable dragging-style.tsx 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        aria-describedby="DndDescribedBy-3"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Javascript
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                语言
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-3"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            React.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-3"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Vue.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-3"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            Angular.js
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                框架
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        id="DndDescribedBy-3"
+        style="display: none;"
+      >
+        
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        id="DndLiveRegion-3"
+        role="status"
+        style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsSortable 组件 demo 测试 正确渲染 MsSortable event.tsx 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        aria-describedby="DndDescribedBy-2"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            技术部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        />
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-2"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            云平台部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        />
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-2"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            业务一部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        />
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-2"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            业务二部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right"
+        />
+      </div>
+      <div
+        id="DndDescribedBy-2"
+        style="display: none;"
+      >
+        
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        id="DndLiveRegion-2"
+        role="status"
+        style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsSortable 组件 demo 测试 正确渲染 MsSortable render.tsx 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        aria-describedby="DndDescribedBy-1"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          style="padding: 0px 8px;"
+        >
+          JavaScript -- 前端
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-1"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          style="padding: 0px 8px;"
+        >
+          React.js -- 前端
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-1"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          style="padding: 0px 8px;"
+        >
+          设计模式 -- 通用
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-1"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          style="padding: 0px 8px;"
+        >
+          Docker -- 通用
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-1"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          style="padding: 0px 8px;"
+        >
+          Java -- 后端
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-1"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          style="padding: 0px 8px;"
+        >
+          Go -- 后端
+        </div>
+      </div>
+      <div
+        id="DndDescribedBy-1"
+        style="display: none;"
+      >
+        
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        id="DndLiveRegion-1"
+        role="status"
+        style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsSortable 组件 demo 测试 正确渲染 MsSortable top.tsx 1`] = `
+<div>
+  <div>
+    <div>
+      <div
+        aria-describedby="DndDescribedBy-0"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            技术部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right ms-sortable-item-show-top-icon"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                一级部门
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-0"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            云平台部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right ms-sortable-item-show-top-icon"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                二级部门
+              </span>
+            </span>
+          </div>
+          <div
+            class="ms-sortable-item-top-wrapper"
+          >
+            <span
+              class="anticon"
+              role="img"
+              style="color: rgb(96, 102, 110);"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M859.429 168.229a18.286 18.286 0 0 0 18.285-18.286V91.429a18.286 18.286 0 0 0-18.285-18.286H164.57a18.286 18.286 0 0 0-18.285 18.286v58.514c0 10.094 8.192 18.286 18.285 18.286H859.43zm-339.53 51.712-7.826-.512-7.9.585a51.2 51.2 0 0 0-22.088 9.07l-6.364 5.412-250.953 250.953-2.999 3.95a18.359 18.359 0 0 0 2.926 22.016l41.618 41.545 3.877 2.999a18.286 18.286 0 0 0 9.07 2.414l4.68-.586a18.286 18.286 0 0 0 4.39-1.828l3.949-2.926L464.238 380.71l.073 551.936.512 4.169c1.902 8.119 9.143 14.19 17.847 14.19h58.733l5.047-.732a18.432 18.432 0 0 0 12.873-13.458l.512-4.17-.073-551.79 171.886 171.887 3.877 2.925a18.286 18.286 0 0 0 9.07 2.414l4.68-.585a18.286 18.286 0 0 0 8.266-4.754l41.618-41.546 2.048-2.56a18.066 18.066 0 0 0 2.706-5.851l.585-4.608-.585-4.681a18.286 18.286 0 0 0-4.827-8.338l-250.66-250.734-6.437-5.486a51.2 51.2 0 0 0-22.163-9.07z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-0"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            业务一部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right ms-sortable-item-show-top-icon"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                三级部门
+              </span>
+            </span>
+          </div>
+          <div
+            class="ms-sortable-item-top-wrapper"
+          >
+            <span
+              class="anticon"
+              role="img"
+              style="color: rgb(96, 102, 110);"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M859.429 168.229a18.286 18.286 0 0 0 18.285-18.286V91.429a18.286 18.286 0 0 0-18.285-18.286H164.57a18.286 18.286 0 0 0-18.285 18.286v58.514c0 10.094 8.192 18.286 18.285 18.286H859.43zm-339.53 51.712-7.826-.512-7.9.585a51.2 51.2 0 0 0-22.088 9.07l-6.364 5.412-250.953 250.953-2.999 3.95a18.359 18.359 0 0 0 2.926 22.016l41.618 41.545 3.877 2.999a18.286 18.286 0 0 0 9.07 2.414l4.68-.586a18.286 18.286 0 0 0 4.39-1.828l3.949-2.926L464.238 380.71l.073 551.936.512 4.169c1.902 8.119 9.143 14.19 17.847 14.19h58.733l5.047-.732a18.432 18.432 0 0 0 12.873-13.458l.512-4.17-.073-551.79 171.886 171.887 3.877 2.925a18.286 18.286 0 0 0 9.07 2.414l4.68-.585a18.286 18.286 0 0 0 8.266-4.754l41.618-41.546 2.048-2.56a18.066 18.066 0 0 0 2.706-5.851l.585-4.608-.585-4.681a18.286 18.286 0 0 0-4.827-8.338l-250.66-250.734-6.437-5.486a51.2 51.2 0 0 0-22.163-9.07z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        aria-describedby="DndDescribedBy-0"
+        aria-disabled="false"
+        aria-roledescription="sortable"
+        class="ms-sortable-item-container"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="ms-sortable-item-left"
+        >
+          <span
+            class="anticon"
+            role="img"
+            style="color: rgb(120, 133, 143); font-size: 16px;"
+          >
+            <svg
+              aria-hidden="true"
+              class=""
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M292.571 804.571a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 512a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zM292.57 219.429a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0zm292.572 0a73.143 73.143 0 1 0 146.286 0 73.143 73.143 0 0 0-146.286 0z"
+              />
+            </svg>
+          </span>
+          <div>
+            业务二部
+          </div>
+        </div>
+        <div
+          class="ms-sortable-item-right ms-sortable-item-show-top-icon"
+        >
+          <div
+            class="ms-sortable-item-tag-wrapper"
+          >
+            <span
+              class="ant-tag ms-status-tag"
+              style="color: rgb(70, 79, 92); background: rgb(240, 241, 242);"
+            >
+              <span
+                class="ms-status-text"
+              >
+                四级部门
+              </span>
+            </span>
+          </div>
+          <div
+            class="ms-sortable-item-top-wrapper"
+          >
+            <span
+              class="anticon"
+              role="img"
+              style="color: rgb(96, 102, 110);"
+            >
+              <svg
+                aria-hidden="true"
+                class=""
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M859.429 168.229a18.286 18.286 0 0 0 18.285-18.286V91.429a18.286 18.286 0 0 0-18.285-18.286H164.57a18.286 18.286 0 0 0-18.285 18.286v58.514c0 10.094 8.192 18.286 18.285 18.286H859.43zm-339.53 51.712-7.826-.512-7.9.585a51.2 51.2 0 0 0-22.088 9.07l-6.364 5.412-250.953 250.953-2.999 3.95a18.359 18.359 0 0 0 2.926 22.016l41.618 41.545 3.877 2.999a18.286 18.286 0 0 0 9.07 2.414l4.68-.586a18.286 18.286 0 0 0 4.39-1.828l3.949-2.926L464.238 380.71l.073 551.936.512 4.169c1.902 8.119 9.143 14.19 17.847 14.19h58.733l5.047-.732a18.432 18.432 0 0 0 12.873-13.458l.512-4.17-.073-551.79 171.886 171.887 3.877 2.925a18.286 18.286 0 0 0 9.07 2.414l4.68-.585a18.286 18.286 0 0 0 8.266-4.754l41.618-41.546 2.048-2.56a18.066 18.066 0 0 0 2.706-5.851l.585-4.608-.585-4.681a18.286 18.286 0 0 0-4.827-8.338l-250.66-250.734-6.437-5.486a51.2 51.2 0 0 0-22.163-9.07z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        id="DndDescribedBy-0"
+        style="display: none;"
+      >
+        
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+      </div>
+      <div
+        aria-atomic="true"
+        aria-live="assertive"
+        id="DndLiveRegion-0"
+        role="status"
+        style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip-path: inset(100%); white-space: nowrap;"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,60 @@
+.ms-flow-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 40px;
+  max-height: 40px;
+  padding: 0 6px;
+  background-color: #fff;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.ms-flow-tools-item-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 14px;
+  transform: translate(-50%, -50%);
+  transition: transform 50ms ease;
+  &:active {
+    font-size: 16px;
+  }
+}
+
+.ms-flow-tools-item {
+  position: relative;
+  width: 26px;
+  height: 30px;
+  margin: 0;
+  margin-right: 6px;
+  color: #595959;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &:focus {
+    background-color: #fff;
+  }
+  &:hover {
+    color: #262626;
+    background-color: #e0e0e0;
+  }
+}
+
+.ms-flow-tools-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ms-flow-tools-item:last-child {
+    margin-right: 0;
+  }
+}
+
+.ms-flow-tools-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ms-flow-tools-item:first-child {
+    margin-right: 0;
+  }
+}

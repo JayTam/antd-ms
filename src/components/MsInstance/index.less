@@ -1,0 +1,54 @@
+@ant-prefix: ant;
+
+.ms-instance-wrap {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  word-break: break-all;
+
+  .ms-instance-action {
+    display: none;
+    margin-left: 8px;
+    color: #00000073;
+    cursor: pointer;
+
+    .@{ant-prefix}-btn-sm {
+      display: inline-flex;
+      align-items: center;
+      width: 12px;
+      height: 12px;
+      padding: 0;
+      color: inherit;
+      font-size: 12px;
+      font-style: normal;
+      line-height: 0;
+      text-align: center;
+      text-transform: none;
+    }
+  }
+
+  &:hover {
+    .ms-instance-action {
+      display: flex;
+    }
+  }
+}
+
+.ms-instance-title {
+  position: relative;
+  white-space: break-spaces;
+  overflow-wrap: break-word;
+}
+
+.ms-instance-title-ellipsis {
+  overflow: hidden; //文字超出限定宽度时，隐藏
+  white-space: nowrap; //只能显示在一行里 不能换行
+  text-overflow: ellipsis; //内容过长时省略
+}
+
+.ms-instance-disabled {
+  color: rgba(0, 0, 0, 0.25);
+  text-overflow: initial;
+  cursor: not-allowed;
+}

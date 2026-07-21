@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer basic.tsx 1`] = `
+<div>
+  <button
+    class="ant-btn ant-btn-default"
+    type="button"
+  >
+    <span>
+      打 开
+    </span>
+  </button>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer dual.tsx 1`] = `
+<div>
+  <button
+    class="ant-btn ant-btn-default"
+    type="button"
+  >
+    <span>
+      打 开
+    </span>
+  </button>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer handler.tsx 1`] = `
+<div>
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
+  >
+    <div
+      class="ant-space-item"
+      style="margin-right: 8px;"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          普通抽屉
+        </span>
+      </button>
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          改过组件层级抽屉
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer loading.tsx 1`] = `
+<div>
+  <button
+    class="ant-btn ant-btn-default"
+    type="button"
+  >
+    <span>
+      打 开
+    </span>
+  </button>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer promise.tsx 1`] = `
+<div>
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
+  >
+    <div
+      class="ant-space-item"
+      style="margin-right: 8px;"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          Promise成功
+        </span>
+      </button>
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          Promise失败
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer self.tsx 1`] = `
+<div>
+  <button
+    class="ant-btn ant-btn-default"
+    type="button"
+  >
+    <span>
+      打 开
+    </span>
+  </button>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer size.tsx 1`] = `
+<div>
+  <div
+    class="ant-space ant-space-horizontal ant-space-align-center"
+  >
+    <div
+      class="ant-space-item"
+      style="margin-right: 8px;"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          small(500px)
+        </span>
+      </button>
+    </div>
+    <div
+      class="ant-space-item"
+      style="margin-right: 8px;"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          middle(700px)
+        </span>
+      </button>
+    </div>
+    <div
+      class="ant-space-item"
+      style="margin-right: 8px;"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          large(900px)
+        </span>
+      </button>
+    </div>
+    <div
+      class="ant-space-item"
+    >
+      <button
+        class="ant-btn ant-btn-default"
+        type="button"
+      >
+        <span>
+          width=999px
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer switch.tsx 1`] = `
+<div>
+  <button
+    class="ant-btn ant-btn-default"
+    type="button"
+  >
+    <span>
+      打 开
+    </span>
+  </button>
+</div>
+`;
+
+exports[`MsDrawer 组件 demo 测试 正确渲染 MsDrawer three.tsx 1`] = `
+<div>
+  <button
+    class="ant-btn ant-btn-default"
+    type="button"
+  >
+    <span>
+      打 开
+    </span>
+  </button>
+</div>
+`;

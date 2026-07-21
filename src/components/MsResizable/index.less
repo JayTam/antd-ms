@@ -1,0 +1,75 @@
+.ms-resizable {
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+  transition: all 0.25s ease;
+  box-sizing: content-box;
+
+  .ms-resizable-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    word-break: break-all;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: all 0.25s ease;
+  }
+
+  .ms-resizable-handle {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    height: 100%;
+    cursor: ew-resize;
+
+    &.ms-resizable-handle-left {
+      right: 14px;
+      padding: 0 0 0 6px;
+      border-left: 1px solid #e6e8eb;
+    }
+
+    &.ms-resizable-handle-right {
+      left: 14px;
+      padding: 0 6px 0 0;
+      border-right: 1px solid #e6e8eb;
+    }
+  }
+
+  .ms-resizable-trapezoid {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 72px;
+    font-size: 16px;
+    color: #464f5c;
+    cursor: pointer;
+
+    &.ms-resizable-trapezoid-left {
+      right: 0;
+      background: url('../../assets/images/ms-resizable-handle-left.png') center center / cover
+        no-repeat;
+
+      .anticon {
+        padding: 0 4px 4px 0;
+      }
+    }
+
+    &.ms-resizable-trapezoid-right {
+      left: 0;
+      background: url('../../assets/images/ms-resizable-handle-right.png') center center / cover
+        no-repeat;
+
+      .anticon {
+        padding: 0px 0px 4px 3px;
+      }
+    }
+
+    &:hover {
+      color: #106ffb;
+    }
+  }
+}

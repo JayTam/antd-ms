@@ -1,0 +1,77 @@
+.ms-dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 32px;
+  color: #20242e;
+  font-size: 14px;
+  white-space: nowrap;
+  background-color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &.ms-dropdown-trigger-disabled {
+    color: #c2c6cc;
+    cursor: not-allowed;
+  }
+  .ms-dropdown-trigger-content {
+    padding: 0 16px;
+  }
+
+  &.ms-dropdown-trigger-text {
+    &:not(.ms-dropdown-trigger-disabled):hover {
+      background: #f7f8fa;
+    }
+  }
+  &.ms-dropdown-trigger-button {
+    border: 1px solid #e6e8eb;
+
+    &:not(.ms-dropdown-trigger-disabled):hover {
+      background: #f7f8fa;
+    }
+  }
+  &.ms-dropdown-trigger-button-primary {
+    color: #fff;
+    background: #006eff;
+    border: none;
+
+    &:not(.ms-dropdown-trigger-disabled):hover {
+      background: #2e90ff;
+    }
+    &:not(.ms-dropdown-trigger-disabled):active {
+      background: #0054ad;
+    }
+  }
+  &.ms-dropdown-trigger-card {
+    background: #eceef1;
+    &.ms-dropdown-trigger-disabled {
+      background: #f7f8fa;
+    }
+    &:not(.ms-dropdown-trigger-disabled):hover {
+      background: #dfe1e6;
+    }
+  }
+  .ms-trigger-arrow {
+    transition: all 0.4s;
+  }
+  .ms-trigger-arrow-open {
+    transform: rotate(180deg);
+  }
+  .ms-trigger-ellipsis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 32px;
+    border-left: 1px solid #e6e8eb;
+  }
+  &.ms-dropdown-trigger-disabled.ms-dropdown-trigger-button-primary {
+    color: #00000040;
+    border: 1px solid #d9d9d9;
+    background: #f5f5f5;
+    .ms-trigger-arrow {
+      color: #00000040;
+    }
+  }
+}

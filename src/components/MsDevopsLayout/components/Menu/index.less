@@ -1,0 +1,312 @@
+@ant-prefix: ant;
+
+.ms-devops-layout-menu-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 16px 0 16px;
+  background: #f7f8fa;
+  transition: all 0.2s ease-in-out;
+  // 菜单中分割线的样式
+  .ms-devops-menu-divider {
+    margin-bottom: 8px;
+    border-color: #e6e8eb;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .ms-menu-fold-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 28px;
+    margin: 10px 10px 0;
+    padding: 0 12px;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover {
+      background-color: #eaeaeb;
+    }
+    .ms-menu-fold {
+      width: 24px;
+      height: 24px;
+    }
+    > .fold {
+      flex-shrink: 0;
+      margin-left: 7px;
+      color: #464f5c;
+      font-size: 14px;
+      line-height: 20;
+    }
+  }
+}
+
+.ms-devops-layout-menu {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0 8px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  .ms-indent-0 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  // 二级菜单调整左边距
+  .ms-indent-1 {
+    padding-left: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  // 三级菜单调整左边距
+  .ms-indent-2 {
+    padding-left: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  // 三级菜单调整左边距
+  .ms-indent-3 {
+    padding-left: 43px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ms-menu-collapsed {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    overflow: hidden;
+    > span {
+      display: flex;
+      align-items: center;
+      height: 16px !important;
+      line-height: 16px !important;
+    }
+  }
+  //收缩menu时的title样式，适配动画
+  .collapsed-short-title {
+    display: inline-block;
+    max-height: 17px;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 17px !important;
+    transition: all 0.1s;
+    transition-delay: 0.1s;
+  }
+  //展开menu时的title样式，不显示
+  .collapsed-short-title-hidden {
+    max-width: 0;
+    max-height: 0;
+    margin-top: 0px;
+    overflow: hidden;
+    transition: none;
+    transition-delay: 0;
+  }
+
+  .@{ant-prefix}-menu {
+    font-size: 14px;
+    background: #f7f8fa;
+  }
+  .@{ant-prefix}-item {
+    background: #f7f8fa;
+  }
+  //隐藏默认的border-right样式
+  .@{ant-prefix}-menu-inline {
+    border-right: none !important;
+  }
+  //隐藏默认的border-right样式
+  .@{ant-prefix}-menu-vertical {
+    border-right: none !important;
+  }
+  //隐藏选中的右边样式
+  .@{ant-prefix}-menu-item-selected::after {
+    display: none;
+  }
+  // 选中项的样式
+  .@{ant-prefix}-menu-item-selected {
+    border-radius: 4px;
+  }
+  // 文字和icon间距改为8px
+  .@{ant-prefix}-menu-item .@{ant-prefix}-menu-item-icon + span,
+  .@{ant-prefix}-menu-submenu-title .@{ant-prefix}-menu-item-icon + span,
+  .@{ant-prefix}-menu-item .anticon + span,
+  .@{ant-prefix}-menu-submenu-title .anticon + span {
+    margin-left: 8px;
+  }
+  // 折叠后的样式覆盖
+  .@{ant-prefix}-menu-inline-collapsed {
+    width: 52px !important;
+
+    .@{ant-prefix}-menu-item,
+    .@{ant-prefix}-menu-submenu {
+      height: 55px;
+      margin-bottom: 8px !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      border-radius: 4px;
+      &:active {
+        background: unset;
+      }
+    }
+
+    .@{ant-prefix}-menu-submenu-title {
+      height: 55px !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      border-radius: 4px;
+      &:active {
+        background: unset;
+      }
+    }
+    .@{ant-prefix}-menu-item,
+    .@{ant-prefix}-menu-submenu-title {
+      color: #78858f;
+      &:hover {
+        color: #006eff;
+      }
+      .collapsed-short-title {
+        color: #78858f;
+      }
+    }
+    .@{ant-prefix}-menu-item-selected,
+    .@{ant-prefix}-menu-submenu-selected {
+      color: #006eff;
+      background-color: #e4eefa !important;
+      .collapsed-short-title {
+        color: #006eff;
+        font-weight: 500;
+      }
+      .@{ant-prefix}-menu-item-icon {
+        color: #006eff;
+      }
+    }
+
+    > .@{ant-prefix}-menu-item .@{ant-prefix}icon,
+    > .@{ant-prefix}-menu-submenu > .@{ant-prefix}-menu-submenu-title .@{ant-prefix}icon {
+      font-size: 16px !important;
+    }
+  }
+
+  //展开时的样式覆盖
+  .@{ant-prefix}-menu-inline {
+    color: #464f5c;
+    .@{ant-prefix}-menu-item-selected {
+      background: #e4eefa !important;
+    }
+    //展开时hover样式
+    .@{ant-prefix}-menu-item:not(.@{ant-prefix}-menu-item-selected) {
+      &:hover {
+        color: #464f5c;
+        background: #eceef1;
+        border-radius: 4px;
+      }
+    }
+    // 下箭头覆盖
+    .@{ant-prefix}-menu-submenu:hover
+      > .@{ant-prefix}-menu-submenu-title
+      > .@{ant-prefix}-menu-submenu-expand-icon,
+    .@{ant-prefix}-menu-submenu:hover
+      > .@{ant-prefix}-menu-submenu-title
+      > .@{ant-prefix}-menu-submenu-arrow {
+      color: unset;
+    }
+
+    .@{ant-prefix}-menu-submenu-title {
+      color: #464f5c;
+      &:hover {
+        color: #464f5c;
+        background: #eceef1;
+        border-radius: 4px;
+      }
+      &:active {
+        color: #464f5c;
+        background: #f7f8fa;
+      }
+    }
+
+    .@{ant-prefix}-menu-submenu-selected {
+      > .@{ant-prefix}-menu-submenu-title {
+        color: #006eff;
+        &:hover {
+          color: #006eff;
+        }
+        &:active {
+          color: #006eff;
+        }
+        > .@{ant-prefix}-menu-submenu-arrow {
+          color: #006eff;
+        }
+      }
+    }
+    .@{ant-prefix}-menu-item-active {
+      > .@{ant-prefix}-menu-title-content {
+        color: unset;
+      }
+    }
+    .@{ant-prefix}-menu-item-selected {
+      > .@{ant-prefix}-menu-title-content {
+        color: #006eff;
+        font-weight: 500;
+      }
+    }
+    .@{ant-prefix}-menu-item .@{ant-prefix}-menu-item-icon,
+    .@{ant-prefix}-menu-submenu-title .@{ant-prefix}-menu-item-icon,
+    .@{ant-prefix}-menu-item .anticon,
+    .@{ant-prefix}-menu-submenu-title .anticon {
+      font-size: 16px !important;
+    }
+  }
+}
+
+// 折叠宽度
+.ms-devops-layout-menu-collapse {
+  padding: 0 4px;
+}
+
+//覆盖默认的popover样式
+#ms-devops-menu-popover-container {
+  .@{ant-prefix}-menu-item:not(.@{ant-prefix}-menu-item-selected) {
+    &:hover {
+      color: #464f5c;
+      background: #eceef1;
+    }
+  }
+  .@{ant-prefix}-menu-submenu {
+    &:hover {
+      background: #eceef1 !important;
+    }
+  }
+  .@{ant-prefix}-menu-submenu-selected {
+    > .@{ant-prefix}-menu-submenu-title {
+      > .@{ant-prefix}-menu-submenu-arrow {
+        color: unset;
+      }
+    }
+  }
+  .@{ant-prefix}-menu-submenu-title {
+    height: 32px;
+    > .@{ant-prefix}-menu-title-content {
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+  .@{ant-prefix}-menu-vertical {
+    > .@{ant-prefix}-menu-item {
+      height: 32px;
+      > .@{ant-prefix}-menu-title-content {
+        height: 32px;
+        line-height: 32px;
+      }
+    }
+
+    .@{ant-prefix}-menu-item:not(:last-child) {
+      margin-bottom: 4px;
+    }
+  }
+}

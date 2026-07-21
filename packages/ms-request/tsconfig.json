@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@jaytam/request": ["src"],
+      "@jaytam/request/*": ["src/*", "*"]
+    }
+  },
+  "include": [".fatherrc.ts", "src/**/*", "global.d.ts"],
+  "exclude": ["node_modules", "build", "scripts"]
+}
