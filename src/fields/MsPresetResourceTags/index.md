@@ -1,10 +1,10 @@
 ---
 title: presetResourceTags 预置标签
-description: MsPresetResourceTags 是 MsResourceTags 的升级版，马上云业务线会逐渐从 MsResourceTags 过渡到 MsPresetResourceTags。
+description: MsPresetResourceTags 是 MsResourceTags 的升级版，业务线会逐渐从 MsResourceTags 过渡到 MsPresetResourceTags。
 toc: content
 order: 2
 group:
-  title: 马上云业务
+  title: 业务组件
   order: 100
 version: 2.19.0
 ---

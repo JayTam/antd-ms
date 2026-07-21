@@ -39,7 +39,7 @@ group:
 
 <code src="./__demo__/page-request.tsx"></code>
 
-## 马上云业务
+## 业务组件
 
 
 ### [标签/资源](/fields/ms-resource-tags#src-fields-ms-resource-tags-demo-detail)
@@ -56,7 +56,7 @@ group:
 | title | 详情标题 | `ReactNode` | - |
 | titleType | 标题样式类型，仅 `noCard=true` 作为子容器生效  | `gradient` \| `common` \| `flag` \| `block`| gradient |
 | noCard | 关闭 Card 组件包裹，在MsPage下自动关闭降级为子容器 | `boolean` | - |
-| extra | 标题右侧的操作区 | `React.ReactNode` \| [MsActionsProps](http://ui.msxfcloud.test/components/ms-actions#msactions) \| <br> `(pageData?: DataType) => React.ReactNode \| MsActionsProps` | - |
+| extra | 标题右侧的操作区 | `React.ReactNode` \| [MsActionsProps](https://github.com/JayTam/antd-ms/blob/main/src/components/MsActions) \| <br> `(pageData?: DataType) => React.ReactNode \| MsActionsProps` | - |
 | divider | 间隔，`noCard=true`作为子容器才生效，`true` 是空白间隔，`line` 是分割线间隔 | `boolean` \| `'line'` | -      |
 | refreshButton | 显示刷新按钮，设置 `request` 会自动显示 | `boolean` | true |
 | column | 响应式布局，一行的 `FormItem` 数量，可以写成像素值或支持响应式的对象写法 `{ xs: 8, sm: 16, md: 24}` | `number \| ColProps` | 3 |

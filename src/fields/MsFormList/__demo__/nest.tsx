@@ -26,7 +26,7 @@ export default () => {
                     valueType: 'select',
                     dataIndex: 'team',
                     valueEnum: {
-                      ms: '马上云',
+                      ms: '业务系统',
                       devops: 'Devops',
                     },
                   },

@@ -28,7 +28,7 @@ export default () => {
       />
       <MsEmpty
         imageStyle={{ width: 50, height: 50 }}
-        image="http://doc.msxf.local/service/img/getImg/doc/doc/img/1838032857517490177/1.png"
+        image="https://example.com/static/empty.png"
       />
     </div>
   );

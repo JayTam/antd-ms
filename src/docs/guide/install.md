@@ -27,15 +27,15 @@ group:
 :::code-group
 
 ```bash [npm]
-npm config set registry http://npm.msxf.com
+npm config set registry https://registry.npmjs.org
 ```
 
 ```bash [yarn]
-yarn config set registry http://npm.msxf.com
+yarn config set registry https://registry.npmjs.org
 ```
 
 ```bash [pnpm]
-pnpm config set registry http://npm.msxf.com
+pnpm config set registry https://registry.npmjs.org
 ```
 
 :::

@@ -3,15 +3,15 @@ title: Antd-MS 为中台开发而生的组件库
 hero:
   title: Antd-MS
   description: 让中台开发更简单
-  actions:
+actions:
     - text: 立即上手
       link: /guide/install
-    - text: Gitlab
-      link: http://codelab.msxf.com/gc-common/gc-ui-fe/-/tree/dev-master
-features:
+    - text: GitHub
+      link: https://github.com/JayTam/antd-ms
+  features:
   - title: 快速开发
     emoji: 🚀
-    description: 马上云，devops实际业务场景提炼，让开发更快速
+    description: 中后台业务场景提炼，让开发更快速
 
   - title: Ant Design
     emoji: 💎

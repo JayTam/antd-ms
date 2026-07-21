@@ -1,6 +1,6 @@
 /**
  * title: 标题类型
- * description: 由于马上云设计规范是 gradient，所以默认是 gradient，Devops设计规范是 block。
+ * description: 由于设计规范是 gradient，所以默认是 gradient，Devops设计规范是 block。
  */
 import { MsForm } from '@jaytam/antd-ms';
 

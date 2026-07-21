@@ -9,13 +9,13 @@ const request = () => {
   const data = [
     {
       id: 1,
-      assetOwner: '马上资产',
+      assetOwner: '内部资产',
       name: 'DAM-autoname-1667722950291',
       ip: '192.186.1.1',
     },
     {
       id: 2,
-      assetOwner: '非马上资产',
+      assetOwner: '非内部资产',
       name: 'DAM-autoname-1667722068292',
       ip: '192.186.1.2',
     },
@@ -47,7 +47,7 @@ function App() {
       dataIndex: 'assetOwner',
       valueType: 'autoComplete',
       search: true,
-      valueEnum: ['马上资产', '非马上资产', '历史盘盈'],
+      valueEnum: ['内部资产', '非内部资产', '历史盘盈'],
     },
     {
       title: '实例名称',

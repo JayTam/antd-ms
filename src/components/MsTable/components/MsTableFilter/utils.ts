@@ -34,7 +34,7 @@ export function resolveFilterColumns<D>(
       }
       return 0;
     })
-    // 优化马上云业务组件的默认配置，便于使用
+    // 优化业务组件的默认配置，便于使用
     .map((column) => {
       if (['presetResourceTags', 'resourceTags'].includes(column.valueType ?? 'text')) {
         return {

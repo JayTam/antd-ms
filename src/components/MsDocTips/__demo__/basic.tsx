@@ -18,11 +18,7 @@ export default () => {
       <div>
         <h2>埋点位置在页面左侧</h2>
         <span>popover模式 </span>
-        <MsDocTips
-          trackingKey="马上云_EIP_rkp2QFiS"
-          placement="right"
-          onCustomClick={onCustomClick}
-        >
+        <MsDocTips trackingKey="BIZ_EIP_rkp2QFiS" placement="right" onCustomClick={onCustomClick}>
           <QuestionCircleOutlined style={{ cursor: 'pointer' }} />
         </MsDocTips>
       </div>

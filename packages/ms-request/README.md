@@ -118,8 +118,8 @@ const request = new DefineRequest<ResponseData>({
 
   /** 在环境变量MSCLOUD_ENV配置后生效，MSCLOUD_ENV的值对应envsToLoginAddress里面的键，envsToLoginAddress的值对应跳转的路径 */
   envsToLoginAddress:{
-    sit: `http://mscloud-admin-sit.msxfcloud.test/user/login?redirect=${window.location.href}`,
-    test: `http://mscloud-admin.msxfcloud.test/user/login?redirect=${window.location.href}`,
+    sit: `https://login.example.com?redirect=${window.location.href}`,
+    test: `https://login.example.com?redirect=${window.location.href}`,
   }
 
   /** 自定义loginStatus状态下的登录回调，建议优先使用环境变量登录 */

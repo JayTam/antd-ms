@@ -21,17 +21,14 @@ function ComponentTitle() {
     type === 'component' ? 'components/' + atom : type === 'field' ? 'fields/' + atom : undefined;
 
   /** 文档链接 */
-  const docUrl =
-    'https://codelab.msxf.com/-/ide/project/gc-common/gc-ui-fe/tree/dev-master/-/src/' +
-    atomUrlName +
-    '/index.md';
+  const docUrl = 'https://github.com/JayTam/antd-ms/edit/main/src/' + atomUrlName + '/index.md';
 
   return (
     <>
       <div className="markdown">
         <h1>
           {meta.frontmatter?.title}
-          <Tooltip title="在 Gitlab 上编辑此页！">
+          <Tooltip title="在 GitHub 上编辑此页！">
             <a href={docUrl} target="_blank" className="component-doc-edit-icon">
               <EditOutlined />
             </a>

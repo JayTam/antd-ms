@@ -1,5 +1,5 @@
 // @jaytam/request-ms支持单独升级
-// 满足马上云业务需求
+// 满足业务组件需求
 export * from '@jaytam/request-ms';
 
 export * from './base';

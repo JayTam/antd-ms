@@ -23,7 +23,7 @@ maintainer: 郑义
 | searchType | 配置用户或团队的数组 | `"group" \| "user"\| "userInGroup" \| "userInWikiGroup" \| string` | ['user'] | 2.22.11 支持传入自定义的类型 |
 | searchChange | 搜索栏的值和类型改变时触发 | `(data: object) => void` | - | - |
 | debounceTime | 搜索时函数防抖时间 | `number` | 300 | - |
-| organizationName | 组织架构名称 | `string` | 马上 | - |
+| organizationName | 组织架构名称 | `string` | 业务 | - |
 | defaultPositionCode | 定位到某一个单位 | `string` | - | - |
 | unDeleteValues | 不可删除的用户或团队的配置 | `string[]` | - | - |
 | maxCount | 最大可选择个数 | `number` | - | - |

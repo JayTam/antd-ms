@@ -250,8 +250,8 @@ describe('utils tests', () => {
       pattern: /\w[-.\w]*\@[-a-z0-9]+(\.[-a-z0-9]+)*\.(com|cn|edu|uk)/gi,
       message: '邮箱格式错误',
     };
-    const [errorVerifyResult, msg] = handleVerifyField('xxx#msxf.com', filledRules);
-    const [successVerifyResult, smsg] = handleVerifyField('xxx@msxf.com', filledRules);
+    const [errorVerifyResult, msg] = handleVerifyField('xxx#example.com', filledRules);
+    const [successVerifyResult, smsg] = handleVerifyField('xxx@gmail.com', filledRules);
 
     expect(successVerifyResult).toEqual('success');
     expect(smsg).toEqual('');

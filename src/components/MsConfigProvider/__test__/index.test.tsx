@@ -35,7 +35,7 @@ describe('MsConfigProvider', () => {
       <MsConfigProvider
         sentryInfo={{
           devEnable: true,
-          dsn: 'https://cdb10d63cc8445d08cffea9c38e55ef2@sentry-relay.msxf.com/178',
+          dsn: 'https://cdb10d63cc8445d08cffea9c38e55ef2@sentry.example.com/178',
         }}
       >
         <Child />

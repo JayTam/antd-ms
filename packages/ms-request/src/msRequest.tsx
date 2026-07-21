@@ -101,7 +101,7 @@ export default class Request {
         if (newCancelConfig.addResponseTimer && newCancelConfig?.headers) {
           newCancelConfig.headers.responseStartTime = new Date().getTime();
         }
-        // 3.不能交给用户处理最后的请求数据,马上云需要保证api安全参数拼接在用户处理之后
+        // 3.不能交给用户处理最后的请求数据,业务系统需要保证api安全参数拼接在用户处理之后
         if (this.interceptors?.requestInterceptor) {
           newCancelConfig = this.interceptors?.requestInterceptor(newCancelConfig);
         }

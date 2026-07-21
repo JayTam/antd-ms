@@ -1306,19 +1306,19 @@ exports[`MsForm 组件 demo 测试 正确渲染 MsForm all-fields.tsx 1`] = `
                                         >
                                           <a
                                             class="ant-upload-list-item-thumbnail"
-                                            href="http://ui.msxfcloud.test/svgs/logo.svg"
+                                            href="https://example.com/svgs/logo.svg"
                                             rel="noopener noreferrer"
                                             target="_blank"
                                           >
                                             <img
                                               alt="xxx.png"
                                               class="ant-upload-list-item-image"
-                                              src="http://ui.msxfcloud.test/svgs/logo.svg"
+                                              src="https://example.com/svgs/logo.svg"
                                             />
                                           </a>
                                           <a
                                             class="ant-upload-list-item-name"
-                                            href="http://ui.msxfcloud.test/svgs/logo.svg"
+                                            href="https://example.com/svgs/logo.svg"
                                             rel="noopener noreferrer"
                                             target="_blank"
                                             title="xxx.png"
@@ -1331,7 +1331,7 @@ exports[`MsForm 组件 demo 测试 正确渲染 MsForm all-fields.tsx 1`] = `
                                         class="ant-upload-list-item-actions"
                                       >
                                         <a
-                                          href="http://ui.msxfcloud.test/svgs/logo.svg"
+                                          href="https://example.com/svgs/logo.svg"
                                           rel="noopener noreferrer"
                                           target="_blank"
                                           title="Preview file"
@@ -2476,7 +2476,7 @@ exports[`MsForm 组件 demo 测试 正确渲染 MsForm all-fields.tsx 1`] = `
                                 id="avatar"
                               >
                                 <img
-                                  src="http://ui.msxfcloud.test/svgs/logo.svg"
+                                  src="https://example.com/svgs/logo.svg"
                                 />
                               </span>
                             </div>
@@ -2523,7 +2523,7 @@ exports[`MsForm 组件 demo 测试 正确渲染 MsForm all-fields.tsx 1`] = `
                                 >
                                   <img
                                     class="ant-image-img"
-                                    src="http://ui.msxfcloud.test/svgs/logo.svg"
+                                    src="https://example.com/svgs/logo.svg"
                                   />
                                   <div
                                     class="ant-image-mask"

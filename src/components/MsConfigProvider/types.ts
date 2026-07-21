@@ -46,7 +46,7 @@ export interface SentryConfigType extends BrowserOptions {
    * @default false
    */
   devEnable?: boolean;
-  /** 马上云方式  */
+  /** 业务系统方式  */
   dsns?: {
     'online-sentry-dsn': string;
     'offline-sentry-dsn': string;

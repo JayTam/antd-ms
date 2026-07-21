@@ -59,7 +59,7 @@ export default () => {
         {
           label: '跳转子网',
           onClick: () => {
-            window.open('http://mscloud-dev3.msxfalb.test/home');
+            window.open('https://example.com/home');
           },
         },
       ],

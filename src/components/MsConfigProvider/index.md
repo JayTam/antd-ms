@@ -39,14 +39,14 @@ export default Demo;
 | iconScriptUrl | 额外的 icon 资源 | `string \| string[]` | - |
 | locale | 国际化文案 | `LocaleType` | 中文包资源 | 2.24.0 |
 | sentryInfo | sentry 相关配置 | `SentryInterface` | - |
-| resourceApiVersion | 马上云资源接口版本号，影响马上云业务组件 resourceTags 和 presetResourceTags | `v1 \| v2` | v1 |
+| resourceApiVersion | 资源接口版本号，影响业务组件 resourceTags 和 presetResourceTags | `v1 \| v2` | v1 |
 | pageAutoBack | 是否开启 MsPage 返回按钮自动返回功能 | `boolean` | - | 2.21.12 |
 
 ### SentryInterface
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
-| dsns | 马上云传入方式 | `dsns: { 'online-sentry-dsn': string, 'offline-sentry-dsn': string }` | - |
+| dsns | 业务系统传入方式 | `dsns: { 'online-sentry-dsn': string, 'offline-sentry-dsn': string }` | - |
 | devEnable | 在联调环境开启 | `boolean` | false |
 | ...sentryInfo | sentry 配置 | <a href="https://docs.sentry.io/platforms/javascript/guides/react/" target="_blank">sentry</a> | - |
 

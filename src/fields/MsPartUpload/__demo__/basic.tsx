@@ -36,7 +36,7 @@ export default () => {
         ref={ref}
         fieldProps={{
           bucket: 'qqqqq-167496225837449',
-          endpoint: 'http://mscloud-dev3.msxfalb.test/oss-service/api/object/gateway/s3/mutilPart',
+          endpoint: 'https://example.com/oss-service/api/object/gateway/s3/mutilPart',
           region: '7-16',
           uploadKey: '1',
           userToken:

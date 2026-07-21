@@ -10,19 +10,17 @@ describe('MsUserPopover', () => {
           fieldProps={{
             defaultValue: [
               {
-                value: 'san.zhang@msxf.com',
-                email: 'san.zhang@msxf.com',
-                fullName:
-                  '集团_马上消费金融股份有限公司-CTO直管部门-技术部-金融科技研发部-公共平台研发部-平台产品化团队',
+                value: 'san.zhang@gmail.com',
+                email: 'san.zhang@gmail.com',
+                fullName: '公司-技术中心-研发部-前端组-平台化团队-业务团队',
                 fullCode: '/D10541/D10185/D10017/D10558/D10463/D11195',
                 label: '张三',
               },
               {
-                value: 'si.li@msxf.com',
-                email: 'si.li@msxf.com',
+                value: 'si.li@gmail.com',
+                email: 'si.li@gmail.com',
                 fullCode: '/D10541/D10185/D10017/D10842/D10025/D11083',
-                fullName:
-                  '集团_马上消费金融股份有限公司-CTO直管部门-技术部-金融科技研发部-数据智能与风控研发部-质量保障团队',
+                fullName: '公司-技术中心-研发部-前端组-平台化团队-业务团队',
                 label: '李四',
               },
             ],

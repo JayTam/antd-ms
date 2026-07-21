@@ -6,7 +6,7 @@ import React from 'react';
 import type { SentryConfigType } from '../types';
 
 // 线上项目
-const onlineOriginArr = ['http://mscloud.bn01.mscloud.local', 'http://mscloud-admin.bn.msxf.local'];
+const onlineOriginArr = ['https://example.com', 'https://example.com'];
 
 const isOnline = onlineOriginArr.includes(window.location.origin);
 

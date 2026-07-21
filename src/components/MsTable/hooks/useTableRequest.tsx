@@ -185,7 +185,7 @@ function useTableRequest<P, R, D>(props: MsTableProps<P, R, D>, extraProps: Extr
     }
   };
 
-  /** 第二层：马上云资源标签合并请求，过渡阶段有两个组件 */
+  /** 第二层：资源标签合并请求，过渡阶段有两个组件 */
   const { mergedRequest: resourceTagsRequest } = useResourceTag({
     request: frontPaginationRequest,
     form,
@@ -196,7 +196,7 @@ function useTableRequest<P, R, D>(props: MsTableProps<P, R, D>, extraProps: Extr
   /**
    * 表格请求，请求分为几部分，按洋葱模型解释分开3层：
    * 1. 请求参数解析以及组装，tableRequest 属于第一层
-   * 2. 马上云资源标签合并请求
+   * 2. 资源标签合并请求
    * 3. 前端请求逻辑处理
    * 4. 处理请求参数和响应数据
    * @param tableRequestPrams

@@ -163,7 +163,7 @@ function useTableColumns<P, R, D>(props: MsTableComponentProps<P, R, D>, extraPr
           return <Skeleton.Button active block size="small" />;
         }
 
-        // 渲染资源标签类型（马上云业务）的Cell
+        // 渲染资源标签类型（业务组件）的Cell
         if (column.valueType === 'presetResourceTags' || column.valueType === 'resourceTags') {
           return (
             <ResourceTagsTableCell

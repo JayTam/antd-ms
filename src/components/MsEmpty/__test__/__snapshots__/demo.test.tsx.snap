@@ -254,7 +254,7 @@ exports[`MsEmpty 组件 demo 测试 正确渲染 MsEmpty custom.tsx 1`] = `
       >
         <img
           alt=""
-          src="http://doc.msxf.local/service/img/getImg/doc/doc/img/1838032857517490177/1.png"
+          src="https://example.com/static/empty.png"
         />
       </div>
       <div

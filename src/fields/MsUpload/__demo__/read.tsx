@@ -19,9 +19,9 @@ export default () => {
       initialValue: [
         {
           uid: '-1',
-          name: '马上云.png',
+          name: 'sample.png',
           status: 'done',
-          url: 'http://ui.msxf.msxfyun.test/svgs/logo.svg',
+          url: 'https://example.com/svgs/logo.svg',
         },
         {
           uid: '-2',
@@ -42,7 +42,7 @@ export default () => {
       // 只读时默认会开启省略，会导致hover图片额外加了tooltip，暂时解决办法将省略关闭，待后续公共组件优化
       ellipsis: false,
       fieldProps: {
-        name: '马上云',
+        name: '业务系统',
         uploadType: 'profile',
         listType: 'picture-card',
       },
@@ -51,7 +51,7 @@ export default () => {
           uid: '-1',
           name: 'xxx.png',
           status: 'done',
-          url: 'http://ui.msxf.msxfyun.test/svgs/logo.svg',
+          url: 'https://example.com/svgs/logo.svg',
         },
       ],
     },

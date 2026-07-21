@@ -9,7 +9,7 @@ import { MsDescriptions, MsResourceTags } from '@jaytam/antd-ms';
 const request = () => {
   return new Promise((resolve) => {
     const res = {
-      data: { gri: 'msxf:ECS:16:171576359951909:ecs/ecs-v059inqruutv56440s' },
+      data: { gri: 'example:ECS:16:171576359951909:ecs/ecs-v059inqruutv56440s' },
     };
     setTimeout(() => resolve(res), 2000);
   });

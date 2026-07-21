@@ -9,7 +9,7 @@ import { MsDescriptions, MsPage, MsResourceTags } from '@jaytam/antd-ms';
 const request = () => {
   return new Promise((resolve) => {
     const res = {
-      data: { gri: 'msxf:EBA:16:167496225837449:volume/volume-zb82d8gipmom09r0ri' },
+      data: { gri: 'example:EBA:16:167496225837449:volume/volume-zb82d8gipmom09r0ri' },
     };
     setTimeout(() => resolve(res), 2000);
   });

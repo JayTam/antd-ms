@@ -4,7 +4,7 @@ import type { MsTableProps } from '../types';
 
 /**
  * 本 hook 是帮助 sticky=true 转化成合适的配置，降低配置的复杂度
- * 由于马上云的页面容器是局部滚动，导致 antd table 的 sticky=true 不能达到预期的效果
+ * 由于业务系统的页面容器是局部滚动，导致 antd table 的 sticky=true 不能达到预期的效果
  */
 function useSticky<P, R, D>(props: MsTableProps<P, R, D>): MsTableProps<P, R, D>['sticky'] {
   const { sticky } = props;

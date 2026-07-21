@@ -1,6 +1,6 @@
 ---
 title: MsInstance - 实例ID/实例名称
-desciption: 马上云业务中各产品列表页实例 ID 可复制可跳转，实例名称可编辑，该组件提供 columns 配置实现复制、编辑、跳转功能。
+desciption: 业务中各产品列表页实例 ID 可复制可跳转，实例名称可编辑，该组件提供 columns 配置实现复制、编辑、跳转功能。
 toc: content
 order: 10
 group:

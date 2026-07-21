@@ -8,20 +8,20 @@ import { MsForm } from '@jaytam/antd-ms';
 const USER_ENUM = [
   {
     cname: '张三',
-    email: 'san.zhang@msxf.com',
+    email: 'san.zhang@gmail.com',
     id: 1,
     myName: '111111',
     username: 'san.zhang',
   },
   {
     cname: '李四',
-    email: 'si.li@msxf.com',
+    email: 'si.li@gmail.com',
     id: 2,
     username: 'si.li',
   },
   {
     cname: '刘涛',
-    email: 'tao.liu@msxf.com',
+    email: 'tao.liu@gmail.com',
     id: 3,
     username: 'tao.liu',
   },
@@ -29,24 +29,24 @@ const USER_ENUM = [
 
 const EMAIL_ENUM = [
   {
-    cname: '马上消费金融',
-    email: 'msxfhab@msxf.com',
+    cname: '公司',
+    email: 'info.line@gmail.com',
     groupList: [
       {
         cname: '董事会办公室',
-        email: 'BoardOffice@msxf.com',
+        email: 'BoardOffice@gmail.com',
       },
       {
         cname: '技术部',
-        email: 'TechnicalD@msxf.com',
+        email: 'TechnicalD@gmail.com',
         groupList: [
           {
             cname: '市场营销研发部',
-            email: 'I-MkMrad@msxf.com',
+            email: 'I-MkMrad@gmail.com',
             userList: [
               {
                 cname: '用户增长研发部',
-                email: 'IM-UserGrowth@msxf.com',
+                email: 'IM-UserGrowth@gmail.com',
               },
             ],
           },
@@ -58,20 +58,20 @@ const EMAIL_ENUM = [
 
 const GROUP_ENUM = [
   {
-    cname: '马上消费金融股份有限公司',
-    email: 'itsm-a@msxf.com',
+    cname: '公司',
+    email: 'itsm-a@gmail.com',
     groupList: [
       {
         cname: '副总经理直管部门',
-        email: 'itsm-p@msxf.com',
+        email: 'itsm-p@gmail.com',
       },
       {
         cname: 'CRO直管部门',
-        email: 'cro-p@msxf.com',
+        email: 'cro-p@gmail.com',
         userList: [
           {
             cname: '刘涛',
-            email: 'tao.liu@msxf.com',
+            email: 'tao.liu@gmail.com',
           },
         ],
       },
@@ -128,7 +128,7 @@ export default () => {
       valueType: 'user',
       valueEnum: USER_ENUM,
       valueEnumFiledNames: { label: 'cname', value: 'email' },
-      initialValue: [{ label: '张三', value: 'san.zhang@msxf.com' }],
+      initialValue: [{ label: '张三', value: 'san.zhang@gmail.com' }],
       fieldProps: {
         mode: 'multiple',
         labelInValue: true,

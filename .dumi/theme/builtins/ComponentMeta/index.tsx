@@ -24,9 +24,8 @@ function ComponentMeta() {
   const atomUrlName =
     type === 'component' ? 'components/' + atom : type === 'field' ? 'fields/' + atom : undefined;
 
-  /** gitlab atom 链接 */
-  const gitlabAtomUrl =
-    'https://codelab.msxf.com/gc-common/gc-ui-fe/-/tree/dev-master/src/' + atomUrlName;
+  /** source atom 链接 */
+  const gitlabAtomUrl = 'https://github.com/JayTam/antd-ms/tree/main/src/' + atomUrlName;
 
   const importStmant = meta.frontmatter.import ?? `import { ${atom} } from "@jaytam/antd-ms;"`;
 
@@ -67,7 +66,6 @@ function ComponentMeta() {
             <Tooltip
               title={
                 <>
-                  <div>点击打开维科之家聊天会话。</div>
                   <div>主维护人忙可以联系贡献人！</div>
                 </>
               }

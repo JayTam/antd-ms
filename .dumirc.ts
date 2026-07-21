@@ -10,8 +10,8 @@ export default defineConfig({
   title: 'Antd-MS 让中台开发更简单的组件库',
   themeConfig: {
     logo: '/svgs/logo.svg',
-    footer: 'Copyright © 2025 | 智能云基础设施部-前端研发团队',
-    socialLinks: { gitlab: 'http://codelab.msxf.com/gc-common/gc-ui-fe/-/tree/dev-master' },
+    footer: 'Copyright © 2025 JayTam',
+    socialLinks: { github: 'https://github.com/JayTam/antd-ms' },
     nav: [
       {
         title: '设计',
@@ -28,10 +28,6 @@ export default defineConfig({
       {
         title: 'Fields',
         link: '/fields',
-      },
-      {
-        title: 'Ms-Configs',
-        link: 'http://gc-configs-fe.msxf.msxfyun.test/',
       },
     ],
     showLineNum: true,
@@ -62,40 +58,6 @@ export default defineConfig({
   chainWebpack: (memo: any) => {
     memo.plugin('monaco-editor-webpack-plugin').use(new MonacoWebpackPlugin());
     return memo;
-  },
-  proxy: {
-    '/portal': {
-      target: 'http://mscloud-dev7.msxf.msxfyun.test/',
-      changeOrigin: true,
-    },
-    '/noauth/': {
-      target: 'http://mscloud-dev7.msxf.msxfyun.test/',
-      changeOrigin: true,
-    },
-    '/admin/': {
-      target: 'http://mscloud-admin.msxfcloud.test',
-      changeOrigin: true,
-    },
-    '/msxfjacp/': {
-      target: 'http://devops.msxf.local',
-      changeOrigin: true,
-    },
-    '/nitsm/': {
-      target: 'http://nitsm.msxf.local',
-      changeOrigin: true,
-      pathRewrite: {
-        //替换规则
-        '^/nitsm': '/',
-      },
-    },
-    '/api/doc': {
-      headers: {
-        token: 'C7UEZP2K6TNMD5AWPV658N3GP83AERTH',
-        sysName: 'gc-resource-plt',
-      },
-      target: 'http://doc-server-dev.msxf.msxfyun.test',
-      changeOrigin: true,
-    },
   },
   theme: {
     // dumi 主题

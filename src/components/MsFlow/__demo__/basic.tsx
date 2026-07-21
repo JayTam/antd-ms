@@ -206,7 +206,7 @@ export default () => {
               dataIndex: 'upload',
               valueType: 'upload',
               fieldProps: {
-                name: '马上云',
+                name: '业务系统',
                 fileList: [
                   {
                     uid: '-1',
@@ -307,7 +307,7 @@ export default () => {
               dataIndex: 'avatar',
               valueType: 'avatar',
               fieldProps: {
-                src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+                src: 'https://example.com/static/logo.svg',
               },
             },
             {
@@ -315,7 +315,7 @@ export default () => {
               dataIndex: 'image',
               valueType: 'image',
               fieldProps: {
-                src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+                src: 'https://example.com/static/logo.svg',
               },
             },
           ],
@@ -425,7 +425,7 @@ export default () => {
                   dataIndex: 'upload',
                   valueType: 'upload',
                   fieldProps: {
-                    name: '马上云',
+                    name: '业务系统',
                     fileList: [
                       {
                         uid: '-1',
@@ -517,7 +517,7 @@ export default () => {
                   dataIndex: 'avatar',
                   valueType: 'avatar',
                   fieldProps: {
-                    src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+                    src: 'https://example.com/static/logo.svg',
                   },
                 },
                 {
@@ -525,7 +525,7 @@ export default () => {
                   dataIndex: 'image',
                   valueType: 'image',
                   fieldProps: {
-                    src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+                    src: 'https://example.com/static/logo.svg',
                   },
                 },
               ],

@@ -4,7 +4,7 @@ import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { useState } from 'react';
 import { MemoryRouter } from 'react-router';
 
-describe('MsTable 马上云业务功能点', () => {
+describe('MsTable 业务功能点', () => {
   test('resetDepsParmaKeys 当依赖项值变更之后，重置MsTable组件，默认值=["region", "regionCode"]，主要用于当地域切换时可用区也要清空', async () => {
     const TestResetDepsParmaKeys = (props: MsTableProps) => {
       const { request } = props;

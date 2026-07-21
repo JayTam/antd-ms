@@ -19,9 +19,9 @@ export default () => {
       initialValue: [
         {
           uid: '-1',
-          name: '马上云.png',
+          name: 'sample.png',
           status: 'done',
-          url: 'http://ui.msxf.msxfyun.test/svgs/logo.svg',
+          url: 'https://example.com/svgs/logo.svg',
         },
       ],
     },
@@ -33,9 +33,9 @@ export default () => {
       initialValue: [
         {
           uid: '-1',
-          name: '马上云.png',
+          name: 'sample.png',
           status: 'done',
-          url: 'http://ui.msxf.msxfyun.test/svgs/logo.svg',
+          url: 'https://example.com/svgs/logo.svg',
         },
       ],
       fieldProps: {
@@ -53,7 +53,7 @@ export default () => {
       dataIndex: 'pictureUpload',
       valueType: 'upload',
       fieldProps: {
-        name: '马上云',
+        name: '业务系统',
         uploadType: 'profile',
         listType: 'picture-card',
       },
@@ -62,7 +62,7 @@ export default () => {
           uid: '-1',
           name: 'xxx.png',
           status: 'done',
-          url: 'http://ui.msxf.msxfyun.test/svgs/logo.svg',
+          url: 'https://example.com/svgs/logo.svg',
         },
       ],
     },

@@ -72,10 +72,9 @@ const MyModal = MsDrawer.create((props: { title: string; width: string | number 
                 formItemProps: { rules: [{ required: true }] },
                 initialValue: [
                   {
-                    value: 'san.zhang@msxf.com',
-                    email: 'san.zhang@msxf.com',
-                    fullName:
-                      '集团_马上消费金融股份有限公司-CTO直管部门-技术部-金融科技研发部-公共平台研发部-平台产品化团队',
+                    value: 'san.zhang@gmail.com',
+                    email: 'san.zhang@gmail.com',
+                    fullName: '公司-技术中心-研发部-前端组-平台化团队-业务团队',
                     fullCode: '/D10541/D10185/D10017/D10558/D10463/D11195',
                     label: '张三',
                   },

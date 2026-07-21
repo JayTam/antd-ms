@@ -163,13 +163,13 @@ export default () => {
           dataIndex: 'upload',
           valueType: 'upload',
           fieldProps: {
-            name: '马上云',
+            name: '业务系统',
             fileList: [
               {
                 uid: '-1',
                 name: 'xxx.png',
                 status: 'done',
-                url: 'http://ui.msxfcloud.test/svgs/logo.svg',
+                url: 'https://example.com/svgs/logo.svg',
               },
             ],
             uploadType: 'profile',
@@ -233,7 +233,7 @@ export default () => {
           dataIndex: 'avatar',
           valueType: 'avatar',
           fieldProps: {
-            src: 'http://ui.msxfcloud.test/svgs/logo.svg',
+            src: 'https://example.com/svgs/logo.svg',
           },
         },
         {
@@ -241,7 +241,7 @@ export default () => {
           dataIndex: 'image',
           valueType: 'image',
           fieldProps: {
-            src: 'http://ui.msxfcloud.test/svgs/logo.svg',
+            src: 'https://example.com/svgs/logo.svg',
           },
         },
       ],

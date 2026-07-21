@@ -781,7 +781,7 @@ describe('flatColumns拍平columns', () => {
           dataIndex: 'upload',
           valueType: 'upload',
           fieldProps: {
-            name: '马上云',
+            name: '业务系统',
             fileList: [
               {
                 uid: '-1',
@@ -841,7 +841,7 @@ describe('flatColumns拍平columns', () => {
           dataIndex: 'avatar',
           valueType: 'avatar',
           fieldProps: {
-            src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+            src: 'https://example.com/static/logo.svg',
           },
         },
         {
@@ -849,7 +849,7 @@ describe('flatColumns拍平columns', () => {
           dataIndex: 'image',
           valueType: 'image',
           fieldProps: {
-            src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+            src: 'https://example.com/static/logo.svg',
           },
         },
       ],
@@ -936,7 +936,7 @@ describe('flatColumns拍平columns', () => {
         dataIndex: 'upload',
         valueType: 'upload',
         fieldProps: {
-          name: '马上云',
+          name: '业务系统',
           fileList: [
             {
               uid: '-1',
@@ -961,13 +961,13 @@ describe('flatColumns拍平columns', () => {
         title: '头像',
         dataIndex: 'avatar',
         valueType: 'avatar',
-        fieldProps: { src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg' },
+        fieldProps: { src: 'https://example.com/static/logo.svg' },
       },
       {
         title: '图片',
         dataIndex: 'image',
         valueType: 'image',
-        fieldProps: { src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg' },
+        fieldProps: { src: 'https://example.com/static/logo.svg' },
       },
       { title: '展示类组件', valueType: 'group' },
     ]);

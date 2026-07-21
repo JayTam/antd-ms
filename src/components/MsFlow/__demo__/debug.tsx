@@ -143,7 +143,7 @@ const columns: MsFormColumns = [
         dataIndex: 'upload',
         valueType: 'upload',
         fieldProps: {
-          name: '马上云',
+          name: '业务系统',
           fileList: [
             {
               uid: '-1',
@@ -235,7 +235,7 @@ const columns: MsFormColumns = [
         dataIndex: 'avatar',
         valueType: 'avatar',
         fieldProps: {
-          src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+          src: 'https://example.com/static/logo.svg',
         },
       },
       {
@@ -243,7 +243,7 @@ const columns: MsFormColumns = [
         dataIndex: 'image',
         valueType: 'image',
         fieldProps: {
-          src: 'http://mscloud.msxfcloud.test/static/logo.00b294f9.svg',
+          src: 'https://example.com/static/logo.svg',
         },
       },
     ],

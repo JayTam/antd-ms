@@ -155,7 +155,7 @@ group:
 
 ## 开发流程
 
-在你 clone 了 <a href="https://gitlab.msxf.com/mscloud/cloud-ui-frontend" target="_blank">antd-ms 代码</a> 并且使用 `pnpm install` 安装完依赖后，你还可以运行下面几个常用的命令：
+在你 clone 了 <a href="https://github.com/JayTam/antd-ms" target="_blank">antd-ms 代码</a> 并且使用 `pnpm install` 安装完依赖后，你还可以运行下面几个常用的命令：
 
 - `pnpm start` 在本地运行文档网站
 - `pnpm build` 构建 antd-ms 的 esm 版本到 lib/esm 目录
@@ -403,6 +403,6 @@ git push origin --delete dev-request
 
 :::info{title=首次发布}
 
-如果是第一次发布需要先添加账户 `npm adduser --registry http://npm.msxf.com` 按照提示注册账号信息
+如果是第一次发布需要先添加账户 `npm adduser --registry https://registry.npmjs.org` 按照提示注册账号信息
 
 :::

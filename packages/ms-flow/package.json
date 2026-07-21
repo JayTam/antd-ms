@@ -6,17 +6,16 @@
     "antd",
     "antd-ms"
   ],
-  "homepage": "http://ui.msxf.msxfyun.test",
+  "homepage": "https://github.com/JayTam/antd-ms",
   "bugs": {
-    "url": "https://codelab.msxf.com/gc-pbs/gc-ui-fe/-/issues"
+    "url": "https://github.com/JayTam/antd-ms/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+http://codelab.msxf.com/gc-pbs/gc-ui-fe.git",
-    "branch": "dev-master",
-    "platform": "gitlab"
+    "url": "https://github.com/JayTam/antd-ms.git"
   },
   "license": "MIT",
+  "author": "JayTam",
   "main": "lib/esm/index",
   "module": "lib/esm/index.js",
   "typings": "lib/esm/index.d.ts",

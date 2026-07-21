@@ -384,7 +384,7 @@ function App() {
     console.log(params, type);
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        const param = params.name === 'msxf';
+        const param = params.name === 'example';
         const msg = type === 'add' ? '新增' : '修改';
         if (param) {
           message.success(`${msg}成功`);
@@ -401,7 +401,7 @@ function App() {
     console.log(params, type);
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        const param = params.name === 'msxf';
+        const param = params.name === 'example';
         if (param) {
           message.success(`删除成功`);
           resolve(`删除成功`);

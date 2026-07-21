@@ -3,7 +3,7 @@ title: resourceGroup 资源组
 toc: content
 order: 3
 group:
-  title: 马上云业务
+  title: 业务组件
   order: 100
 ---
 

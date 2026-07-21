@@ -1,6 +1,6 @@
 /**
  * title: 列表页
- * description: 资源标签在马上云每个实例列表都会用到，所以内置到 MsTale 中，只需要设置 `valueType=presetResourceTags`，再开启 `search=true`。
+ * description: 资源标签在业务系统每个实例列表都会用到，所以内置到 MsTale 中，只需要设置 `valueType=presetResourceTags`，再开启 `search=true`。
  * background: "#f0f3f4"
  */
 import type { MsTableColumns } from '@jaytam/antd-ms';
@@ -14,7 +14,7 @@ const request = () => {
       ip: '192.186.1.1',
       networkType: 1,
       status: 'running',
-      gri: 'msxf:ECS:10102657:167004636972387:ecs/ecs-ohzvnhyv305qad644t',
+      gri: 'example:ECS:10102657:167004636972387:ecs/ecs-ohzvnhyv305qad644t',
       resource: {},
     },
   ];

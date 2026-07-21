@@ -63,21 +63,21 @@ const request = () => {
         createdAt: 1730448262,
         orderInstanceInfos: [
           {
-            resourceContext: 'msxf:ECS:16:167496225837449:ecs/ecs-mgp49633grucwkn69r',
+            resourceContext: 'example:ECS:16:167496225837449:ecs/ecs-mgp49633grucwkn69r',
             instanceId: 'volume-qry8ezeombsr9eumok',
             instanceStatus: 1,
             performanceState: 'performed',
           },
           {
-            resourceContext: 'msxf:ECS:16:167496225837449:ecs/ecs-qgrh86u80dqz6wjxc7',
+            resourceContext: 'example:ECS:16:167496225837449:ecs/ecs-qgrh86u80dqz6wjxc7',
             instanceId: 'ecs-qgrh86u80dqz6wjxc7',
             instanceStatus: 1,
             performanceState: 'performed',
           },
         ],
         resourceContexts: [
-          'msxf:ECS:16:167496225837449:ecs/ecs-mgp49633grucwkn69r',
-          'msxf:ECS:16:167496225837449:ecs/ecs-qgrh86u80dqz6wjxc7',
+          'example:ECS:16:167496225837449:ecs/ecs-mgp49633grucwkn69r',
+          'example:ECS:16:167496225837449:ecs/ecs-qgrh86u80dqz6wjxc7',
         ],
       },
     ],
