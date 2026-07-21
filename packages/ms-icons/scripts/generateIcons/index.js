@@ -58,7 +58,7 @@ const base = async (type, render) => {
       // 更新 index 文件
       await fsPromises.appendFile(
         `${comPath}/index.ts`,
-        `export { default as ${comName} } from './${comName}';`,
+        `export { default as ${comName} } from './${comName}';\n`,
       );
     }
   } catch (err) {
