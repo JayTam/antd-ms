@@ -61,7 +61,7 @@ export default async () => {
       ...config,
       transform: {
         ...(config as Config.InitialOptions).transform,
-        '^.+\\.svg$': '<rootDir>/src/tests/transformers/svg.js',
+        '^.+\\.svg$': '<rootDir>/src/tests/transformers/svg.ts',
       },
     };
 
