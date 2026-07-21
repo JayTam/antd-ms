@@ -40,7 +40,6 @@ export default async () => {
       moduleNameMapper: {
         '^.+\\.(css|less|sass|scss|stylus)$': require.resolve('identity-obj-proxy'),
         '\\.(png|jpg|jpeg|gif)$': 'jest-transform-stub',
-        '^.*.svg$': '<rootDir>/src/tests/mock/svg.ts',
         '^@jaytam/antd-ms$': '<rootDir>/src/index.ts',
         '^@jaytam/antd-ms/(.*)$': '<rootDir>/src/$1',
       },
@@ -58,7 +57,15 @@ export default async () => {
       maxWorkers: 2,
     });
 
-    return config as Config.InitialOptions;
+    const finalConfig = {
+      ...config,
+      transform: {
+        ...(config as Config.InitialOptions).transform,
+        '^.+\\.svg$': '<rootDir>/src/tests/transformers/svg.js',
+      },
+    };
+
+    return finalConfig as Config.InitialOptions;
   } catch (e) {
     console.log(e);
     throw e;
