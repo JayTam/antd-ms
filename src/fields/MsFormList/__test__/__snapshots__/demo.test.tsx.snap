@@ -1893,7 +1893,22 @@ exports[`MsFieldMsFormList 组件 demo 测试 正确渲染 MsFieldMsFormList add
                             <span
                               class="anticon ms-form-list-add-icon"
                               role="img"
-                            />
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class=""
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                                />
+                              </svg>
+                            </span>
                             <span
                               class="ms-form-list-add-text"
                             >
@@ -2008,7 +2023,22 @@ exports[`MsFieldMsFormList 组件 demo 测试 正确渲染 MsFieldMsFormList bas
                           <span
                             class="anticon ms-form-list-add-icon"
                             role="img"
-                          />
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="0 0 1024 1024"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                              />
+                            </svg>
+                          </span>
                           <span
                             class="ms-form-list-add-text"
                           >
@@ -2330,7 +2360,22 @@ exports[`MsFieldMsFormList 组件 demo 测试 正确渲染 MsFieldMsFormList del
                           <span
                             class="anticon ms-form-list-add-icon"
                             role="img"
-                          />
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="0 0 1024 1024"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                              />
+                            </svg>
+                          </span>
                           <span
                             class="ms-form-list-add-text"
                           >
@@ -2526,7 +2571,22 @@ exports[`MsFieldMsFormList 组件 demo 测试 正确渲染 MsFieldMsFormList dep
                           <span
                             class="anticon ms-form-list-add-icon"
                             role="img"
-                          />
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="0 0 1024 1024"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                              />
+                            </svg>
+                          </span>
                           <span
                             class="ms-form-list-add-text"
                           >
@@ -2819,7 +2879,22 @@ exports[`MsFieldMsFormList 组件 demo 测试 正确渲染 MsFieldMsFormList lim
                           <span
                             class="anticon ms-form-list-add-icon"
                             role="img"
-                          />
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="0 0 1024 1024"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                              />
+                            </svg>
+                          </span>
                           <span
                             class="ms-form-list-add-text"
                           >
@@ -2940,7 +3015,22 @@ exports[`MsFieldMsFormList 组件 demo 测试 正确渲染 MsFieldMsFormList nes
                           <span
                             class="anticon ms-form-list-add-icon"
                             role="img"
-                          />
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class=""
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="0 0 1024 1024"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M192 448h640q64 0 64 64t-64 64H192q-64 0-64-64t64-64Zm384-256v640q0 64-64 64t-64-64V192q0-64 64-64t64 64Z"
+                              />
+                            </svg>
+                          </span>
                           <span
                             class="ms-form-list-add-text"
                           >
