@@ -26758,22 +26758,7 @@ exports[`MsTable 组件 demo 测试 正确渲染 MsTable selection.tsx 1`] = `
                               <span
                                 class="anticon"
                                 role="img"
-                              >
-                                <svg
-                                  aria-hidden="true"
-                                  class=""
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="0 0 1024 1024"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M875.52 346.917a18.286 18.286 0 0 1 0 25.819l-350.5 350.647a18.286 18.286 0 0 1-25.893 0L148.48 372.736a18.286 18.286 0 0 1 0-25.82l41.399-41.398a18.286 18.286 0 0 1 25.892 0L512 601.819l296.375-296.228a18.286 18.286 0 0 1 25.82 0l41.398 41.326z"
-                                  />
-                                </svg>
-                              </span>
+                              />
                             </span>
                           </button>
                         </div>
@@ -29808,22 +29793,7 @@ exports[`MsTable 组件 demo 测试 正确渲染 MsTable view.tsx 1`] = `
                           <span
                             class="anticon"
                             role="img"
-                          >
-                            <svg
-                              aria-hidden="true"
-                              class=""
-                              fill="currentColor"
-                              focusable="false"
-                              height="1em"
-                              viewBox="0 0 1097 1024"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M587.63 502.93v373.395l-78.044 39.058V502.857L204.8 198.217V168.23h687.543v29.988L587.63 502.857zm95.085 39.351L963.877 261.12a80.457 80.457 0 0 0 23.552-56.905V87.77A14.629 14.629 0 0 0 972.8 73.143H124.343a14.629 14.629 0 0 0-14.629 14.628v116.444c0 21.358 8.485 41.764 23.552 56.905l281.235 281.161v407.406c0 54.857 57.782 90.624 106.934 66.048l120.394-60.197a73.874 73.874 0 0 0 40.886-66.048V542.281zm-95.085-39.35v373.394l-78.044 39.058V502.857L204.8 198.217V168.23h687.543v29.988L587.63 502.857zm95.085 39.35L963.877 261.12a80.457 80.457 0 0 0 23.552-56.905V87.77A14.629 14.629 0 0 0 972.8 73.143H124.343a14.629 14.629 0 0 0-14.629 14.628v116.444c0 21.358 8.485 41.764 23.552 56.905l281.235 281.161v407.406c0 54.857 57.782 90.624 106.934 66.048l120.394-60.197a73.874 73.874 0 0 0 40.886-66.048V542.281z"
-                              />
-                            </svg>
-                          </span>
+                          />
                           <span>
                             高级筛选
                           </span>
@@ -30043,22 +30013,7 @@ exports[`MsTable 组件 demo 测试 正确渲染 MsTable view.tsx 1`] = `
                                             class="anticon ms-view-form-item-del"
                                             role="img"
                                             tabindex="-1"
-                                          >
-                                            <svg
-                                              aria-hidden="true"
-                                              class=""
-                                              fill="currentColor"
-                                              focusable="false"
-                                              height="1em"
-                                              viewBox="0 0 1024 1024"
-                                              width="1em"
-                                              xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                              <path
-                                                d="M512 0a512 512 0 1 1 0 1024A512 512 0 0 1 512 0zm204.8 464.457H307.2a14.629 14.629 0 0 0-14.629 14.629v65.828c0 8.046 6.583 14.629 14.629 14.629h409.6a14.629 14.629 0 0 0 14.629-14.629v-65.828a14.629 14.629 0 0 0-14.629-14.629z"
-                                              />
-                                            </svg>
-                                          </span>
+                                          />
                                         </div>
                                       </span>
                                     </div>
@@ -30154,22 +30109,7 @@ exports[`MsTable 组件 demo 测试 正确渲染 MsTable view.tsx 1`] = `
                                             class="anticon ms-view-form-item-del"
                                             role="img"
                                             tabindex="-1"
-                                          >
-                                            <svg
-                                              aria-hidden="true"
-                                              class=""
-                                              fill="currentColor"
-                                              focusable="false"
-                                              height="1em"
-                                              viewBox="0 0 1024 1024"
-                                              width="1em"
-                                              xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                              <path
-                                                d="M512 0a512 512 0 1 1 0 1024A512 512 0 0 1 512 0zm204.8 464.457H307.2a14.629 14.629 0 0 0-14.629 14.629v65.828c0 8.046 6.583 14.629 14.629 14.629h409.6a14.629 14.629 0 0 0 14.629-14.629v-65.828a14.629 14.629 0 0 0-14.629-14.629z"
-                                              />
-                                            </svg>
-                                          </span>
+                                          />
                                         </div>
                                       </span>
                                     </div>
@@ -30265,22 +30205,7 @@ exports[`MsTable 组件 demo 测试 正确渲染 MsTable view.tsx 1`] = `
                                             class="anticon ms-view-form-item-del"
                                             role="img"
                                             tabindex="-1"
-                                          >
-                                            <svg
-                                              aria-hidden="true"
-                                              class=""
-                                              fill="currentColor"
-                                              focusable="false"
-                                              height="1em"
-                                              viewBox="0 0 1024 1024"
-                                              width="1em"
-                                              xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                              <path
-                                                d="M512 0a512 512 0 1 1 0 1024A512 512 0 0 1 512 0zm204.8 464.457H307.2a14.629 14.629 0 0 0-14.629 14.629v65.828c0 8.046 6.583 14.629 14.629 14.629h409.6a14.629 14.629 0 0 0 14.629-14.629v-65.828a14.629 14.629 0 0 0-14.629-14.629z"
-                                              />
-                                            </svg>
-                                          </span>
+                                          />
                                         </div>
                                       </span>
                                     </div>
@@ -30391,22 +30316,7 @@ exports[`MsTable 组件 demo 测试 正确渲染 MsTable view.tsx 1`] = `
                                             class="anticon ms-view-form-item-del"
                                             role="img"
                                             tabindex="-1"
-                                          >
-                                            <svg
-                                              aria-hidden="true"
-                                              class=""
-                                              fill="currentColor"
-                                              focusable="false"
-                                              height="1em"
-                                              viewBox="0 0 1024 1024"
-                                              width="1em"
-                                              xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                              <path
-                                                d="M512 0a512 512 0 1 1 0 1024A512 512 0 0 1 512 0zm204.8 464.457H307.2a14.629 14.629 0 0 0-14.629 14.629v65.828c0 8.046 6.583 14.629 14.629 14.629h409.6a14.629 14.629 0 0 0 14.629-14.629v-65.828a14.629 14.629 0 0 0-14.629-14.629z"
-                                              />
-                                            </svg>
-                                          </span>
+                                          />
                                         </div>
                                       </span>
                                     </div>
