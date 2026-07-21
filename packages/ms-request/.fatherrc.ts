@@ -2,9 +2,9 @@ import { defineConfig } from 'father';
 
 export default defineConfig({
   esm: {
-    output: 'lib/esm',
+    output: 'es',
   },
   cjs: {
-    output: 'lib/cjs',
+    output: 'lib',
   },
 });
