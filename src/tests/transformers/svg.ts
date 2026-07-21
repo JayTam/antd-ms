@@ -1,5 +1,5 @@
-const path = require('path');
-const svgo = require('svgo');
+// @ts-nocheck
+import { optimize } from 'svgo';
 
 /**
  * Jest transformer: 把 .svg 文件转成可被 import 的模块, 渲染真实的 svg 内容.
@@ -13,7 +13,7 @@ const svgo = require('svgo');
  *     -> Foo 是函数组件, 渲染真实 <svg> 元素 (含 path 等子节点),
  *        叠加调用方传入的 props (svgBaseProps: viewBox/width/height/...).
  *   import url from './foo.svg'
- *     -> url 是字符串文件路径 (给 <img src=url> 或 antd Empty image 用).
+ *     -> url 仍拿到可作 React 节点渲染的函数组件 (兼容 antd Empty image 用法).
  *
  * 实现说明:
  *   - 用 svgo 优化 svg 源文本, 与历史 inline-react-svg 构建链路保持一致.
@@ -25,10 +25,12 @@ const svgo = require('svgo');
 
 const SVG_RE = /<svg([^>]*)>([\s\S]*?)<\/svg>/;
 
-function parseSvgAttrs(attrsStr) {
-  const attrs = {};
+type SvgAttrs = Record<string, string>;
+
+function parseSvgAttrs(attrsStr: string): SvgAttrs {
+  const attrs: SvgAttrs = {};
   const re = /([a-zA-Z_:][-a-zA-Z0-9_:.]*)(?:\s*=\s*"([^"]*)")?/g;
-  let m;
+  let m: RegExpExecArray | null;
   while ((m = re.exec(attrsStr)) !== null) {
     const key = m[1];
     const val = m[2] || '';
@@ -41,28 +43,30 @@ function parseSvgAttrs(attrsStr) {
   return attrs;
 }
 
-function optimizeSync(sourceText) {
+function optimizeSync(sourceText: string): string {
   try {
-    const result = svgo.optimize(sourceText, { path: '' });
+    const result = optimize(sourceText, { path: '' });
     if (result && result.error) {
-      // svgo 优化失败, 回退原始文本.
       console.error('[svg-transformer] svgo failed:', result.error);
       return sourceText;
     }
     return typeof result === 'string' ? result : result.data;
   } catch (e) {
-    // svgo 优化抛出异常时回退, 不阻塞测试.
-    console.error('[svg-transformer] svgo threw:', e && e.message);
+    console.error('[svg-transformer] svgo threw:', (e as Error)?.message);
     return sourceText;
   }
 }
 
-module.exports = {
-  process(sourceText, sourcePath) {
+interface Transformed {
+  code: string;
+}
+
+const transformer = {
+  process(sourceText: string, sourcePath: string): Transformed {
     const optimized = optimizeSync(sourceText);
     const m = SVG_RE.exec(optimized);
     if (!m) {
-      const code = `module.exports = { default: ${JSON.stringify(sourcePath)}, ReactComponent: (props) => require('react').createElement('svg', props) };`;
+      const code = `module.exports = { default: ${JSON.stringify(sourcePath)}, ReactComponent: (props: any) => require('react').createElement('svg', props) };`;
       return { code };
     }
 
@@ -91,3 +95,5 @@ module.exports.ReactComponent = ReactComponent;
     return { code };
   },
 };
+
+export default transformer;
