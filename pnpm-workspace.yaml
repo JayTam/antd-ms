@@ -1,2 +1,10 @@
 packages:
   - 'packages/*'
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@swc/core'
+  - core-js
+  - core-js-pure
+  - es5-ext
+  - esbuild

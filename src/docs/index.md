@@ -3,12 +3,12 @@ title: Antd-MS 为中台开发而生的组件库
 hero:
   title: Antd-MS
   description: 让中台开发更简单
-actions:
+  actions:
     - text: 立即上手
       link: /guide/install
     - text: GitHub
       link: https://github.com/JayTam/antd-ms
-  features:
+features:
   - title: 快速开发
     emoji: 🚀
     description: 中后台业务场景提炼，让开发更快速
