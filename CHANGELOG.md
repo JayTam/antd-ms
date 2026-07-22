@@ -1,7 +1,7 @@
-## <!-- antdms-changelog-header:START -->
-
-title: 版本迭代 toc: content
-
+<!-- antdms-changelog-header:START -->
+---
+title: 版本迭代
+toc: content
 ---
 
 # 版本迭代
@@ -17,6 +17,8 @@ title: 版本迭代 toc: content
 # 更新日志
 
 <!-- antdms-changelog-header:END -->
+
+## 
 
 ## 2.25.0 (2026-07-21)
 
