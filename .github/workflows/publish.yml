@@ -71,8 +71,12 @@ jobs:
           fi
 
       # Stage 1：叶子包 + antd-ms（icons / request-ms / schema-render / ms-gantt / antd-ms）
+      # 注意：@jaytam/antd-ms 是根 package，不在 pnpm-workspace.yaml 的 packages/* 里，
+      # --filter 匹配不到，必须用 pnpm build 直接在根目录跑。
       - name: 构建 Stage 1（叶子包 + antd-ms）
-        run: pnpm --filter @jaytam/icons --filter @jaytam/request-ms --filter @jaytam/schema-render --filter @jaytam/ms-gantt --filter @jaytam/antd-ms build
+        run: |
+          pnpm --filter @jaytam/icons --filter @jaytam/request-ms --filter @jaytam/schema-render --filter @jaytam/ms-gantt build
+          pnpm build
 
       # Stage 2：ms-flow（devDep + peerDep 依赖 antd-ms 的 es/index.d.ts 类型声明）
       - name: 构建 Stage 2（ms-flow）
@@ -129,7 +133,9 @@ jobs:
 
       # Stage 1：叶子包 + antd-ms（icons / request-ms / schema-render / ms-gantt / antd-ms）
       - name: 构建 Stage 1（叶子包 + antd-ms）
-        run: pnpm --filter @jaytam/icons --filter @jaytam/request-ms --filter @jaytam/schema-render --filter @jaytam/ms-gantt --filter @jaytam/antd-ms build
+        run: |
+          pnpm --filter @jaytam/icons --filter @jaytam/request-ms --filter @jaytam/schema-render --filter @jaytam/ms-gantt build
+          pnpm build
 
       # Stage 2：ms-flow（devDep + peerDep 依赖 antd-ms 的 es/index.d.ts 类型声明）
       - name: 构建 Stage 2（ms-flow）
