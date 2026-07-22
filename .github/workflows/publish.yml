@@ -1,0 +1,122 @@
+name: publish
+
+# 单一 workflow 覆盖 stable + canary 两条发布流。
+# 原因：npm Trusted Publisher 每包只能绑一个 (repo, workflow, environment) 组合，
+# 合进同一文件名 publish.yml 即可用一条 publisher 配置覆盖两条流。
+# environment 字段在 npm 后台留空（可选），npm 不校验 environment，
+# 两个 job 仍各自挂 GitHub environment 做部署保护。见 ADR-0009 D7。
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  pull_request:
+    types: [labeled]
+
+permissions:
+  contents: write # stable: 回写 Version Packages PR / push tags；canary: 只读即可但合并权限不增风险
+  pull-requests: write # stable: 开/合 Version Packages PR；canary: 回写 PR comment
+  id-token: write # GitHub OIDC -> npm trusted publishing + provenance
+
+jobs:
+  # ──────────────────────────────────────────────
+  # stable：main 合入时跑 changesets canonical 流
+  # ──────────────────────────────────────────────
+  stable:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    environment: release # GitHub 部署保护（可选配 required reviewers）
+    concurrency:
+      # stable 串行，绝不并发（避免双 publish 抢同一版本号）
+      group: release
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # changesets/action 回写 Version Packages PR 需要 full history
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+          registry: 'https://registry.npmjs.org/'
+
+      - run: pnpm install --frozen-lockfile
+
+      # 预检：CHANGELOG 头块健康（frontmatter 必须在顶）。issues 固态 by inject 脚本。
+      - name: 预检 CHANGELOG 头块
+        run: pnpm tsx ./scripts/inject-changelog-header.ts --check
+
+      - name: changeset version / publish
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          # version 步骤：跑 changeset version 后立即把 dumi frontmatter 头重提到顶
+          # （changeset version 会把新条目插到顶，挤走 frontmatter，见 inject 脚本注释）。
+          version: pnpm changeset version && pnpm tsx ./scripts/inject-changelog-header.ts
+          publish: pnpm changeset publish
+          commit: 'chore(release): version packages'
+          title: Version Packages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # npm OIDC trusted publishing 下发版并附 provenance（Node 24 自带 npm 11+，支持 OIDC）。
+          NPM_CONFIG_PROVENANCE: 'true'
+
+  # ──────────────────────────────────────────────
+  # canary：PR 打 snapshot label 时跑 snapshot publish
+  # ──────────────────────────────────────────────
+  canary:
+    if: github.event_name == 'pull_request' && github.event.label.name == 'snapshot'
+    runs-on: ubuntu-latest
+    environment: snapshot
+    concurrency:
+      group: snapshot-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+          registry: 'https://registry.npmjs.org/'
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: changeset snapshot publish (canary)
+        id: snapshot
+        uses: changesets/action@v1
+        with:
+          publish: pnpm changeset publish --snapshot --tag canary
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_CONFIG_PROVENANCE: 'true'
+
+      - name: 回写 canary 版本到 PR comment
+        if: steps.snapshot.outputs.published == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pkgs = JSON.parse(`${{ steps.snapshot.outputs.publishedPackages }}` || '[]');
+            const lines = pkgs.map(p => `- \`${p.name}@${p.version}\``);
+            const body = [
+              '### Canary snapshot 已发布',
+              '',
+              ...lines,
+              '',
+              '安装：`npm install @jaytam/antd-ms@canary`（或指定上述版本号）',
+            ].join('\n');
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });

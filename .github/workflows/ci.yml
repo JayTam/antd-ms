@@ -1,0 +1,65 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# 同一 PR/分支的新 run 取消旧的，省额度。
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # ms-icons 幂等守卫（ADR-0009 D6 / ADR-0008 7c）：
+      # ICO 生成脚本跑完工作树必须干净，否则不允许把"build 期自动改的源码"随包发出去。
+      - name: ms-icons 幂等守卫
+        run: |
+          pnpm --filter @jaytam/icons icons
+          if ! git diff --exit-code -- packages/ms-icons/src/icons; then
+            echo "::error::ms-icons 的 npm run icons 产生了未提交的源码改动，发布前必须先理解并提交或撤销。"
+            git diff --stat -- packages/ms-icons/src/icons
+            exit 1
+          fi
+      - name: 构建全部 6 包
+        run: pnpm -r build

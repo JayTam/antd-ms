@@ -164,49 +164,6 @@ async function findCommitByVersion(from: string, to: string) {
 }
 
 /**
- * 生成飞书机器人聊天
- */
-export async function generateRobotData(fromVersion: string, toVersion: string = version) {
-  const groupedCommitList = await findCommitList(fromVersion, toVersion);
-  const componentList = groupedCommitList.map(([name, component]) => {
-    let content;
-
-    function formatLog(list: (typeof component)['feat'], showCount = 7) {
-      const showList = list.slice(0, showCount);
-
-      let log = showList.map((commit) => `- ${commit.message}`).join('\n');
-
-      if (list.length > showCount) {
-        log = log + '\n....';
-      }
-      return log;
-    }
-
-    let featLog = formatLog(component.feat);
-    let fixLog = formatLog(component.fix);
-
-    if (featLog) {
-      content = `<text_tag color='green'>功能特性</text_tag>\n` + featLog;
-    }
-
-    if (fixLog) {
-      if (content) {
-        content = content + `\n\n <text_tag color='yellow'>缺陷修复</text_tag>\n` + fixLog;
-      } else {
-        content = `<text_tag color='yellow'>缺陷修复</text_tag>\n` + fixLog;
-      }
-    }
-
-    return {
-      name: name,
-      content: content,
-      users: [...component.users],
-    };
-  });
-  return componentList;
-}
-
-/**
  * 根据时间区间查找到版本区间
  * @param {Dayjs} from
  * @param {Dayjs} to

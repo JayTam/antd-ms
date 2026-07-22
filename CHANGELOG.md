@@ -1,6 +1,7 @@
----
-title: 版本迭代
-toc: content
+## <!-- antdms-changelog-header:START -->
+
+title: 版本迭代 toc: content
+
 ---
 
 # 版本迭代
@@ -15,13 +16,13 @@ toc: content
 
 # 更新日志
 
+<!-- antdms-changelog-header:END -->
 
 ## 2.25.0 (2026-07-21)
 
-
 ### Bug Fixes
 
-* **schema-render:** enable declaration in tsconfig so father generates d.ts ([c767282](https://github.com/JayTam/antd-ms/commit/c76728296b0febca52d6e2e1251419dd03fd5051))
+- **schema-render:** enable declaration in tsconfig so father generates d.ts ([c767282](https://github.com/JayTam/antd-ms/commit/c76728296b0febca52d6e2e1251419dd03fd5051))
 
 ## [2.24.0](https://github.com/JayTam/antd-ms/compare/v2.23.6-2025112110...v2.24.0) (2025-12-02)
 
