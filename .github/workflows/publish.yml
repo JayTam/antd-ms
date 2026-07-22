@@ -55,10 +55,11 @@ jobs:
       - name: 预检 CHANGELOG 头块
         run: pnpm tsx ./scripts/inject-changelog-header.ts --check
 
-      # 预构建全部 6 包（拓扑序）。
+      # 预构建全部 6 包（显式两阶段，保证洋葱拓扑）。
       # changeset publish 本身不跑 build，只保证发布拓扑顺序（依赖先发）。
-      # 若不预构建，ms-flow 的 prepublishOnly -> father build 会因找不到
-      # @jaytam/antd-ms 的类型声明而失败（antd-ms 尚未构建出 es/index.d.ts）。
+      # pnpm -r build 只看 dependencies 不看 devDependencies，
+      # 而 ms-flow 通过 devDep + peerDep 依赖 @jaytam/antd-ms 的类型声明，
+      # pnpm 不会保证 antd-ms 先构建。分两步显式保证洋葱顺序。
       # 见 ADR-0009 D2（构建顺序 vs 发布顺序）。
       - name: ms-icons 幂等守卫
         run: |
@@ -69,8 +70,13 @@ jobs:
             exit 1
           fi
 
-      - name: 构建全部 6 包
-        run: pnpm -r build
+      # Stage 1：叶子包 + antd-ms（icons / request-ms / schema-render / ms-gantt / antd-ms）
+      - name: 构建 Stage 1（叶子包 + antd-ms）
+        run: pnpm --filter @jaytam/icons --filter @jaytam/request-ms --filter @jaytam/schema-render --filter @jaytam/ms-gantt --filter @jaytam/antd-ms build
+
+      # Stage 2：ms-flow（devDep + peerDep 依赖 antd-ms 的 es/index.d.ts 类型声明）
+      - name: 构建 Stage 2（ms-flow）
+        run: pnpm --filter @jaytam/ms-flow build
 
       - name: changeset version / publish
         id: changesets
@@ -121,8 +127,13 @@ jobs:
             exit 1
           fi
 
-      - name: 构建全部 6 包
-        run: pnpm -r build
+      # Stage 1：叶子包 + antd-ms（icons / request-ms / schema-render / ms-gantt / antd-ms）
+      - name: 构建 Stage 1（叶子包 + antd-ms）
+        run: pnpm --filter @jaytam/icons --filter @jaytam/request-ms --filter @jaytam/schema-render --filter @jaytam/ms-gantt --filter @jaytam/antd-ms build
+
+      # Stage 2：ms-flow（devDep + peerDep 依赖 antd-ms 的 es/index.d.ts 类型声明）
+      - name: 构建 Stage 2（ms-flow）
+        run: pnpm --filter @jaytam/ms-flow build
 
       - name: changeset snapshot publish (canary)
         id: snapshot
