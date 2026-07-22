@@ -7,8 +7,6 @@ group:
 demo:
   cols: 2
 version: 2.19.0
-maintainer: 冉川江
-hideContributor: true
 ---
 
 ## 何时使用

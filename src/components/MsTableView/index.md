@@ -8,7 +8,6 @@ group:
   title: Devops布局
 demo:
   cols: 2
-maintainer: 向必华
 version: 2.22.0
 ---
 

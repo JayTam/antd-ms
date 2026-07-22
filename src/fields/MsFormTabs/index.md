@@ -4,7 +4,6 @@ toc: content
 group:
   title: 列表
   order: 5
-maintainer: 谭杰
 version: 2.23.0
 ---
 
