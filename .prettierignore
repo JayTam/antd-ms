@@ -20,6 +20,9 @@ design
 # lock
 pnpm-lock.yaml
 
+# CHANGELOG 由 inject-changelog-header.ts 维护头块，prettier 会把 HTML 注释误判为标题
+CHANGELOG.md
+
 src/docs/guide/CHANGELOG.md
 
 # docs
