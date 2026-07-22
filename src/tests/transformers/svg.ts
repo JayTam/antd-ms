@@ -66,7 +66,9 @@ const transformer = {
     const optimized = optimizeSync(sourceText);
     const m = SVG_RE.exec(optimized);
     if (!m) {
-      const code = `module.exports = { default: ${JSON.stringify(sourcePath)}, ReactComponent: (props: any) => require('react').createElement('svg', props) };`;
+      const code = `module.exports = { default: ${JSON.stringify(
+        sourcePath,
+      )}, ReactComponent: (props: any) => require('react').createElement('svg', props) };`;
       return { code };
     }
 

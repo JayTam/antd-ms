@@ -15,16 +15,19 @@
 ## 选项
 
 **peerDependencies 维度**：
+
 - **A.** `^16.8.0 || ^17.0.0 || ^18.0.0` —— 三段兼容。
 - **B.** `^18.0.0` —— 跟随 antd-ms 主包当前支持版本，放弃 16/17。✅ 采用
 - **C.** `>=16.8.0`（无上限）。
 
 **产物维度**：
+
 - **B1.** 补 cjs 产物，采用 antd 风格目录布局。✅ 采用
 - **B2.** ESM-only，改纯 ESM 包写法（cjs 消费方会炸）。
 - **B3.** 自定义。
 
 **目录布局维度**（本次修订新增，详见 ADR-0007）：
+
 - 最初拟用 `dist/lib` + `dist/es`，但与 antd-ms 主包选定风格不一致。
 - 修订后统一为 antd 本体风格：**`es/` 装 ESM 产物**、**`lib/` 装 CJS 产物**。
 
@@ -36,6 +39,7 @@
 具体改动：
 
 `packages/schema-render/.fatherrc.ts`：
+
 ```ts
 import { defineConfig } from 'father';
 
@@ -50,6 +54,7 @@ export default defineConfig({
 ```
 
 `packages/schema-render/package.json` 关键字段：
+
 - `"main": "lib/index.js"`（cjs 入口）
 - `"module": "es/index.js"`（esm 入口）
 - `"typings": "es/index.d.ts"`（随 esm 产物出 dts，由 father 4 自动生成）
