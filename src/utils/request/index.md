@@ -4,8 +4,6 @@ toc: content
 group:
   title: utils
   order: 10000
-maintainer: 冉川江
-hideContributor: true
 import: import { MsRequest } from '@jaytam/request-ms';
 ---
 

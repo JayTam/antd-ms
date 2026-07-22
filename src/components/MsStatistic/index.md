@@ -6,7 +6,6 @@ order: 5
 group:
   title: 数据展示
 version: 2.22.0
-maintainer: 邓锐
 ---
 
 ## 何时使用

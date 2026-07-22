@@ -36,7 +36,6 @@
     "start": "dumi dev",
     "build": "father build",
     "build:docs": "dumi build && tsx ./scripts/ci-design-site.ts",
-    "contributors": "cross-env GEN_CONTRIBUTORS=true tsx ./scripts/generate-contributors.ts",
     "commit": "cz",
     "llms": "tsx ./scripts/llms.ts",
     "lint": "pnpm run lint:type && pnpm run lint:eslint && pnpm run lint:prettier",

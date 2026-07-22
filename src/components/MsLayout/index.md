@@ -7,7 +7,6 @@ cover: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*4i58ToAcxaYAAAAAAA
 group:
   title: 布局
   order: 1
-maintainer: 刘小莉
 ---
 
 ## 代码演示

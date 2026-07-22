@@ -4,7 +4,6 @@ toc: content
 order: 3
 group:
   title: Devops布局
-maintainer: 向必华
 version: 2.22.0
 ---
 

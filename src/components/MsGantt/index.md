@@ -8,7 +8,6 @@ group:
   title: 数据展示
 demo:
   cols: 2
-maintainer: 程远
 import: import MsGantt from '@jaytam/ms-gantt';@jaytam/icons
 ---
 
