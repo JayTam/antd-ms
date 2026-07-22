@@ -12,7 +12,17 @@
       "@jaytam/antd-ms": ["src"],
       "@jaytam/antd-ms/*": ["src/*", "*"],
       "@jaytam/antd-ms/hooks/*": ["src/hooks/*"],
-      "@jaytam/antd-ms/utils/*": ["src/utils/*"]
+      "@jaytam/antd-ms/utils/*": ["src/utils/*"],
+      "@jaytam/icons": ["packages/ms-icons/src"],
+      "@jaytam/icons/*": ["packages/ms-icons/src/*"],
+      "@jaytam/request-ms": ["packages/ms-request/src"],
+      "@jaytam/request-ms/*": ["packages/ms-request/src/*"],
+      "@jaytam/schema-render": ["packages/schema-render/src"],
+      "@jaytam/schema-render/*": ["packages/schema-render/src/*"],
+      "@jaytam/ms-flow": ["packages/ms-flow/src"],
+      "@jaytam/ms-flow/*": ["packages/ms-flow/src/*"],
+      "@jaytam/ms-gantt": ["packages/ms-gantt/src"],
+      "@jaytam/ms-gantt/*": ["packages/ms-gantt/src/*"]
     }
   },
   "include": [
