@@ -39,17 +39,38 @@ jobs:
         with:
           version: 10.11.0
 
+      # 注意：不设 setup-node 的 registry-url。
+      # setup-node 的 registry-url 会在 .npmrc 写入 _authToken 占位符，
+      # npm CLI 遇到它就跳过 OIDC 自动交换 -> trusted publishing 失效。
+      # OIDC 要求 .npmrc 无 _authToken，让 npm CLI 自行做 OIDC token 交换。
+      # 见 ADR-0009 D7（OIDC + pnpm 兼容性坑）。
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: pnpm
-          registry: 'https://registry.npmjs.org/'
 
       - run: pnpm install --frozen-lockfile
 
       # 预检：CHANGELOG 头块健康（frontmatter 必须在顶）。issues 固态 by inject 脚本。
       - name: 预检 CHANGELOG 头块
         run: pnpm tsx ./scripts/inject-changelog-header.ts --check
+
+      # 预构建全部 6 包（拓扑序）。
+      # changeset publish 本身不跑 build，只保证发布拓扑顺序（依赖先发）。
+      # 若不预构建，ms-flow 的 prepublishOnly -> father build 会因找不到
+      # @jaytam/antd-ms 的类型声明而失败（antd-ms 尚未构建出 es/index.d.ts）。
+      # 见 ADR-0009 D2（构建顺序 vs 发布顺序）。
+      - name: ms-icons 幂等守卫
+        run: |
+          pnpm --filter @jaytam/icons icons
+          if ! git diff --exit-code -- packages/ms-icons/src/icons; then
+            echo "::error::ms-icons 的 npm run icons 产生了未提交的源码改动，发布前必须先理解并提交或撤销。"
+            git diff --stat -- packages/ms-icons/src/icons
+            exit 1
+          fi
+
+      - name: 构建全部 6 包
+        run: pnpm -r build
 
       - name: changeset version / publish
         id: changesets
@@ -88,9 +109,20 @@ jobs:
         with:
           node-version: '24'
           cache: pnpm
-          registry: 'https://registry.npmjs.org/'
 
       - run: pnpm install --frozen-lockfile
+
+      - name: ms-icons 幂等守卫
+        run: |
+          pnpm --filter @jaytam/icons icons
+          if ! git diff --exit-code -- packages/ms-icons/src/icons; then
+            echo "::error::ms-icons 的 npm run icons 产生了未提交的源码改动，发布前必须先理解并提交或撤销。"
+            git diff --stat -- packages/ms-icons/src/icons
+            exit 1
+          fi
+
+      - name: 构建全部 6 包
+        run: pnpm -r build
 
       - name: changeset snapshot publish (canary)
         id: snapshot
