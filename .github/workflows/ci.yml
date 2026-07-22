@@ -61,5 +61,11 @@ jobs:
             git diff --stat -- packages/ms-icons/src/icons
             exit 1
           fi
-      - name: 构建全部 6 包
-        run: pnpm -r build
+      # 两阶段构建，保证洋葱拓扑（ms-flow devDep 依赖 antd-ms 类型声明）。
+      # @jaytam/antd-ms 是根 package 不在 workspace 里，--filter 匹配不到，用 pnpm build 直接跑。
+      - name: 构建 Stage 1（叶子包 + antd-ms）
+        run: |
+          pnpm --filter @jaytam/icons --filter @jaytam/request-ms --filter @jaytam/schema-render --filter @jaytam/ms-gantt build
+          pnpm build
+      - name: 构建 Stage 2（ms-flow）
+        run: pnpm --filter @jaytam/ms-flow build
