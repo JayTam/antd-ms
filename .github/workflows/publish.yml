@@ -82,6 +82,13 @@ jobs:
       - name: 构建 Stage 2（ms-flow）
         run: pnpm --filter @jaytam/ms-flow build
 
+      # 确保 npm 走 OIDC trusted publishing，不被 .npmrc 里的 _authToken 占位干扰。
+      # setup-node 的 registry-url 会写 _authToken 占位 -> npm 跳过 OIDC。
+      # 这里显式覆盖一份干净的 .npmrc，只含 registry 声明、无 _authToken。
+      # 见 ADR-0009 D7（OIDC + pnpm 兼容性坑）。
+      - name: 准备 OIDC-only .npmrc
+        run: printf 'registry=https://registry.npmjs.org/\n' > ~/.npmrc
+
       - name: changeset version / publish
         id: changesets
         uses: changesets/action@v1
@@ -140,6 +147,9 @@ jobs:
       # Stage 2：ms-flow（devDep + peerDep 依赖 antd-ms 的 es/index.d.ts 类型声明）
       - name: 构建 Stage 2（ms-flow）
         run: pnpm --filter @jaytam/ms-flow build
+
+      - name: 准备 OIDC-only .npmrc
+        run: printf 'registry=https://registry.npmjs.org/\n' > ~/.npmrc
 
       - name: changeset snapshot publish (canary)
         id: snapshot
