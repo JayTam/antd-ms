@@ -59,6 +59,12 @@ export default defineConfig({
     memo.plugin('monaco-editor-webpack-plugin').use(new MonacoWebpackPlugin());
     return memo;
   },
+  // @visactor/vdataset（ms-gantt 的 vtable 传递依赖）产物含 BigInt 字面量。
+  // umi 默认 Terser target 含 es2015，esbuild 在压缩阶段拒转 BigInt 字面量。
+  // 改用 swc 压缩器绕开 Terser 的 target 兼容性检查。
+  jsMinifier: 'swc',
+  // 浏览器 target 提到 chrome87（BigInt 起支持）。
+  targets: { chrome: 87 },
   theme: {
     // dumi 主题
     '@s-content-width': 'calc(100% - 10px)',
