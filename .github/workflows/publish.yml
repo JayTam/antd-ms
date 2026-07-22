@@ -96,7 +96,11 @@ jobs:
           # version 步骤：跑 changeset version 后立即把 dumi frontmatter 头重提到顶
           # （changeset version 会把新条目插到顶，挤走 frontmatter，见 inject 脚本注释）。
           version: pnpm changeset version && pnpm tsx ./scripts/inject-changelog-header.ts
-          publish: pnpm changeset publish
+          # 用 npx 而非 pnpm 调 changeset publish，让 changesets 检测到 npm
+          # 作为包管理器，直接调 npm publish 走 OIDC trusted publishing。
+          # pnpm publish 不原生支持 npm OIDC（即使 pnpm 10 委托 npm，也会传
+          # --git-checks 等 pnpm 专属参数干扰）。见 ADR-0009 D7。
+          publish: npx changeset publish
           commit: 'chore(release): version packages'
           title: Version Packages
         env:
@@ -155,7 +159,7 @@ jobs:
         id: snapshot
         uses: changesets/action@v1
         with:
-          publish: pnpm changeset publish --snapshot --tag canary
+          publish: npx changeset publish --snapshot --tag canary
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # dry-run 阶段先关掉 provenance，验证后再开（ADR-0009 Phase C）。
