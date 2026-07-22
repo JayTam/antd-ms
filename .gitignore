@@ -42,3 +42,4 @@ coverage/
 
 # Test & coverage (umi-test)
 .umi-test/
+.dumi/tmp-production/
