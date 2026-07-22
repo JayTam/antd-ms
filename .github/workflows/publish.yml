@@ -64,7 +64,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # npm OIDC trusted publishing 下发版并附 provenance（Node 24 自带 npm 11+，支持 OIDC）。
-          NPM_CONFIG_PROVENANCE: 'true'
+          # dry-run 阶段先关掉 provenance，验证 publish 链路后再开（ADR-0009 Phase C 中止条件）。
+          NPM_CONFIG_PROVENANCE: 'false'
 
   # ──────────────────────────────────────────────
   # canary：PR 打 snapshot label 时跑 snapshot publish
@@ -98,7 +99,8 @@ jobs:
           publish: pnpm changeset publish --snapshot --tag canary
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_CONFIG_PROVENANCE: 'true'
+          # dry-run 阶段先关掉 provenance，验证后再开（ADR-0009 Phase C）。
+          NPM_CONFIG_PROVENANCE: 'false'
 
       - name: 回写 canary 版本到 PR comment
         if: steps.snapshot.outputs.published == 'true'
