@@ -1,10 +1,7 @@
 name: publish
 
 # 单一 workflow 覆盖 stable + canary 两条发布流。
-# 原因：npm Trusted Publisher 每包只能绑一个 (repo, workflow, environment) 组合，
-# 合进同一文件名 publish.yml 即可用一条 publisher 配置覆盖两条流。
-# environment 字段在 npm 后台留空（可选），npm 不校验 environment，
-# 两个 job 仍各自挂 GitHub environment 做部署保护。见 ADR-0009 D7。
+# 见 ADR-0009 D7 + ADR-0010（NPM_TOKEN 过渡方案）。
 on:
   push:
     branches: [main]
@@ -15,7 +12,6 @@ on:
 permissions:
   contents: write # stable: 回写 Version Packages PR / push tags；canary: 只读即可但合并权限不增风险
   pull-requests: write # stable: 开/合 Version Packages PR；canary: 回写 PR comment
-  id-token: write # GitHub OIDC -> npm trusted publishing + provenance
 
 jobs:
   # ──────────────────────────────────────────────
@@ -39,15 +35,11 @@ jobs:
         with:
           version: 10.11.0
 
-      # 注意：不设 setup-node 的 registry-url。
-      # setup-node 的 registry-url 会在 .npmrc 写入 _authToken 占位符，
-      # npm CLI 遇到它就跳过 OIDC 自动交换 -> trusted publishing 失效。
-      # OIDC 要求 .npmrc 无 _authToken，让 npm CLI 自行做 OIDC token 交换。
-      # 见 ADR-0009 D7（OIDC + pnpm 兼容性坑）。
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: pnpm
+          registry-url: 'https://registry.npmjs.org/'
 
       - run: pnpm install --frozen-lockfile
 
@@ -82,13 +74,6 @@ jobs:
       - name: 构建 Stage 2（ms-flow）
         run: pnpm --filter @jaytam/ms-flow build
 
-      # 确保 npm 走 OIDC trusted publishing，不被 .npmrc 里的 _authToken 占位干扰。
-      # setup-node 的 registry-url 会写 _authToken 占位 -> npm 跳过 OIDC。
-      # 这里显式覆盖一份干净的 .npmrc，只含 registry 声明、无 _authToken。
-      # 见 ADR-0009 D7（OIDC + pnpm 兼容性坑）。
-      - name: 准备 OIDC-only .npmrc
-        run: printf 'registry=https://registry.npmjs.org/\n' > ~/.npmrc
-
       - name: changeset version / publish
         id: changesets
         uses: changesets/action@v1
@@ -96,18 +81,15 @@ jobs:
           # version 步骤：跑 changeset version 后立即把 dumi frontmatter 头重提到顶
           # （changeset version 会把新条目插到顶，挤走 frontmatter，见 inject 脚本注释）。
           version: pnpm changeset version && pnpm tsx ./scripts/inject-changelog-header.ts
-          # 用 npx 而非 pnpm 调 changeset publish，让 changesets 检测到 npm
-          # 作为包管理器，直接调 npm publish 走 OIDC trusted publishing。
-          # pnpm publish 不原生支持 npm OIDC（即使 pnpm 10 委托 npm，也会传
-          # --git-checks 等 pnpm 专属参数干扰）。见 ADR-0009 D7。
-          publish: npx changeset publish
+          publish: pnpm changeset publish
           commit: 'chore(release): version packages'
           title: Version Packages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # npm OIDC trusted publishing 下发版并附 provenance（Node 24 自带 npm 11+，支持 OIDC）。
-          # dry-run 阶段先关掉 provenance，验证 publish 链路后再开（ADR-0009 Phase C 中止条件）。
-          NPM_CONFIG_PROVENANCE: 'false'
+          # NPM_TOKEN (granular automation, 限 @jaytam/* scope + 限包)。
+          # setup-node 的 registry-url 会把 NODE_AUTH_TOKEN 写入 .npmrc _authToken。
+          # 见 ADR-0010（NPM_TOKEN 过渡方案，OIDC+pnpm 不兼容的回退）。
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   # ──────────────────────────────────────────────
   # canary：PR 打 snapshot label 时跑 snapshot publish
@@ -130,6 +112,7 @@ jobs:
         with:
           node-version: '24'
           cache: pnpm
+          registry-url: 'https://registry.npmjs.org/'
 
       - run: pnpm install --frozen-lockfile
 
@@ -152,18 +135,14 @@ jobs:
       - name: 构建 Stage 2（ms-flow）
         run: pnpm --filter @jaytam/ms-flow build
 
-      - name: 准备 OIDC-only .npmrc
-        run: printf 'registry=https://registry.npmjs.org/\n' > ~/.npmrc
-
       - name: changeset snapshot publish (canary)
         id: snapshot
         uses: changesets/action@v1
         with:
-          publish: npx changeset publish --snapshot --tag canary
+          publish: pnpm changeset publish --snapshot --tag canary
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # dry-run 阶段先关掉 provenance，验证后再开（ADR-0009 Phase C）。
-          NPM_CONFIG_PROVENANCE: 'false'
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: 回写 canary 版本到 PR comment
         if: steps.snapshot.outputs.published == 'true'
