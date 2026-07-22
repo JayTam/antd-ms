@@ -45,12 +45,6 @@
     "lint:type": "tsc --project tsconfig.json --noEmit",
     "rm": "rm -rf node_modules && rm -rf ./packages/**/node_modules",
     "sort": "npx sort-package-json",
-    "release:development": "tsx ./scripts/release-beta-version.ts",
-    "version:patch": "jest --silent && standard-version -a -n --release-as patch && git push --follow-tags",
-    "version:minor": "jest --silent && standard-version -a -n --release-as minor && git push --follow-tags",
-    "version:major": "jest --silent && standard-version -a -n --release-as major && git push --follow-tags",
-    "notify:test": "cross-env NOTIFY_DEBUG=1 tsx ./scripts/trigger-notify.ts",
-    "notify": "cross-env tsx ./scripts/trigger-notify.ts",
     "test": "jest --silent",
     "test:coverage": "jest --coverage --silent",
     "audit:public": "pnpm audit --registry https://registry.npmjs.org/"
@@ -97,6 +91,8 @@
   "devDependencies": {
     "@ant-design/icons": "^4.8.1",
     "@aws-sdk/client-s3": "^3.481.0",
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.31.1",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@jaytam/ms-flow": "^1.0.0",
@@ -136,7 +132,6 @@
     "react-router-dom": "^6.30.0",
     "semver": "^7.7.1",
     "simple-git": "^3.27.0",
-    "standard-version": "^9.5.0",
     "tsx": "^4.20.3",
     "typescript": "^5"
   },
