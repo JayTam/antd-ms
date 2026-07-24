@@ -35,7 +35,7 @@
   "scripts": {
     "start": "dumi dev",
     "build": "father build",
-    "build:docs": "dumi build && tsx ./scripts/ci-design-site.ts",
+    "build:docs": "dumi build",
     "commit": "cz",
     "llms": "tsx ./scripts/llms.ts",
     "lint": "pnpm run lint:type && pnpm run lint:eslint && pnpm run lint:prettier",
