@@ -1,23 +1,36 @@
 {
   "name": "@jaytam/antd-ms",
   "version": "2.25.0",
-  "description": "@jaytam/antd-ms 是一款基于react antd二次开发的ui组件库",
+  "description": "让中台开发更简单 -- 基于 Ant Design 二次封装的 React 业务组件库",
   "keywords": [
     "antd",
-    "antd-ms"
+    "antd-ms",
+    "react",
+    "react-component",
+    "component-library",
+    "ui-library",
+    "ui-components",
+    "typescript",
+    "dumi",
+    "midway",
+    "admin",
+    "dashboard"
   ],
-  "homepage": "https://github.com/JayTam/antd-ms",
+  "homepage": "https://antd-ms.jaytam.cloud",
   "bugs": {
-    "url": "https://github.com/JayTam/antd-ms/issues"
+    "url": "https://github.com/JayTam/antd-ms/issues",
+    "email": "1226282476@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JayTam/antd-ms.git"
+    "url": "https://github.com/JayTam/antd-ms.git",
+    "directory": "."
   },
   "license": "MIT",
-  "author": "JayTam",
+  "author": "JayTam <1226282476@qq.com>",
   "sideEffects": [
-    "*.less"
+    "*.less",
+    "*.css"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
