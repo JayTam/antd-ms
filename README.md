@@ -1,11 +1,9 @@
 <div align="center">
   <a name="readme-top"></a>
 
-  <img height="120" src="public/svgs/logo.svg" alt="antd-ms logo">
+  <img width="500" src="public/svgs/logo.svg" alt="antd-ms logo">
 
-# @jaytam/antd-ms
-
-让中台开发更简单 -- 基于 Ant Design 二次封装的 React 业务组件库。
+Antd-MS —— 基于 Ant Design 二次封装的 React 业务组件库，让中台开发更简单。
 
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][download-image]][download-url]
